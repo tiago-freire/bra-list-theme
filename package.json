@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "prettier-plugin-json-formats": "^0.2.0"
+  },
+  "dependencies": {
+    "@vtex/prettier-config": "^0.3.1"
+  },
+  "version": "0.0.0"
+}
