@@ -1,0 +1,132 @@
+{
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "menu-item#attendance","menu-item#doubts","menu-item#credit-policies","header-spacer","login","minicart"
+    ],
+    "props": {
+      "blockClass": "header-1",
+      "fullWidth": true
+    }
+  },
+  "login": {
+    "props": {
+      "optionsTitle": "teste"  ,
+      "showIconProfile": true	  
+    }
+  },
+  "menu-item#attendance":{
+    "props": {
+      "id": "menu-item-attendance",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      }
+    }
+  },
+  "menu-item#doubts":{
+    "props":{
+    "id":"menu-item-doubts",
+    "type":"custom",
+    "highlight":false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Dúvidas",
+      "text": "Dúvidas"
+    }
+    }
+  },
+  "menu-item#credit-policies":{
+    "props":{
+      "id":"menu-item-credit-policies",
+      "type":"custom",
+      "highlight": false,
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "noFollow": false,
+        "tagTitle":"Politica de Créditos",
+        "text":"Politica de Créditos"
+      }
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "logo","header-spacer","menu-item#my-list","menu-item#create-list"
+    ],
+    "props": {
+      "blockClass": "header-desktop-2",
+      "fullWidth": true
+    }
+  },
+  "logo":{
+    "props":{
+      "width":150,
+      "url":"https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
+    }
+  },
+  "menu-item#my-list":{
+    "props":{
+      "id":"menu-item-my-list",
+      "type":"custom",
+      "highlight":false,
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "noFollow":false,
+        "tagTitle":"Minha lista",
+        "text":"Minha Lista"
+      }
+    }
+  },
+  "menu-item#create-list":{
+    "props":{
+      "id":"menu-item-create-list",
+      "type":"custom",
+      "highlight":false,
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "noFollow":false,
+        "tagTitle":"Criar lista",
+        "text":"Criar Lista"
+      }
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "width": "180"
+    }
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "header-spacer"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  }
+}
