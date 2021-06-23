@@ -1,0 +1,6 @@
+.headerRowContainer--header-color {
+    background-color: #F2F4F5;
+  }
+.headerRowContainer--header-border{
+  border-bottom: 2px solid #F2F4F5;
+}

@@ -14,17 +14,21 @@
   },
   "header-row#1-desktop": {
     "children": [
-      "menu-item#attendance","menu-item#doubts","menu-item#credit-policies","header-spacer","login","minicart"
+      "menu#linkweb","header-spacer","menu#actionaccess"
     ],
     "props": {
-      "blockClass": "header-1",
+      "blockClass": "header-color",
       "fullWidth": true
     }
   },
-  "login": {
-    "props": {
-      "optionsTitle": "teste"  ,
-      "showIconProfile": true	  
+
+  "menu#linkweb":{
+    "children":[
+      "menu-item#attendance",
+      "menu-item#doubts",
+      "menu-item#credit-policies"
+    ], "props":{
+      "blockClass":"padding-l-linkweb"
     }
   },
   "menu-item#attendance":{
@@ -69,19 +73,41 @@
       }
     }
   },
+  "menu#actionaccess":{
+    "children":[
+      "login",
+      "minicart"
+    ],
+    "props":{
+      "blockClass":"padding-linkweb"
+    }
+  },
+  "login": {
+    "props": {
+      "optionsTitle": "teste"  ,
+      "showIconProfile": true	  
+    }
+  },
   "header-row#2-desktop": {
     "children": [
-      "logo","header-spacer","menu-item#my-list","menu-item#create-list"
+      "logo","header-spacer","menu#link-action"
     ],
     "props": {
-      "blockClass": "header-desktop-2",
+      "blockClass": "header-border",
       "fullWidth": true
     }
   },
   "logo":{
     "props":{
-      "width":150,
+      "blockClass":"padding-logo",
+      "width":137,
       "url":"https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
+    }
+  },
+  "menu#link-action":{
+    "children":["menu-item#my-list","menu-item#create-list","menu-item#control-panel"],
+    "props":{
+      "blockClass":"padding-nav"
     }
   },
   "menu-item#my-list":{
@@ -95,6 +121,12 @@
         "noFollow":false,
         "tagTitle":"Minha lista",
         "text":"Minha Lista"
+      },
+      "iconProps":{
+        "id": "my-list",
+        "size":16,
+        "viewBox": "0 0 21 19",
+        "activeClassName": "rebel-pink"
       }
     }
   },
@@ -109,15 +141,31 @@
         "noFollow":false,
         "tagTitle":"Criar lista",
         "text":"Criar Lista"
+      },
+      "iconProps":{
+        "id": "add",
+        "size": 16,
+        "viewBox": "0 0 14 20"
       }
     }
   },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+  "menu-item#control-panel":{
+    "props":{
+      "id":"menu-item-control-panel",
+      "type":"custom",
+      "highlight":false,
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "noFollow":false,
+        "tagTitle":"Painel de controle",
+        "text":"Painel de controle"
+      },
+      "iconProps":{
+        "id": "control-panel",
+        "size": 20,
+        "viewBox": "0 0 24 24"
+      }
     }
   },
   "header-row#3-desktop": {

@@ -3,13 +3,5 @@
     "blocks": [
       "rich-text"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "Hello World",
-      "textAlignment": "CENTER",
-      "textPosition": "RIGHT",
-      "font": "t-heading-1"
-    }
   }
 }
