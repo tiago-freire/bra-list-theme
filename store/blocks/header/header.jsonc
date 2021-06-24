@@ -124,8 +124,7 @@
       "iconProps":{
         "id": "my-list",
         "size":16,
-        "viewBox": "0 0 21 19",
-        "activeClassName": "rebel-pink"
+        "viewBox": "0 0 21 19"
       }
     }
   },
@@ -192,19 +191,19 @@
     }
   },
   "menu#link-action-mobile":{
-    "children":["menu-item#teste"]
+    "children":["menu-item#attendance-mobile"]
   },
-  "menu-item#teste":{
+  "menu-item#attendance-mobile":{
     "props":{
-      "id":"menu-item-teste",
+      "id":"menu-item-attendance-mobile",
       "type":"custom",
       "highlight":false,
       "itemProps":{
         "type":"internal",
         "href":"#",
         "noFollow":false,
-        "tagTitle":"Teste",
-        "text":"teste"
+        "tagTitle":"Atendimento",
+        "text":"Atendimento"
       }
     }
   },
