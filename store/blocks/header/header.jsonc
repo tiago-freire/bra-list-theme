@@ -21,7 +21,6 @@
       "fullWidth": true
     }
   },
-
   "menu#linkweb":{
     "children":[
       "menu-item#attendance",
@@ -175,6 +174,51 @@
     "props": {
       "blockClass": "menu-link",
       "inverted": "true"
+    }
+  },
+  "header-layout.mobile":{
+    "children":["header-row#1-mobile"]
+  },
+  "header-row#1-mobile":{
+    "children":["drawer","logo#mobile","header-spacer","minicart"], "props":{
+      "blockClass":"header-color"
+    }
+  },
+  "logo#mobile":{
+    "props":{
+      "blockClass":"padding-logo",
+      "width":80,
+      "url":"https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
+    }
+  },
+  "menu#link-action-mobile":{
+    "children":["menu-item#teste"]
+  },
+  "menu-item#teste":{
+    "props":{
+      "id":"menu-item-teste",
+      "type":"custom",
+      "highlight":false,
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "noFollow":false,
+        "tagTitle":"Teste",
+        "text":"teste"
+      }
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu#link-action-mobile"
+    ],
+    "props": {
+      "orientation": "horizontal"
     }
   }
 }

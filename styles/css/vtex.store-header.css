@@ -4,3 +4,6 @@
 .headerRowContainer--header-border{
   border-bottom: 2px solid #F2F4F5;
 }
+.headerRowContentContainer{
+  padding: 0px;
+}
