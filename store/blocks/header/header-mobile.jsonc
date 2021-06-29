@@ -1,0 +1,30 @@
+{
+    "header-layout.mobile":{
+      "children":["header-row#1-mobile"]
+    },
+    "header-row#1-mobile":{
+      "children":["drawer","logo#mobile","header-spacer","minicart"], "props":{
+        "blockClass":"header-color"
+      }
+    },
+    "logo#mobile":{
+      "props":{
+        "blockClass":"padding-logo",
+        "width":80,
+        "url":"https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
+      }
+    },
+    "menu#drawer": {
+      "children": [
+        "menu#bottom-navbar-link"
+      ],
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "drawer": {
+      "children": [
+        "menu#drawer"
+      ]
+    }
+  }

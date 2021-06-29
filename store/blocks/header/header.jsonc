@@ -5,29 +5,25 @@
       "header-layout.mobile"
     ]
   },
-  "header-layout.desktop": {
-    "children": [
-      "header-row#1-desktop",
-      "header-row#2-desktop",
-      "header-row#3-desktop"
-    ]
-  },
-  "header-row#1-desktop": {
-    "children": [
-      "menu#linkweb","header-spacer","menu#actionaccess"
-    ],
-    "props": {
-      "blockClass": "header-color",
-      "fullWidth": true
-    }
-  },
-  "menu#linkweb":{
+  "menu#top-navbar-link":{
     "children":[
       "menu-item#attendance",
       "menu-item#doubts",
       "menu-item#credit-policies"
-    ], "props":{
-      "blockClass":"padding-l-linkweb"
+    ]
+  },
+  "menu-item#credit-policies":{
+    "props":{
+      "id":"menu-item-credit-policies",
+      "type":"custom",
+      "highlight": false,
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "noFollow": false,
+        "tagTitle":"Politica de Créditos",
+        "text":"Politica de Créditos"
+      }
     }
   },
   "menu-item#attendance":{
@@ -58,56 +54,11 @@
     }
     }
   },
-  "menu-item#credit-policies":{
-    "props":{
-      "id":"menu-item-credit-policies",
-      "type":"custom",
-      "highlight": false,
-      "itemProps":{
-        "type":"internal",
-        "href":"#",
-        "noFollow": false,
-        "tagTitle":"Politica de Créditos",
-        "text":"Politica de Créditos"
-      }
-    }
-  },
-  "menu#actionaccess":{
-    "children":[
-      "login",
-      "minicart"
-    ],
-    "props":{
-      "blockClass":"padding-linkweb"
-    }
-  },
-  "login": {
-    "props": {
-      "optionsTitle": "teste"  ,
-      "showIconProfile": true	  
-    }
-  },
-  "header-row#2-desktop": {
-    "children": [
-      "logo","header-spacer","menu#link-action"
-    ],
-    "props": {
-      "blockClass": "header-border",
-      "fullWidth": true
-    }
-  },
-  "logo":{
-    "props":{
-      "blockClass":"padding-logo",
-      "width":137,
-      "url":"https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
-    }
-  },
-  "menu#link-action":{
+  "menu#bottom-navbar-link":{
     "children":["menu-item#my-list","menu-item#create-list","menu-item#control-panel"],
-    "props":{
-      "blockClass":"padding-nav"
-    }
+      "props":{
+        "blockClass":"bottom-navbar-link-action"
+      }
   },
   "menu-item#my-list":{
     "props":{
@@ -152,6 +103,7 @@
       "id":"menu-item-control-panel",
       "type":"custom",
       "highlight":false,
+      "blockClass":"link-control-panel",
       "itemProps":{
         "type":"internal",
         "href":"#",
@@ -164,60 +116,6 @@
         "size": 20,
         "viewBox": "0 0 24 24"
       }
-    }
-  },
-  "header-row#3-desktop": {
-    "children": [
-      "header-spacer"
-    ],
-    "props": {
-      "blockClass": "menu-link",
-      "inverted": "true"
-    }
-  },
-  "header-layout.mobile":{
-    "children":["header-row#1-mobile"]
-  },
-  "header-row#1-mobile":{
-    "children":["drawer","logo#mobile","header-spacer","minicart"], "props":{
-      "blockClass":"header-color"
-    }
-  },
-  "logo#mobile":{
-    "props":{
-      "blockClass":"padding-logo",
-      "width":80,
-      "url":"https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
-    }
-  },
-  "menu#link-action-mobile":{
-    "children":["menu-item#attendance-mobile"]
-  },
-  "menu-item#attendance-mobile":{
-    "props":{
-      "id":"menu-item-attendance-mobile",
-      "type":"custom",
-      "highlight":false,
-      "itemProps":{
-        "type":"internal",
-        "href":"#",
-        "noFollow":false,
-        "tagTitle":"Atendimento",
-        "text":"Atendimento"
-      }
-    }
-  },
-  "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
-  },
-  "menu#drawer": {
-    "children": [
-      "menu#link-action-mobile"
-    ],
-    "props": {
-      "orientation": "horizontal"
     }
   }
 }

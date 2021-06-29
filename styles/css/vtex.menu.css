@@ -1,9 +1,25 @@
-.menuContainer--padding-nav{
-    padding-right: 160px;
-  }
-.menuContainer--padding-linkweb{
-    padding-right: 172px;
+.styledLinkContainer{
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-.menuContainer--padding-l-linkweb{
-    padding-left: 172px;
+.logoContainer--logo-padding{
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+.styledLinkContainer{
+     margin: 0px 14px;
+}
+.styledLinkIcon--link-control-panel{
+    display: block;
+}
+
+@media (max-width: 1025px){
+    .menuContainer--bottom-navbar-link-action{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2em;
+    }
+    .styledLinkIcon{
+        display: none;
+    }
 }

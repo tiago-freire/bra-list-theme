@@ -1,0 +1,48 @@
+{
+    "header-layout.desktop": {
+      "children": [
+        "header-row#1-desktop",
+        "header-row#2-desktop"
+      ]
+    },
+    "header-row#1-desktop": {
+      "children": [
+        "menu#top-navbar-link","header-spacer","menu#actionaccess"
+      ],
+      "props": {
+        "blockClass": "header-color",
+        "fullWidth": true
+      }
+    },
+    "menu#actionaccess":{
+      "children":[
+        "login",
+        "minicart"
+      ]
+    },
+    "login": {
+      "props": {
+        "iconLabel": "Entrar"  ,
+        "showIconProfile": true,
+        "blockClass":"red"
+      }
+    },
+    "header-row#2-desktop": {
+      "children": [
+        "logo","header-spacer","menu#bottom-navbar-link"
+      ],
+      "props": {
+        "blockClass": "header-border",
+        "fullWidth": true
+      }
+    },
+    "logo":{
+      "props":{
+        "blockClass":"logo-padding",
+        "width":137,
+        "url":"https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
+      }
+    }
+
+}
+  

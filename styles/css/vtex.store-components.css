@@ -1,9 +1,9 @@
-.logoImage--padding-logo{
-    padding-left: 160px;
+.logoContainer{   
+ padding: 12px 0px;
 }
 
-@media (max-width:919px){
-    .logoImage--padding-logo{
-        padding: 0;    
+@media (max-width: 1025px){
+    .logoContainer{   
+        padding: 10px 10px;
     }
 }
