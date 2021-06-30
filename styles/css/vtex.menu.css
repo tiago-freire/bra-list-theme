@@ -9,8 +9,11 @@
 .styledLinkContainer{
      margin: 0px 14px;
 }
-.styledLinkIcon--link-control-panel{
-    display: block;
+.menuContainer--top-navbar-link-action{
+    justify-content: flex-end;
+}
+.menuContainer--bottom-navbar-link-action{
+    justify-content: flex-end;
 }
 
 @media (max-width: 1025px){

@@ -1,9 +1,6 @@
 .logoContainer{   
- padding: 12px 0px;
+ padding: 0px 0px;
 }
-
-@media (max-width: 1025px){
-    .logoContainer{   
-        padding: 10px 10px;
-    }
+.logoContainer--logo-padding{
+    padding: 8px 0px;
 }

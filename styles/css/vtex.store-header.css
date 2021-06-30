@@ -1,17 +1,6 @@
-.headerRow--header-color{
-  background-color: #F2F4F5;
+.headerRowBackground--header-topbar{
+    background-color: #F2F4F5;
 }
-.headerRowBackground--header-color{
-  display: block;
-  max-width: 1596px;
-  margin: 0 auto;
-  background: none;
-}
-.headerRow--header-border{
-  border-bottom: 1px solid #CACBCC;
-}
-.headerRowBackground--header-border{
-  display: block;
-  max-width: 1600px;
-  margin: 0 auto;
+.headerRowBackground--border-bottom{
+    border-bottom: 1px solid #CACBCC;
 }

@@ -2,6 +2,9 @@
     color: #585959
     ;
 }
+.button:hover{
+    border-radius:4px;
+}
 svg{
     color: #585959
     ;
