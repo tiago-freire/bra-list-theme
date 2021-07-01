@@ -15,7 +15,6 @@
 .menuContainer--bottom-navbar-link-action{
     justify-content: flex-end;
 }
-
 @media (max-width: 1025px){
     .menuContainer--bottom-navbar-link-action{
         display: flex;
