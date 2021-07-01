@@ -1,9 +1,13 @@
 .label{
-    color: #585959
-    ;
+    color: #585959;
+    padding: 0px;
 }
 .button:hover{
     border-radius:4px;
+}
+.container :global(.vtex-button__label){
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 svg{
     color: #585959

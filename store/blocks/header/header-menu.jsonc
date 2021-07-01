@@ -127,6 +127,7 @@
     },
     "login": {
         "props": {
+            "blockClass": "login-topbar",
             "iconLabel": "Entrar",
             "showIconProfile": true
         }
@@ -137,9 +138,8 @@
                 "header-bottom-bar-logo",
                 "justify-content-start-end"
             ],
-            "width": 137,
-            "url": "https://brand.vtex.com/static/media/logo.2f3fc60b.svg",
-            "href": "https://vtex.com/br-pt/"
+            "url": "assets/Logo.png",
+            "href": "/"
         }
     }
 }

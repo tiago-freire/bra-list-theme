@@ -24,8 +24,8 @@
   },
   "logo#mobile": {
     "props": {
-      "width": 80,
-      "url": "https://brand.vtex.com/static/media/logo.2f3fc60b.svg"
+      "blockClass": "header-topbar-mobile-logo",
+      "url": "assets/Logo_mobile.png"
     }
   },
   "minicart": {
@@ -44,6 +44,9 @@
   "drawer": {
     "children": [
       "menu#drawer"
-    ]
+    ],
+    "props": {
+      "blockClass": "header-topbar-drawer"
+    }
   }
 }

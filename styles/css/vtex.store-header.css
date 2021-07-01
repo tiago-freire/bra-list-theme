@@ -4,3 +4,7 @@
 .headerRowBackground--border-bottom{
     border-bottom: 1px solid #CACBCC;
 }
+
+.headerRowContentContainer--header-topbar{
+    padding: 0px;
+  }
