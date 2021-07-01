@@ -4,7 +4,10 @@
             "menu-item#attendance",
             "menu-item#doubts",
             "menu-item#credit-policies"
-        ]
+        ],
+        "props": {
+            "blockClass": "top-navbar-link"
+        }
     },
     "menu-item#credit-policies": {
         "props": {
