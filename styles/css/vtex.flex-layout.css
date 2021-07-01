@@ -16,8 +16,8 @@
   justify-content: flex-start;
 }
 .flexRowContent--header-topbar-mobile .stretchChildrenWidth:last-child{
-  justify-content: flex-start;
-  border: 1px solid;
+  justify-content: flex-end;
+  flex-grow: 2;
 }
 .flexRowContent--header-top-bar .stretchChildrenWidth{
   justify-content: flex-start;

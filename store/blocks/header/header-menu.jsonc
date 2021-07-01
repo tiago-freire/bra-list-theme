@@ -134,7 +134,7 @@
     "logo": {
         "props": {
             "blockClass": [
-                "logo-padding",
+                "header-bottom-bar-logo",
                 "justify-content-start-end"
             ],
             "width": 137,

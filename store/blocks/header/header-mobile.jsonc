@@ -12,7 +12,7 @@
       "drawer",
       "logo#mobile",
       "header-spacer",
-      "minicart"
+      "minicart.v2"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
