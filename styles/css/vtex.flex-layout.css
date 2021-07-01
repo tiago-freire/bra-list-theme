@@ -17,6 +17,7 @@
 }
 .flexRowContent--header-topbar-mobile .stretchChildrenWidth:last-child{
   justify-content: flex-end;
+  align-items: flex-start;
   flex-grow: 2;
 }
 .flexRowContent--header-top-bar .stretchChildrenWidth{

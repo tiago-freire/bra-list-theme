@@ -15,7 +15,7 @@
 .menuContainer--bottom-navbar-link-action{
     justify-content: flex-end;
 }
-@media (max-width: 1025px){
+@media (min-width: 20em){
     .menuContainer--bottom-navbar-link-action{
         display: flex;
         flex-direction: column;
@@ -23,5 +23,14 @@
     }
     .styledLinkIcon{
         display: none;
+    }
+}
+@media (min-width: 64em){
+    .menuContainer--bottom-navbar-link-action{
+        display: flex;
+        flex-direction: row;
+    }
+    .styledLinkIcon{
+        display: block;
     }
 }
