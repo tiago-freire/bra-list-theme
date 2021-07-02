@@ -390,14 +390,14 @@
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--small": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--large": {
@@ -408,7 +408,7 @@
         "letterSpacing": "0"
       },
       "code": {
-        "fontFamily": "Consolas, monaco, monospace",
+        "fontFamily": "Fabriga, monaco, monospace",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
