@@ -1,0 +1,23 @@
+{
+    "menu#footer-navbar-link": {
+        "children": [
+            "menu-item#attendance",
+            "menu-item#payment",
+            "menu-item#credit-policies"
+        ]
+    },
+    "menu-item#payment": {
+        "props": {
+            "id": "menu-item-payment",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pagamento",
+                "text": "Pagamento"
+            }
+        }
+    }
+}

@@ -1,18 +1,6 @@
-
-@media(min-width: 20em){
-  .flexRow--container{
-    display:block;
-    width: 100%;
-    max-width: 1600px;
-    padding: 0px 12px;
-  }
-}
-@media (min-width: 64em){
-  .flexRow--container{
-    padding: 0 24px
-  }
-}
-
+/*
+ * A partir daqui seguem estilos para header topbar mobile
+ * -------------------------------------------------------- */
 .flexRow--header-topbar-mobile{
   padding-top: 12px;
   padding-bottom: 12px;
@@ -35,6 +23,9 @@
   width: unset !important;
 }
 
+/*
+ * A partir daqui seguem estilos para header top
+ * -------------------------------------------------------- */
 
 .flexRowContent--header-top-bar .stretchChildrenWidth{
   justify-content: flex-start;
@@ -43,6 +34,9 @@
   justify-content: flex-end;
 }
 
+/*
+ * A partir daqui seguem estilos para header bottom
+ * -------------------------------------------------------- */
 
 .flexRow--header-bottom-bar .stretchChildrenWidth{
   justify-content: flex-start;
@@ -51,3 +45,33 @@
   justify-content: flex-end;
   align-self: center;
 }
+
+/*
+ * A partir daqui seguem estilos para container da pagina
+ * -------------------------------------------------------- */
+
+ @media(min-width: 20em){
+  .flexRow--container{
+    display:block;
+    width: 100%;
+    max-width: 1600px;
+    padding: 0px 12px;
+  }
+}
+@media (min-width: 64em){
+  .flexRow--container{
+    padding: 0 24px
+  }
+}
+
+
+/*
+ * A partir daqui seguem estilos para footer
+ * -------------------------------------------------------- */
+.flexRow--footer-navbar-link{
+  background-color: #F7F9FA;
+  border: 1px solid #E3E4E6;
+
+}
+
+
