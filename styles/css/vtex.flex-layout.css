@@ -11,7 +11,7 @@
 
 }
 .flexRowContent--header-topbar-mobile .stretchChildrenWidth:first-child{
-  width:unset !important;
+  width:auto !important;
   padding:0;
 }
 .flexRowContent--header-topbar-mobile .stretchChildrenWidth:nth-child(2+2){
@@ -20,7 +20,7 @@
 }
 .flexRowContent--header-topbar-mobile .stretchChildrenWidth:last-child{
   justify-content: flex-end;
-  width: unset !important;
+  width: auto !important;
 }
 
 /*
@@ -63,8 +63,6 @@
     padding: 0 24px
   }
 }
-
-
 /*
  * A partir daqui seguem estilos para footer
  * -------------------------------------------------------- */
@@ -73,5 +71,24 @@
   border: 1px solid #E3E4E6;
 
 }
-
-
+.flexRow--footer-top{
+  align-items: center;
+}
+.flexRow--images-payment .stretchChildrenWidth{
+  width: auto !important;
+}
+.flexRow--footer-social-networks-imagens .stretchChildrenWidth{
+  width: auto !important;
+}
+.flexRow--footer-safe-buy .stretchChildrenWidth{
+  width: auto !important;
+}
+.flexRowContent--footer-bottom-icons{
+  justify-content: space-between;
+}
+.flexRowContent--footer-bottom-icons .stretchChildrenWidth{
+  width: auto !important;
+}
+.stretchChildrenWidth .imageElement--payment-img-card{ 
+  border: 1px solid !important;
+}

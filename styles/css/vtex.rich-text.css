@@ -2,3 +2,25 @@
     color: #979899;
     font-size: 12px;
 }
+.container--title-social-networks-desktop{
+    justify-content: flex-start !important;
+}
+.paragraph--title-social-networks-mobile{
+    color: #585959;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.paragraph--footer-bottom-text{
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+.paragraph--title-payment{
+    color: #585959;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+.paragraph--title-safe-buy{
+    color: #585959;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

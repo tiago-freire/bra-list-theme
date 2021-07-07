@@ -3,8 +3,11 @@
         "children": [
             "menu-item#attendance",
             "menu-item#payment",
-            "menu-item#credit-policies"
-        ]
+            "menu-item#privacy-policies"
+        ],
+        "props":{
+            "blockClass": "footer-navbar-link"
+        }
     },
     "menu-item#payment": {
         "props": {
@@ -17,6 +20,20 @@
                 "noFollow": false,
                 "tagTitle": "Pagamento",
                 "text": "Pagamento"
+            }
+        }
+    },
+    "menu-item#privacy-policies": {
+        "props": {
+            "id": "menu-item-payment",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Politicas de privacidade",
+                "text": "Politicas de privacidade"
             }
         }
     }

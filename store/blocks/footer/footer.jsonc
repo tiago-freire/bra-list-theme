@@ -14,7 +14,7 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer-mobile"
+      "flex-layout.row#footer-mobile-1"
     ]
   }
 }

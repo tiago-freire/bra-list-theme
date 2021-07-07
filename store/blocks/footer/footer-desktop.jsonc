@@ -4,17 +4,19 @@
             "menu#footer-navbar-link"
         ],
         "props": {
-            "blockClass": [
-                "footer-navbar-link"
+            "blockClass": ["footer-navbar-link"
             ]
         }
     },
     "flex-layout.row#footer-desktop-2": {
         "children": [
-            "accepted-payment-methods",
-            "social-networks"
+            "flex-layout.col#footer-accept-payment",
+            "flex-layout.col#footer-safe-buy",
+            "flex-layout.col#footer-social-networks"
         ],
-        "props": {}
+        "props": {
+            "blockClass":"footer-bottom-icons"
+        }
     },
     "flex-layout.row#footer-desktop-3": {
         "children": [
@@ -22,44 +24,108 @@
             "footer-spacer"
         ]
     },
-    "flex-layout.row#footer-mobile": {
-        "children": [
-            "social-networks",
-            "accepted-payment-methods"
-        ]
-    },
-    "social-networks": {
-        "props": {
-            "title": "Nossas Redes",
-            "socialNetworks": [
-                {
-                    "url": "https://youtube.com/",
-                    "name": "Youtube"
-                },
-                {
-                    "url": "https://instagram.com/",
-                    "name": "Instagram"
-                },
-                {
-                    "url": "https://facebook.com/",
-                    "name": "Facebook"
-                },
-                {
-                    "url": "https://twitter.com/",
-                    "name": "Twitter"
-                }
-            ],
-            "showInColor": true
+    "flex-layout.col#footer-accept-payment":{
+        "children":[
+            "rich-text#title-payment",
+            "flex-layout.row#images-payment"
+        ],
+        "props":{
+            "blockClass": ["container","title-accept-payment"]
         }
     },
-    "accepted-payment-methods": {
+    "rich-text#title-payment":{
         "props": {
-            "paymentMethods": [
-                "mastercard",
-                "visa",
-                "diners club"
-            ],
-            "showInColor": true
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Formas de pagamento"
+          }
+    },
+    "flex-layout.row#images-payment":{
+        "children":["image-list#payment-card-desktop"],
+        "props":{
+            "blockClass":"images-payment"
+        }
+    },
+    "image-list#payment-card-desktop": {
+        "props": {
+            "blockClass":"payment-img-card",
+            "images": [
+            {
+                "image": "assets/footer/Visa.png"
+            },
+            {
+                "image": "assets/footer/Master.png"
+            },
+            {
+                "image": "assets/footer/Dinners.png"
+            }
+            ]
+        }
+    },
+    "flex-layout.col#footer-safe-buy":{
+        "children":["rich-text#title-safe-buy","flex-layout.row#footer-safe-buy"]
+    },
+    "rich-text#title-safe-buy":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Compra segura"
+        }
+    },
+    "flex-layout.row#footer-safe-buy":{
+        "children":["image-list#footer-safe-buy"],
+        "props":{
+            "blockClass":["footer-safe-buy"]
+        }
+    },
+    "image-list#footer-safe-buy":{
+        "props":{
+            "images":[
+                {
+                    "image":"assets/footer/siteBlindado.png"
+                },
+                {
+                    "image":"assets/footer/ssl.png"
+                }
+            ]
+        }
+    },
+    "flex-layout.col#footer-social-networks": {
+        "children":["rich-text#title-social-desktop","flex-layout.row#footer-social-networks"],
+        "props":{
+            "blockClass": "footer-bottom-link-social-networks"
+        }
+    },
+    "flex-layout.row#footer-social-networks":{
+        "children":["image-list#footer-social-networks"],
+        "props":{
+            "blockClass":"footer-social-networks-imagens"
+        }
+    },
+    "image-list#footer-social-networks": {
+        "props": {
+            "images": [
+                {
+                    "image": "assets/footer/Youtube.png"
+                },
+                {
+                    "image": "assets/footer/Instagram.png"
+                },
+                {
+                    "image": "assets/footer/Facebook.png"
+                },
+                {
+                    "image": "assets/footer/Twitter.png"
+                }
+            ]
+        }
+    },
+    "rich-text#title-social-desktop": {
+        "props": {
+            "blockClass":"title-social-networks-desktop",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Nossas Redes"
         }
     },
     "rich-text": {
