@@ -1,17 +1,24 @@
 {
     "flex-layout.row#footer-mobile-1":{
         "children":[
-            "flex-layout.row#footer-payment-mobile",
-            "flex-layout.row#footer-safebuy-mobile",
-            "flex-layout.row#footer-socialnetwork-mobile",
-            "flex-layout.row#footer-textbottom-mobile"]
+            "flex-layout.col#footer-payment-mobile",
+            "flex-layout.col#footer-safebuy-mobile",
+            "flex-layout.col#footer-socialnetwork-mobile"
+            ]
         ,
         "props": {
             "blockClass": ["container"],
             "horizontalAlign": "center"
         }
     },
-    "flex-layout.row#footer-payment-mobile": {
+    "flex-layout.row#footer-mobile-2":{
+        "children":["flex-layout.row#footer-textbottom-mobile"],
+        "props": {
+            "blockClass": ["container"],
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#footer-payment-mobile": {
         "children": [
             "rich-text#title-payment",
             "image-list#payment-card-mobile"
@@ -20,6 +27,7 @@
             "blockClass":"footer-payment-mobile"
         }
     },
+
     "rich-text#title-payment":{
         "props": {
             "textAlignment": "CENTER",
@@ -46,9 +54,13 @@
             }
             ]
         }
-    },   
-    "flex-layout.row#footer-safebuy-mobile":{
-        "children":["rich-text#title-safe-buy","image-list#footer-safe-buy"]
+    },
+
+    "flex-layout.col#footer-safebuy-mobile":{
+        "children":["rich-text#title-safe-buy","image-list#footer-safe-buy"],
+        "props":{
+            "blockClass": "footer-safebuy-mobile"
+        }
     },
     "rich-text#title-safe-buy":{
         "props": {
@@ -75,11 +87,10 @@
         }
     },
 
-
-    "flex-layout.row#footer-socialnetwork-mobile":{
+    "flex-layout.col#footer-socialnetwork-mobile":{
         "children":["rich-text#title-social","image-list#footer-social-networks"],
         "props":{
-            "blockClass":"xxxteste"
+            "blockClass":"footer-socialnetwork-mobile"
         }
     },
     "image-list#footer-social-networks": {

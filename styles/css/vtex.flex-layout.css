@@ -22,7 +22,15 @@
   justify-content: flex-end;
   width: auto !important;
 }
-
+.flexColChild--footer-payment-mobile{
+  align-self: center;
+}
+.flexColChild--footer-safebuy-mobile{
+  align-self: center;
+}
+.flexColChild--footer-socialnetwork-mobile{
+  align-self: center;
+}
 /*
  * A partir daqui seguem estilos para header top
  * -------------------------------------------------------- */
