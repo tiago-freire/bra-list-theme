@@ -2,8 +2,8 @@
  * A partir daqui seguem estilos para header topbar mobile
  * -------------------------------------------------------- */
 .flexRow--header-topbar-mobile{
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
 }
 .flexRowContent--header-topbar-mobile{
   -webkit-box-pack: start;
@@ -23,13 +23,19 @@
   width: auto !important;
 }
 .flexColChild--footer-payment-mobile{
+  width: auto;
+  display: flex;
   align-self: center;
+  align-items: center;
 }
 .flexColChild--footer-safebuy-mobile{
   align-self: center;
 }
 .flexColChild--footer-socialnetwork-mobile{
   align-self: center;
+}
+.flexColChild--footer-socialnetwork-mobile:last-child{
+  margin-bottom: 24px;
 }
 /*
  * A partir daqui seguem estilos para header top
@@ -79,17 +85,11 @@
   border: 1px solid #E3E4E6;
 
 }
+.flexRow--footer-mobile-1{
+  border-top: 1px solid #E3E4E6;
+}
 .flexRow--footer-top{
   align-items: center;
-}
-.flexRow--images-payment .stretchChildrenWidth{
-  width: auto !important;
-}
-.flexRow--footer-social-networks-imagens .stretchChildrenWidth{
-  width: auto !important;
-}
-.flexRow--footer-safe-buy .stretchChildrenWidth{
-  width: auto !important;
 }
 .flexRowContent--footer-bottom-icons{
   justify-content: space-between;
@@ -97,6 +97,49 @@
 .flexRowContent--footer-bottom-icons .stretchChildrenWidth{
   width: auto !important;
 }
-.stretchChildrenWidth .imageElement--payment-img-card{ 
-  border: 1px solid !important;
+/**
+footer-accept-payment-image
+*/
+.flexRowContent--footer-accept-payment-image .stretchChildrenWidth{
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexRowContent--footer-safe-buy-image .stretchChildrenWidth{
+  justify-content: "center" !important;
+}
+.flexRowContent--footer-social-networks-image .stretchChildrenWidth{
+  justify-content: flex-end;
+}
+.flexRowContent--footer-accept-payment-image .stretchChildrenWidth :first-child{
+  margin-right: 17px;
+}
+.flexRowContent--footer-accept-payment-image .stretchChildrenWidth :last-child{
+  margin-right: 17px;
+  margin-left: 17px;
+}
+.flexRowContent--footer-main-desktop{
+  justify-content: space-between !important;
+}
+.flexRowContent--footer-mobile-1 {
+  justify-content: space-between !important;
+}
+.flexRowContent--footer-main-desktop .stretchChildrenWidth{
+  width: auto !important;
+}
+.flexColChild--footer-payment-mobile{
+  height: auto !important;
+}
+.flexColChild--footer-safebuy-mobile{
+  height: auto !important;
+}
+.flexColChild--footer-socialnetwork-mobile{
+  height: auto !important;
+}
+@media (min-width: 20em) {
+  .flexRowContent--footer-mobile-1 {
+    justify-content: space-between !important;
+  }
+  .flexRowContent--footer-mobile-1 .stretchChildrenWidth{
+    width: auto !important;
+  }
 }

@@ -7,8 +7,7 @@
             ]
         ,
         "props": {
-            "blockClass": ["container"],
-            "horizontalAlign": "center"
+            "blockClass": ["container","footer-mobile-1"]
         }
     },
     "flex-layout.row#footer-mobile-2":{
@@ -39,6 +38,7 @@
     "image-list#payment-card-mobile": {
         "props": {
             "blockClass":"payment-img-card",
+            "height":28,
             "images": [
             {
                 "image": "assets/footer/Visa.png",
@@ -55,7 +55,6 @@
             ]
         }
     },
-
     "flex-layout.col#footer-safebuy-mobile":{
         "children":["rich-text#title-safe-buy","image-list#footer-safe-buy"],
         "props":{
@@ -122,7 +121,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": "Nossas Redes",
-            "blockClass":"title-social-networks-mobile"
+            "blockClass":"title-social-networks"
         }
     },
 
