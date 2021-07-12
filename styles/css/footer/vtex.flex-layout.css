@@ -52,11 +52,6 @@
     justify-content: flex-end;
 }
 
-
-/*
- * A partir daqui seguem estilos para header bottom
- * -------------------------------------------------------- */
-
 .flexRow--header-bottom-bar .stretchChildrenWidth {
     justify-content: flex-start;
 }
