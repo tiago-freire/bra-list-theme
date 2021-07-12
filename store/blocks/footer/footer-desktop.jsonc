@@ -4,15 +4,19 @@
             "flex-layout.row#footer-nav"
         ],
         "props": {
-            "blockClass": ["footer-navbar-link"]
+            "blockClass": [
+                "footer-navbar-link"
+            ]
         }
     },
-    "flex-layout.row#footer-nav":{
+    "flex-layout.row#footer-nav": {
         "children": [
             "menu#footer-navbar-link"
         ],
         "props": {
-            "blockClass": ["container"]
+            "blockClass": [
+                "container"
+            ]
         }
     },
     "flex-layout.row#footer-desktop-2": {
@@ -20,135 +24,147 @@
             "flex-layout.row#footer-main"
         ],
         "props": {
-            "blockClass":"footer-desktop-2"
+            "blockClass": "footer-desktop-2"
         }
     },
-    "flex-layout.row#footer-main":{
-        "children":["flex-layout.col#footer-accept-payment","flex-layout.col#footer-safe-buy","flex-layout.col#footer-social-desktop"],
-        "props":{
-            "blockClass":["container","footer-main-desktop"]
+    "flex-layout.row#footer-main": {
+        "children": [
+            "flex-layout.col#footer-accept-payment",
+            "flex-layout.col#footer-safe-buy",
+            "flex-layout.col#footer-social-desktop"
+        ],
+        "props": {
+            "blockClass": [
+                "container",
+                "footer-main-desktop"
+            ]
         }
     },
-    "flex-layout.col#footer-accept-payment":{
-        "children":[
+    "flex-layout.col#footer-accept-payment": {
+        "children": [
             "rich-text#title-payment",
             "flex-layout.row#footer-accept-payment-image"
         ],
-        "props":{
-            "blockClass":"footer-accept-payment"
+        "props": {
+            "blockClass": "footer-accept-payment"
         }
     },
-    "flex-layout.col#footer-safe-buy":{
-        "children":[
+    "flex-layout.col#footer-safe-buy": {
+        "children": [
             "rich-text#title-safe-buy",
             "flex-layout.row#footer-safe-buy-image"
         ],
-        "props":{
-            "blockClass":"footer-safe-buy"
+        "props": {
+            "blockClass": "footer-safe-buy"
         }
     },
-    "flex-layout.col#footer-social-desktop":{
-        "children":[
+    "flex-layout.col#footer-social-desktop": {
+        "children": [
             "rich-text#title-social-desktop",
             "flex-layout.row#footer-social-networks-image"
         ],
-        "props":{
-            "blockClass":"footer-social-desktop"
+        "props": {
+            "blockClass": "footer-social-desktop"
         }
     },
-    "rich-text#title-payment-desktop":{
+    "rich-text#title-payment-desktop": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "Formas de pagamento",
-            
-            "blockClass":"title-payment"
-          }
+            "blockClass": "title-payment"
+        }
     },
-    "rich-text#title-safe-buy-desktop":{
+    "rich-text#title-safe-buy-desktop": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "Compra segura",
-            "blockClass":"title-safe-buy"
+            "blockClass": "title-safe-buy"
         }
     },
     "rich-text#title-social-desktop": {
         "props": {
-            "blockClass":"title-social-networks",
+            "blockClass": "title-social-networks",
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "Nossas Redes"
         }
     },
-    "flex-layout.row#footer-accept-payment-image":{
-        "children":["image-list#footer-accept-payment"],
-        "props":{
-            "blockClass":"footer-accept-payment-image"
+    "flex-layout.row#footer-accept-payment-image": {
+        "children": [
+            "image-list#footer-accept-payment"
+        ],
+        "props": {
+            "blockClass": "footer-accept-payment-image"
         }
     },
     "image-list#footer-accept-payment": {
         "props": {
-            "height":24,
-            "blockClass":"footer-accept-payment",
+            "height": 24,
+            "blockClass": "footer-accept-payment",
             "images": [
-            {
-                "image": "assets/footer/Visa.png",
-                "width":"auto"
-            },
-            {
-                "image": "assets/footer/Master.png",
-                "width":"auto"
-            },
-            {
-                "image": "assets/footer/Dinners.png",
-                "width":"auto"
-            }
-            ]
-        }
-    },
-    "flex-layout.row#footer-safe-buy-image":{
-        "children":["image-list#footer-safe-buy"],
-        "props":{
-            "blockClass":"footer-safe-buy-image"
-        }
-    },
-    "image-list#footer-safe-buy":{
-        "props":{
-            "height":40,
-            "images":[
                 {
-                    "image":"assets/footer/siteBlindado.png",
+                    "image": "assets/footer/visa.png",
                     "width": "auto"
                 },
                 {
-                    "image":"assets/footer/ssl.png",
+                    "image": "assets/footer/master.png",
+                    "width": "auto"
+                },
+                {
+                    "image": "assets/footer/dinners.png",
                     "width": "auto"
                 }
             ]
         }
     },
-    "flex-layout.row#footer-social-networks-image":{
-        "children":["image-list#footer-social-networks"],
-        "props":{
-            "blockClass":"footer-social-networks-image"
+    "flex-layout.row#footer-safe-buy-image": {
+        "children": [
+            "image-list#footer-safe-buy"
+        ],
+        "props": {
+            "blockClass": "footer-safe-buy-image"
+        }
+    },
+    "image-list#footer-safe-buy": {
+        "props": {
+            "height": 40,
+            "images": [
+                {
+                    "image": "assets/footer/site_blindado.png",
+                    "width": "auto"
+                },
+                {
+                    "image": "assets/footer/ssl.png",
+                    "width": "auto"
+                }
+            ]
+        }
+    },
+    "flex-layout.row#footer-social-networks-image": {
+        "children": [
+            "image-list#footer-social-networks"
+        ],
+        "props": {
+            "blockClass": "footer-social-networks-image"
         }
     },
     "image-list#footer-social-networks": {
         "props": {
-            "blockClass":"footer-social-networks",
+            "blockClass": "footer-social-networks",
             "images": [
                 {
-                    "image": "assets/footer/Youtube.png"
+                    "image": "assets/footer/youtube.png"
                 },
                 {
-                    "image": "assets/footer/Instagram.png"
+                    "image": "assets/footer/instagram.png"
                 },
                 {
-                    "image": "assets/footer/Facebook.png"
+                    "image": "assets/footer/facebook.png"
                 },
                 {
-                    "image": "assets/footer/Twitter.png"
+                    "image": "assets/footer/twitter.png"
                 }
             ]
         }
@@ -158,13 +174,16 @@
             "flex-layout.row#footer-bottom"
         ]
     },
-    "flex-layout.row#footer-bottom":{
-        "children":["rich-text","footer-spacer"],
-        "props":{
-            "blockClass":"container"
+    "flex-layout.row#footer-bottom": {
+        "children": [
+            "rich-text#footer-bottom",
+            "footer-spacer"
+        ],
+        "props": {
+            "blockClass": "container"
         }
     },
-    "rich-text": {
+    "rich-text#footer-bottom": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
