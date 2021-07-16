@@ -1,9 +1,14 @@
+.infoCardTextContainer--card{
+  height: 100%;
+}
+
 .infoCardContainer--card{
   background-color: #ffffff;
   background-size: 40px !important;
   background-position: center 20px;
   border-radius: 12px;
   padding: 70px 8px 16px;
+  margin: 0 20px;
 }
 
 .infoCardHeadline--card{
@@ -19,4 +24,22 @@
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 24px;
+}
+
+
+@media (min-width: 40rem){
+  .infoCardTextContainer--card{
+    width: 100%;
+    margin: 0 8px;
+  }
+
+  .infoCardTextContainer--card{
+    height: 132px;
+  }
+}
+
+@media (min-width: 20rem){
+  .infoCardTextContainer--card{
+    height: 180px;
+  }
 }
