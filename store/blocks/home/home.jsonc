@@ -1,7 +1,41 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "flex-layout.row#advantages"
     ]
+  },
+
+  "flex-layout.row#advantages": {
+    "props": {
+      "blockClass": "advantages-container",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#advantages",
+      "info-card"
+    ]
+  },
+
+  "rich-text#advantages": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Por que ter uma lista?",
+      "blockClass": "title"
+    }
+  },
+
+  "info-card": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/clock.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Agilidade",
+      "subhead": "Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o consenso sobre a necessidade de qualificação acarreta um processo interno"
+    }
   }
 }
