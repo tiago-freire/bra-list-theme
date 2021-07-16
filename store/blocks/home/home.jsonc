@@ -12,8 +12,22 @@
     },
     "children": [
       "rich-text#advantages",
-      "info-card"
+      "slider-layout#advantages"
     ]
+  },
+
+  "slider-layout#advantages": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "advantages"
+    },
+    "children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4", "info-card#5", "info-card#6"]
   },
 
   "rich-text#advantages": {
@@ -25,7 +39,7 @@
     }
   },
 
-  "info-card": {
+  "info-card#1": {
     "props": {
       "id": "advantages-card",
       "blockClass": "card",
@@ -36,6 +50,76 @@
       "textAlignment": "center",
       "headline": "Agilidade",
       "subhead": "Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o consenso sobre a necessidade de qualificação acarreta um processo interno"
+    }
+  },
+
+  "info-card#2": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/clock.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Compartilhar",
+      "subhead": "Não obstante, o novo modelo estrutural aqui preconizado representa uma abertura para a melhoria dos levantamentos"
+    }
+  },
+
+  "info-card#3": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/clock.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Presente",
+      "subhead": "Neste sentido, a competitividade nas transações comerciais ainda não demonstrou  que vai mudar"
+    }
+  },
+
+  "info-card#4": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/clock.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Eventos",
+      "subhead": "Todavia, a estrutura atual da organização causa impacto indireto na reavaliação de todos os recursos funcionais"
+    }
+  },
+
+  "info-card#5": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/clock.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Busca",
+      "subhead": "O incentivo ao avanço tecnológico, assim como a determinação clara de objetivos promove os modos de operação "
+    }
+  },
+
+  "info-card#6": {
+    "props": {
+      "id": "advantages-card",
+      "blockClass": "card",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/clock.svg",
+      "callToActionMode": "none",
+      "textAlignment": "center",
+      "headline": "Personalização",
+      "subhead": "Certificação de metodologias que nos auxiliam a lidar com as metas e propostas afeta positivamente a previsão"
     }
   }
 }
