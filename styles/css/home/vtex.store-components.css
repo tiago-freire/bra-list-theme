@@ -1,0 +1,10 @@
+/* block: find a list - Home */
+:global(.vtex-flex-layout-0-x-flexRow--search-list) .container {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    min-height: 256px;
+    align-items: center;
+    background: #F7F9FA;
+}

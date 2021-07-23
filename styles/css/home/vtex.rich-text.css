@@ -1,0 +1,31 @@
+/* block: find a list - Home */
+.paragraph--home-search-list-title {
+    font-family: Fabriga;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3F3F40;
+    margin: 0 auto;
+}
+.paragraph--home-search-list-subtitle {
+    font-family: Fabriga;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585959;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.container--home-search-list-title {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container--home-search-list-subtitle {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
