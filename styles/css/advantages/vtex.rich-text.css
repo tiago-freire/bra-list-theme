@@ -1,8 +1,53 @@
 .paragraph--title{
   color: #3F3F40;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
   font-weight: 700;
-  margin-top: 24px;
-  margin-bottom: 16px;
+}
+
+.paragraph--advantages-cta{
+  margin: 0;
+}
+
+.link--advantages-cta{
+  display: block;
+  background-color: #134CD8;
+  color: #fff;
+  text-decoration: none;
+  padding: 11px 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.link--advantages-cta:hover{
+  background-color: #0C389F;
+}
+
+.image--advantages-cta{
+  vertical-align: text-top;
+  margin-right: 8px;
+}
+
+.container--advantages-cta{
+  margin-bottom: 68px;
+}
+
+
+@media (min-width: 20em){
+  .paragraph--title{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 64em){
+  .paragraph--title{
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 100px;
+    margin-bottom: 4px;
+    }
 }

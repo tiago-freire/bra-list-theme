@@ -9,7 +9,6 @@
     "props": {
       "blockClass": "advantages-container",
       "fullWidth": true
-
     },
     "children": [
       "flex-layout.col#advantages"
@@ -20,7 +19,6 @@
     "props": {
       "blockClass": "advantages-container",
       "fullWidth": true
-
     },
     "children": [
       "rich-text#advantages",
@@ -33,7 +31,7 @@
     "props": {
       "blockClass": "advantages"
     },
-    "children": ["flex-layout.row#advantage-cards"]
+    "children": ["flex-layout.row#advantage-cards", "rich-text#cta"]
   },
 
   "flex-layout.row#advantage-cards": {
@@ -42,6 +40,15 @@
       "fullWidth": true
     },
     "children": ["info-card#1", "info-card#2", "info-card#3"]
+  },
+
+  "rich-text#cta": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[![](assets/plus.svg)Crie sua lista](#crie-sua-lista)",
+      "blockClass": "advantages-cta"
+    }
   },
 
   "responsive-layout.mobile#advantages": {
@@ -66,7 +73,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Por que ter uma lista?",
+      "text": "Por que ter uma Lista?",
       "blockClass": "title"
     }
   },
@@ -95,7 +102,7 @@
       "callToActionMode": "none",
       "textAlignment": "center",
       "headline": "Compartilhar",
-      "subhead": "Não obstante, o novo modelo estrutural aqui preconizado representa uma abertura para a melhoria dos levantamentos"
+      "subhead": "As experiências acumuladas demonstram que a consolidação das estruturas maximiza as possibilidades por conta das diretrizes de desenvolvimento"
     }
   },
 
@@ -109,7 +116,7 @@
       "callToActionMode": "none",
       "textAlignment": "center",
       "headline": "Presente",
-      "subhead": "Neste sentido, a competitividade nas transações comerciais ainda não demonstrou  que vai mudar"
+      "subhead": "O  cuidado em identificar pontos críticos no consenso sobre a necessidade de qualificação exige a precisão e a definição do impacto na agilidade decisória"
     }
   }
 }

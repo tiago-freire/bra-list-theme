@@ -7,4 +7,12 @@
 .flexRowContent--advantages-container{
   max-width: 1024px;
   margin: 0 auto;
+  justify-content: center;
+}
+
+
+@media (min-width: 64em){
+  .flexRow--advantages-container{
+    padding-bottom: 32px;
+  }
 }
