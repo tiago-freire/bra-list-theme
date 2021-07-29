@@ -15,7 +15,7 @@
 	"flex-layout.col#search-list-col": {
 		"children": [
       "rich-text#home-search-list-title",
-      "rich-text#home-search-list-subtitle",
+	  "render-home-text",
       "search-list"
     ],
 		"props": {
@@ -27,11 +27,6 @@
 			"text": "Encontre uma Lista",
 			"blockClass": "home-search-list-title"
 		}
-	},
-	"rich-text#home-search-list-subtitle": {
-		"props": {
-			"text": "Encontre listas públicas digitando o nome ou o ID da lista",
-			"blockClass": "home-search-list-subtitle"
-		}
 	}
+	
 }
