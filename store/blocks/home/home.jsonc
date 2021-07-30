@@ -15,7 +15,6 @@
 	"flex-layout.col#search-list-col": {
 		"children": [
       "rich-text#home-search-list-title",
-	  "render-home-text",
       "search-list"
     ],
 		"props": {
