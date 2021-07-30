@@ -7,7 +7,8 @@
     justify-content: center;
 }
 .flexColChild--search-list-col {
-    display: flex;
+    display: block;
+    text-align: center;
     margin: 0 auto;
     width: 100%;
     justify-content: center;
