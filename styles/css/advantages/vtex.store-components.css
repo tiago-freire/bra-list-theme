@@ -1,0 +1,58 @@
+.infoCardTextContainer--card{
+  height: 180px;
+  width: 100%;
+  margin: 0;
+}
+
+.infoCardContainer--card{
+  background-size: 40px !important;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.infoCardHeadline--card{
+  color: #3F3F40;
+  line-height: 36px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.infoCardSubhead--card{
+  color: #585959;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+
+@media (min-width: 20em){
+  .infoCardContainer--card{
+    background-position: center 20px;
+    padding: 70px 8px 16px;
+    margin: 0 20px;
+  }
+
+  .infoCardHeadline--card{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 64em){
+  .infoCardContainer--card{
+    background-position: center 36px;
+    padding: 86px 24px 32px;
+    margin: 0 16px;
+  }
+
+  .infoCardContainer--card:first-child(){
+    margin-left: 0;
+  }
+
+  .infoCardContainer--card:last-child(){
+    margin-right: 0;
+  }
+
+  .infoCardHeadline--card{
+    font-size: 24px;
+  }
+}

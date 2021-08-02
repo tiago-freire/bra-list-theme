@@ -1,5 +1,7 @@
 {
   "store.home": {
-    "blocks": []
+    "blocks": [
+      "flex-layout.row#advantages"
+    ]
   }
 }
