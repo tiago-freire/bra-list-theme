@@ -1,29 +1,28 @@
 {
-    "storeWrapper#home": {
-      "props": {
-        "CustomContext": "user-lists-wrapper"
-      }
-    },
-    "searchWrapper#default": {
-      "props": {
-        "CustomContext": "current-list-wrapper"
-      }
-    },
-  
-    "store.search#department": {
-      "parent": {
-        "searchWrapper": "searchWrapper#default"
-      }
-    },
-    "store.search#category": {
-      "parent": {
-        "searchWrapper": "searchWrapper#default"
-      }
-    },
-    "store.search#subcategory": {
-      "parent": {
-        "searchWrapper": "searchWrapper#default"
-      }
+  "storeWrapper#home": {
+    "props": {
+      "CustomContext": "user-lists-wrapper"
+    }
+  },
+  "searchWrapper#default": {
+    "props": {
+      "CustomContext": "current-list-wrapper"
+    }
+  },
+
+  "store.search#department": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    }
+  },
+  "store.search#category": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    }
+  },
+  "store.search#subcategory": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
     }
   }
-  
+}

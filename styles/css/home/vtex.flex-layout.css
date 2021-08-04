@@ -1,16 +1,16 @@
 /* block: find a list - Home */
 .flexRowContent--search-list {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1920px;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+  justify-content: center;
 }
 .flexColChild--search-list-col {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    justify-content: center;
-    max-width: 500px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  max-width: 500px;
 }
