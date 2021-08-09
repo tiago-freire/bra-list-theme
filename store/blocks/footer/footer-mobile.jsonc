@@ -64,6 +64,30 @@
       "blockClass": "title-safe-buy"
     }
   },
+  "image-list#footer-social-networks-mobile": {
+    "props": {
+      "blockClass": "footer-social-networks",
+      "height": 27,
+      "images": [
+        {
+          "image": "assets/footer/youtube.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/instagram.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/facebook.png",
+          "width": "auto"
+        },
+        {
+          "image": "assets/footer/twitter.png",
+          "width": "auto"
+        }
+      ]
+    }
+  },
   "image-list#footer-safe-buy": {
     "props": {
       "blockClass": "footer-safe-buy",

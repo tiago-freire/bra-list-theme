@@ -1,14 +1,12 @@
 {
   "store.home": {
-    "blocks": ["auth-condition#search-list"]
+    "blocks": ["auth-condition#search-list", "flex-layout.row#advantages"]
   },
   "auth-condition#search-list": {
     "props": {
-      "Then": "flex-layout.row#search-list",
-      "Else": "flex-layout.row#defautl"
+      "Then": "flex-layout.row#search-list"
     }
   },
-  "flex-layout.row#defautl": {},
   "flex-layout.row#search-list": {
     "children": ["flex-layout.col#search-list-col"],
     "props": {
