@@ -1,11 +1,11 @@
 .headerRowBackground--header-topbar {
-    background-color: #F2F4F5;
+  background-color: #f2f4f5;
 }
 
 .headerRowBackground--border-bottom {
-    border-bottom: 1px solid #CACBCC;
+  border-bottom: 1px solid #cacbcc;
 }
 
 .headerRowContentContainer--header-topbar {
-    padding: 0px;
+  padding: 0px;
 }

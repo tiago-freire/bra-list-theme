@@ -9,4 +9,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Initial version
+- [VTEX-44](https://acctglobal.atlassian.net/browse/VTEX-44): Creat searchList input style and native blocks - Home
