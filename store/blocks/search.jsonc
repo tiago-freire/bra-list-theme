@@ -314,11 +314,11 @@
       "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
-      "product-summary-quantity",
-      "add-to-list-button"
+      "product-summary-quantity"
+      // "add-to-list-button"
     ]
-  },
-  "add-to-list-button#default": {
-    "blocks": ["quickview-button"]
   }
+  // "add-to-list-button#default": {
+  //   "blocks": ["quickview-button"]
+  // }
 }
