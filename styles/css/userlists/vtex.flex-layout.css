@@ -1,0 +1,9 @@
+.flexRowContent--home-bottom-desktop-list {
+    justify-content: center !important;
+    margin-bottom: 8px;
+}
+
+.flexRowContent--home-bottom-desktop-list .stretchChildrenWidth {
+    width: auto !important;
+    text-align: center;
+}
