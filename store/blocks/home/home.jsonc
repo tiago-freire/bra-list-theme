@@ -1,6 +1,7 @@
 {
   "store.home": {
-    "blocks": ["auth-condition#search-list", "flex-layout.row#advantages"]
+    "blocks": ["auth-condition#search-list", "flex-layout.row#advantages"],
+    "parent": { "storeWrapper": "storeWrapper#home" }
   },
   "auth-condition#search-list": {
     "props": {
