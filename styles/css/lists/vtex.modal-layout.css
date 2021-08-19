@@ -1,0 +1,17 @@
+.headerContainer--home-bottom-desktop{
+    border-bottom: none;
+}
+.paper--home-bottom-desktop{  
+    height:auto !important;
+    overflow: unset;
+    border-radius: 0px !important;
+}
+.closeIcon--home-bottom-desktop{
+    color: #E13232
+}
+@media (max-width: 40em) {
+    .paper--home-bottom-desktop{   
+    height: 100% !important;
+    overflow: auto;
+    }
+}
