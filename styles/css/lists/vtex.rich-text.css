@@ -1,0 +1,10 @@
+.paragraph--modal-header-title{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+@media(max-width: 40em){
+    .paragraph--modal-header-title{
+        margin-left: 2rem;
+    }
+}

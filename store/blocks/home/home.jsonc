@@ -1,87 +1,34 @@
 {
   "store.home": {
-    "blocks": [
-      "flex-layout.row#home-top-desktop",
-      "flex-layout.row#home-bottom-desktop-1"]
+    "blocks": ["auth-condition#lists","auth-condition#search-list" ,"flex-layout.row#advantages"],
+    "parent": { "storeWrapper": "storeWrapper#home" }
   },
-  "flex-layout.row#home-top-desktop": {
-    "children": [
-      "flex-layout.row#home-desktop-title"
-    ]
-  },
-  "flex-layout.row#home-desktop-title": {
-    "children": [
-      "rich-text#home-top-desktop-title"
-    ],
+  "auth-condition#search-list": {
     "props": {
-      "fullWidth": true
+      "Then": "flex-layout.row#search-list"
     }
   },
-  "rich-text#home-top-desktop-title": {
+  "auth-condition#lists": {
     "props": {
-      "blockClass": "home-top-desktop",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Minhas Listas",
-      "font": "t-heading-3"
+      "Then": "flex-layout.row#lists"
     }
   },
-  "flex-layout.row#home-bottom-desktop-1":{
-    "children": ["flex-layout.row#home-bottom-desktop"]
-  },
-  "flex-layout.row#home-bottom-desktop": {
-    "children": [
-      "modal-trigger#home-bottom-desktop"
-    ],
+  "flex-layout.row#search-list": {
+    "children": ["flex-layout.col#search-list-col"],
     "props": {
-      "blockClass": [
-        "home-bottom-desktop-list"
-      ]
+      "blockClass": "search-list"
     }
   },
-  "modal-trigger#home-bottom-desktop": {
-    "children": [
-      "rich-text#home-bottom-desktop",
-      "modal-layout#home-bottom-desktop"
-    ]
-  },
-  "rich-text#home-bottom-desktop": {
+  "flex-layout.col#search-list-col": {
+    "children": ["rich-text#home-search-list-title", "search-list"],
     "props": {
-      "text": "![](assets/add.svg) CRIAR LISTA",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "home-bottom-desktop-button"
+      "blockClass": "search-list-col"
     }
   },
-  "modal-layout#home-bottom-desktop": {
-    "children": [
-      "modal-header#home-bottom-desktop",
-      "flex-layout.row#form-list"
-    ],
+  "rich-text#home-search-list-title": {
     "props": {
-      "blockClass": ["home-bottom-desktop"]
-    }
-  },
-  "flex-layout.row#form-list":{
-    "children": ["create-list-form"],
-    "props": {
-      "blockClass": ["home-bottom-desktop"]
-    }
-  },
-  "modal-header#home-bottom-desktop": {
-    "children": [
-      "rich-text#modal-header-title"
-    ],
-    "props": {
-      "showCloseButton": true,
-      "blockClass": ["container","modal-header-title"]
-    }
-  },
-  "rich-text#modal-header-title": {
-    "props": {
-      "text": "Criar Lista",
-      "textAlignment": "LEFT",
-      "blockClass": ["modal-header-title"]
+      "text": "Encontre uma Lista",
+      "blockClass": "home-search-list-title"
     }
   }
 }

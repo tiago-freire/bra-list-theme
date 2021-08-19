@@ -35,6 +35,7 @@
     },
     "children": ["info-card#1", "info-card#2", "info-card#3"]
   },
+
   "rich-text#cta": {
     "props": {
       "textAlignment": "CENTER",
@@ -43,6 +44,7 @@
       "blockClass": "advantages-cta"
     }
   },
+
   "responsive-layout.mobile#advantages": {
     "children": ["slider-layout#advantages"]
   },
