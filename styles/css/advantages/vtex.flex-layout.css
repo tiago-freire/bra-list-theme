@@ -1,6 +1,10 @@
-.flexRow--advantages-container {
+.flexRow--advantages-container.flexRow--muted {
   background-color: #f2f4f5;
+}
+
+.flexRow--advantages-container {
   padding-bottom: 66px;
+  padding-top: 24px;
 }
 
 .flexRowContent--advantages-container {
@@ -9,8 +13,13 @@
   justify-content: center;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
+  .flexRow--advantages-cards {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
   .flexRow--advantages-container {
-    padding-bottom: 32px;
+    padding-top: 100px;
   }
 }

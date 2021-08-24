@@ -7,7 +7,7 @@
   max-width: 500px;
 }
 
-.flexRow--home-without-user {
+.flexRow--search-list-without-user {
   margin-top: 24px;
   margin-bottom: 28px;
 }
@@ -50,12 +50,17 @@
   padding-bottom: 64px;
 }
 
+.flexRow--user-list {
+  padding-top: 16px;
+  padding-bottom: 64px;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--search-list-buttons {
     margin-top: 40px;
   }
 
-  .flexRow--home-without-user {
+  .flexRow--search-list-without-user {
     margin-top: 236px;
     margin-bottom: 236px;
   }
