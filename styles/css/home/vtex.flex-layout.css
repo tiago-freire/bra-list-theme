@@ -1,13 +1,4 @@
 /* block: find a list - Home */
-.flexRowContent--search-list {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1920px;
-  width: 100%;
-  justify-content: center;
-  padding: 50px;
-  background-color: #f7f9fa;
-}
 
 .flexColChild--search-list-col {
   text-align: center;
@@ -42,6 +33,21 @@
 
 .flexRowContent--search-list-buttons .stretchChildrenWidth:last-child {
   margin-left: 24px;
+}
+
+.flexRow--home-with-user :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRow--search-list
+  :global(.vtex-rich-text-0-x-container--search-list-title) {
+  margin-bottom: 8px;
+}
+
+.flexRow--search-list {
+  background-color: #f7f9fa;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 @media screen and (min-width: 40em) {

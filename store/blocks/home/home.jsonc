@@ -13,7 +13,7 @@
   "flex-layout.row#home-with-user": {
     "children": ["flex-layout.col#home-with-user-col"],
     "props": {
-      "blockClass": ["home-with-user", "container"]
+      "blockClass": "home-with-user"
     }
   },
   "flex-layout.col#home-with-user-col": {
@@ -25,23 +25,23 @@
   "flex-layout.row#user-list": {
     "children": ["flex-layout.col#user-list-col"],
     "props": {
-      "blockClass": "user-list"
+      "blockClass": ["user-list", "container"]
     }
   },
   "flex-layout.row#search-list": {
     "children": ["flex-layout.col#search-list-col"],
     "props": {
-      "blockClass": "search-list"
+      "blockClass": ["search-list", "container"]
     }
   },
   "flex-layout.col#user-list-col": {
-    "children": ["rich-text#home-user-list-title", "user-lists"],
+    "children": ["rich-text#user-list-title", "user-lists"],
     "props": {
       "blockClass": "search-list"
     }
   },
   "flex-layout.col#search-list-col": {
-    "children": ["rich-text#home-search-list-title", "search-list"],
+    "children": ["rich-text#logged-search-list-title", "search-list"],
     "props": {
       "blockClass": "search-list-col"
     }
@@ -54,7 +54,11 @@
     }
   },
   "flex-layout.col#search-list-without-user-col": {
-    "children": ["rich-text#home-search-list-title", "search-list", "flex-layout.row#search-list-buttons"],
+    "children": [
+      "rich-text#unlogged-search-list-title",
+      "search-list",
+      "flex-layout.row#search-list-buttons"
+    ],
     "props": {
       "blockClass": "search-list-col"
     }
@@ -67,16 +71,22 @@
   },
 
   /* Rich-Text */
-  "rich-text#home-search-list-title": {
+  "rich-text#unlogged-search-list-title": {
     "props": {
       "text": "Encontre uma Lista",
-      "blockClass": ["home-search-list-title", "title-1"]
+      "blockClass": ["search-list-title", "title-1"]
     }
   },
-  "rich-text#home-user-list-title": {
+  "rich-text#logged-search-list-title": {
+    "props": {
+      "text": "Encontre uma Lista",
+      "blockClass": ["search-list-title", "title-2"]
+    }
+  },
+  "rich-text#user-list-title": {
     "props": {
       "text": "Minhas Listas",
-      "blockClass": ["home-search-list-title", "title-1"]
+      "blockClass": ["search-list-title", "title-1"]
     }
   },
   "rich-text#create-list-button": {
