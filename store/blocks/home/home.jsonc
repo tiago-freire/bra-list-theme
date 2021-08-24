@@ -5,8 +5,27 @@
   },
   "auth-condition#search-list": {
     "props": {
-      "Then": "flex-layout.row#search-list",
+      "Then": "flex-layout.row#home-with-user-row",
       "Else": "flex-layout.row#search-list-without-user"
+    }
+  },
+  /* With User*/
+  "flex-layout.row#home-with-user-row": {
+    "children": ["flex-layout.col#home-with-user-col"],
+    "props": {
+      "blockClass": "home"
+    }
+  },
+  "flex-layout.col#home-with-user-col": {
+    "children": ["flex-layout.row#user-list", "flex-layout.row#search-list"],
+    "props": {
+      "blockClass": "home"
+    }
+  },
+  "flex-layout.row#user-list": {
+    "children": ["flex-layout.col#user-list-col"],
+    "props": {
+      "blockClass": "user-list"
     }
   },
   "flex-layout.row#search-list": {
@@ -15,8 +34,8 @@
       "blockClass": "search-list"
     }
   },
-  "flex-layout.row#search-list-without-user": {
-    "children": ["flex-layout.col#search-list-without-user-col"],
+  "flex-layout.col#user-list-col": {
+    "children": ["rich-text#home-user-list-title", "user-lists"],
     "props": {
       "blockClass": "search-list"
     }
@@ -25,6 +44,13 @@
     "children": ["rich-text#home-search-list-title", "search-list"],
     "props": {
       "blockClass": "search-list-col"
+    }
+  },
+  /* Without User */
+  "flex-layout.row#search-list-without-user": {
+    "children": ["flex-layout.col#search-list-without-user-col"],
+    "props": {
+      "blockClass": "home"
     }
   },
   "flex-layout.col#search-list-without-user-col": {
@@ -39,9 +65,17 @@
       "blockClass": "search-list-row"
     }
   },
+
+  /* Rich-Text */
   "rich-text#home-search-list-title": {
     "props": {
       "text": "Encontre uma Lista",
+      "blockClass": "home-search-list-title"
+    }
+  },
+  "rich-text#home-user-list-title": {
+    "props": {
+      "text": "Minhas Listas",
       "blockClass": "home-search-list-title"
     }
   },
