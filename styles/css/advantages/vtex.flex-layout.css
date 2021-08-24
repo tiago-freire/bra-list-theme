@@ -1,18 +1,16 @@
-.flexRow--advantages-container{
-  background-color: #F2F4F5;
-  margin-top: 28px;
+.flexRow--advantages-container {
+  background-color: #f2f4f5;
   padding-bottom: 66px;
 }
 
-.flexRowContent--advantages-container{
+.flexRowContent--advantages-container {
   max-width: 1024px;
   margin: 0 auto;
   justify-content: center;
 }
 
-
-@media (min-width: 64em){
-  .flexRow--advantages-container{
+@media (min-width: 64em) {
+  .flexRow--advantages-container {
     padding-bottom: 32px;
   }
 }

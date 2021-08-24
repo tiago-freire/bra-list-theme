@@ -5,15 +5,15 @@
   },
   "auth-condition#search-list": {
     "props": {
-      "Then": "flex-layout.row#home-with-user-row",
-      "Else": "flex-layout.row#search-list-without-user"
+      "Then": "flex-layout.row#home-with-user",
+      "Else": "flex-layout.row#home-without-user"
     }
   },
   /* With User*/
-  "flex-layout.row#home-with-user-row": {
+  "flex-layout.row#home-with-user": {
     "children": ["flex-layout.col#home-with-user-col"],
     "props": {
-      "blockClass": "home"
+      "blockClass": ["home-with-user", "container"]
     }
   },
   "flex-layout.col#home-with-user-col": {
@@ -47,22 +47,22 @@
     }
   },
   /* Without User */
-  "flex-layout.row#search-list-without-user": {
+  "flex-layout.row#home-without-user": {
     "children": ["flex-layout.col#search-list-without-user-col"],
     "props": {
-      "blockClass": "home"
+      "blockClass": ["home-without-user", "container"]
     }
   },
   "flex-layout.col#search-list-without-user-col": {
-    "children": ["rich-text#home-search-list-title", "search-list", "flex-layout.row#search-list-without-user-row-buttons"],
+    "children": ["rich-text#home-search-list-title", "search-list", "flex-layout.row#search-list-buttons"],
     "props": {
       "blockClass": "search-list-col"
     }
   },
-  "flex-layout.row#search-list-without-user-row-buttons": {
-    "children": ["rich-text#home-search-list-button-create-list", "rich-text#home-search-list-button-my-list"],
+  "flex-layout.row#search-list-buttons": {
+    "children": ["rich-text#create-list-button", "rich-text#my-lists-button"],
     "props": {
-      "blockClass": "search-list-row"
+      "blockClass": "search-list-buttons"
     }
   },
 
@@ -70,25 +70,25 @@
   "rich-text#home-search-list-title": {
     "props": {
       "text": "Encontre uma Lista",
-      "blockClass": "home-search-list-title"
+      "blockClass": ["home-search-list-title", "title-1"]
     }
   },
   "rich-text#home-user-list-title": {
     "props": {
       "text": "Minhas Listas",
-      "blockClass": "home-search-list-title"
+      "blockClass": ["home-search-list-title", "title-1"]
     }
   },
-  "rich-text#home-search-list-button-create-list": {
+  "rich-text#create-list-button": {
     "props": {
-      "text": "CRIE SUA LISTA",
-      "blockClass": "home-search-list-button"
+      "text": "[CRIE SUA LISTA](/login)",
+      "blockClass": "search-list-button"
     }
   },
-  "rich-text#home-search-list-button-my-list": {
+  "rich-text#my-lists-button": {
     "props": {
-      "text": "MINHAS LISTAS",
-      "blockClass": "home-search-list-button"
+      "text": "[MINHAS LISTAS](/login)",
+      "blockClass": "search-list-button"
     }
   }
 }
