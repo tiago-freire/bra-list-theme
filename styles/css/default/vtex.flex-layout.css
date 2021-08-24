@@ -1,0 +1,10 @@
+.flexRow--container {
+  display: block;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0px 20px;
+}
+
+.flexRow :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
