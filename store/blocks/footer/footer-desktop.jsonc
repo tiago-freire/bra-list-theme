@@ -110,44 +110,10 @@
       "blockClass": "footer-safe-buy-image"
     }
   },
-  "image-list#footer-safe-buy": {
-    "props": {
-      "height": 40,
-      "images": [
-        {
-          "image": "assets/footer/site_blindado.png",
-          "width": "auto"
-        },
-        {
-          "image": "assets/footer/ssl.png",
-          "width": "auto"
-        }
-      ]
-    }
-  },
   "flex-layout.row#footer-social-networks-image": {
     "children": ["image-list#footer-social-networks"],
     "props": {
       "blockClass": "footer-social-networks-image"
-    }
-  },
-  "image-list#footer-social-networks": {
-    "props": {
-      "blockClass": "footer-social-networks",
-      "images": [
-        {
-          "image": "assets/footer/youtube.png"
-        },
-        {
-          "image": "assets/footer/instagram.png"
-        },
-        {
-          "image": "assets/footer/facebook.png"
-        },
-        {
-          "image": "assets/footer/twitter.png"
-        }
-      ]
     }
   },
   "flex-layout.row#footer-desktop-3": {
