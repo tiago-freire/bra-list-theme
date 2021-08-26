@@ -39,7 +39,7 @@
     }
   },
   "flex-layout.col#user-list-col": {
-    "children": ["rich-text#user-list-title", "user-lists", "modal-trigger#create-list"],
+    "children": ["rich-text#user-list-title", "user-lists", "modal-trigger#create-list-button"],
     "props": {
       "blockClass": "search-list"
     }
