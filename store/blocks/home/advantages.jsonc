@@ -8,6 +8,15 @@
       "flex-layout.col#advantages"
     ]
   },
+  "flex-layout.row#advantages-muted": {
+    "props": {
+      "blockClass": ["advantages-container", "muted"],
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#advantages"
+    ]
+  },
 
   "flex-layout.col#advantages": {
     "props": {
@@ -30,10 +39,10 @@
 
   "flex-layout.row#advantage-cards": {
     "props": {
-      "blockClass": "advantages-container",
+      "blockClass": "advantages-cards",
       "fullWidth": true
     },
-    "children": ["info-card#1", "info-card#2", "info-card#3"]
+    "children": ["info-card#agility-card", "info-card#share-card", "info-card#gift-card"]
   },
 
   "rich-text#cta": {
@@ -60,7 +69,7 @@
       "showNavigationArrows": "never",
       "blockClass": "advantages"
     },
-    "children": ["info-card#1", "info-card#2", "info-card#3"]
+    "children": ["info-card#agility-card", "info-card#share-card", "info-card#gift-card"]
   },
 
   "rich-text#advantages": {
@@ -68,14 +77,14 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Por que ter uma Lista?",
-      "blockClass": "title"
+      "blockClass": ["advantages-title", "title-2"]
     }
   },
 
-  "info-card#1": {
+  "info-card#agility-card": {
     "props": {
       "id": "advantages-card",
-      "blockClass": "card",
+      "blockClass": "advantage-card",
       "isFullModeStyle": true,
       "textPosition": "center",
       "imageUrl": "assets/clock.svg",
@@ -86,10 +95,10 @@
     }
   },
 
-  "info-card#2": {
+  "info-card#share-card": {
     "props": {
       "id": "advantages-card",
-      "blockClass": "card",
+      "blockClass": "advantage-card",
       "isFullModeStyle": true,
       "textPosition": "center",
       "imageUrl": "assets/heart.svg",
@@ -100,10 +109,10 @@
     }
   },
 
-  "info-card#3": {
+  "info-card#gift-card": {
     "props": {
       "id": "advantages-card",
-      "blockClass": "card",
+      "blockClass": "advantage-card",
       "isFullModeStyle": true,
       "textPosition": "center",
       "imageUrl": "assets/gift.svg",

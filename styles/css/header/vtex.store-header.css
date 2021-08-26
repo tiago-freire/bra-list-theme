@@ -9,3 +9,7 @@
 .headerRowContentContainer--header-topbar {
   padding: 0px;
 }
+
+.headerRowBackground :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
