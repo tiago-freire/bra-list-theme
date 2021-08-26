@@ -303,14 +303,13 @@
   },
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
       "product-summary-image",
+      "product-summary-name",
       "product-summary-price",
-      "product-identifier.summary",
+      // "product-identifier.summary",
       "product-summary-quantity"
+      // "product-summary-add-to-list-button",
+      // "product-rating-inline",
       // "add-to-list-button"
     ]
   },
