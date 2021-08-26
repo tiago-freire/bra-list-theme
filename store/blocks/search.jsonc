@@ -3,7 +3,7 @@
     "parent": {
       "searchWrapper": "searchWrapper#default"
     },
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#default"],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -13,7 +13,7 @@
   },
 
   "store.search#brand": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#default"],
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
@@ -26,7 +26,7 @@
   },
 
   "store.search#department": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#default"],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -36,7 +36,7 @@
   },
 
   "store.search#category": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#default"],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -46,7 +46,7 @@
   },
 
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#default"],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -55,7 +55,7 @@
     }
   },
 
-  "search-result-layout": {
+  "search-result-layout#default": {
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -66,7 +66,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
     "props": {
@@ -81,9 +80,6 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "flex-layout.row#searchtitle": {
-    "children": ["search-title.v2"]
   },
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
@@ -100,7 +96,6 @@
   },
   "flex-layout.col#content": {
     "children": [
-      "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
@@ -312,11 +307,18 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
+      "product-summary-image",
       "product-summary-price",
       "product-identifier.summary",
       "product-summary-quantity"
       // "add-to-list-button"
     ]
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 220
+    }
   }
   // "add-to-list-button#default": {
   //   "blocks": ["quickview-button"]
