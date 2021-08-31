@@ -1,0 +1,15 @@
+.flexColChild--priceandquantity,
+.flexCol--priceandquantity {
+  height: unset !important;
+}
+
+.flexCol--priceandquantity{
+  flex-direction: column;
+}
+
+
+@media (min-width: 64em) {
+  .flexCol--priceandquantity{
+    flex-direction: row;
+  }
+}
