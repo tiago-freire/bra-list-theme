@@ -22,7 +22,7 @@
   },
   "flex-layout.col#desktopPriceAndQuantity": {
     "props": {
-      "blockClass": "priceandquantity"
+      "blockClass": "priceAndQuantity"
     },
     "children": ["product-summary-price#desktopPrice", "product-summary-quantity#desktopQuantity"]
   },

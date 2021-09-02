@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+.addToListButtonText--button{
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
+
 @media (min-width: 64em) {
   .addToListButtonContainer--button {
     margin-top: 24px;
