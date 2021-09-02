@@ -1,0 +1,33 @@
+.listPriceValue {
+  color: #979899;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0;
+}
+
+.sellingPriceContainer {
+  padding: 0;
+}
+
+.sellingPriceValue {
+  color: #3f3f40;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.installmentContainer {
+  color: #8bc34a;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0;
+}
+
+.listPriceLabel,
+.sellingPriceLabel {
+  display: none;
+}
+
+@media (min-width: 64em) {}
+

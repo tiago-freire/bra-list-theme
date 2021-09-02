@@ -1,7 +1,13 @@
 .addToListButtonContainer--button {
-  margin-top: 24px;
+  margin-top: 0;
 }
 
-.addToListButtonContainer--button :global(.vtex-button){
+.addToListButtonContainer--button :global(.vtex-button) {
   width: 100%;
+}
+
+@media (min-width: 64em) {
+  .addToListButtonContainer--button {
+    margin-top: 24px;
+  }
 }
