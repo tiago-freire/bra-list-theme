@@ -1,8 +1,16 @@
 {
   "store.home": {
-    "blocks": ["auth-condition#search-list"],
+    "blocks": ["auth-condition#breadcrumbs" ,"auth-condition#search-list"],
     "parent": { "storeWrapper": "storeWrapper#home" }
   },
+  "auth-condition#breadcrumbs": {
+    "props": {
+      "Then": "flex-layout.row#breadcrumbs"
+    }
+  },
+  "flex-layout.row#breadcrumbs": {
+    "children": [ "breadcrumbs"]
+ },
   "auth-condition#search-list": {
     "props": {
       "Then": "flex-layout.row#home-with-user",

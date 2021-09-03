@@ -1,0 +1,8 @@
+{
+  "store.guest": {
+    "blocks": ["flex-layout.row#breadcrumbsguest"]
+  },
+  "flex-layout.row#breadcrumbsguest": {
+    "children": ["breadcrumbs"]
+  }
+}
