@@ -13,6 +13,9 @@
   },
 
   "store.search#brand": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -26,6 +29,9 @@
   },
 
   "store.search#department": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -36,6 +42,9 @@
   },
 
   "store.search#category": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -46,6 +55,9 @@
   },
 
   "store.search#subcategory": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -308,14 +320,13 @@
   },
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
+      "product-summary-image",
       "product-summary-name",
       "product-rating-inline",
-      "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
-      "product-summary-quantity"
-      // "add-to-list-button"
+      "product-summary-quantity",
+      "add-to-list-button"
     ]
   }
   // "add-to-list-button#default": {
