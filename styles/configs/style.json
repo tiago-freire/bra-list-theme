@@ -59,7 +59,7 @@
   "semanticColors": {
     "background": {
       "base": "#ffffff",
-      "base--inverted": "#F7F9FA",
+      "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
@@ -74,7 +74,8 @@
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
-      "muted-5": "#f2f4f5"
+      "muted-5": "#f2f4f5",
+      "list": "#134CD8"
     },
     "hover-background": {
       "action-primary": "#072c75",
@@ -124,7 +125,8 @@
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
-      "muted-5": "#f2f4f5"
+      "muted-5": "#f2f4f5",
+      "blue-heavy": "#0C389F"
     },
     "visited-text": {
       "link": "#0c389f"

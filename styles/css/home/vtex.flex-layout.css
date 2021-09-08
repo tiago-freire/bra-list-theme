@@ -7,6 +7,12 @@
   max-width: 500px;
 }
 
+/* Div do botão criar lista na página logada */
+.flexColChild--search-list:last-child {
+  margin-top: 32px;
+  text-align: center;
+}
+
 .flexRow--search-list-without-user {
   margin-top: 24px;
   margin-bottom: 28px;
