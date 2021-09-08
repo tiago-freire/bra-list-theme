@@ -1,8 +1,3 @@
-.paragraph--title{
-  color: #3F3F40;
-  font-weight: 700;
-}
-
 .paragraph--advantages-cta{
   margin: 0;
 }
@@ -33,21 +28,6 @@
   margin-bottom: 68px;
 }
 
-
-@media (min-width: 20em){
-  .paragraph--title{
-    font-size: 20px;
-    line-height: 28px;
-    margin-top: 24px;
-    margin-bottom: 16px;
-  }
-}
-
-@media (min-width: 64em){
-  .paragraph--title{
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 100px;
-    margin-bottom: 4px;
-    }
+.paragraph--advantages-title {
+  margin-bottom: 16px!important;
 }

@@ -7,8 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-09-07
+
+### Added
+
+- [VTEX-176](https://acctglobal.atlassian.net/browse/VTEX-176): Create list button on home page
+
+### Fixed
+
+- [VTEX-250](https://acctglobal.atlassian.net/browse/VTEX-250): Home layout CSS fixes and blocks positioning
+
 ## [0.1.0] - 2021-08-13
 
 ### Added
 
-- [VTEX-44](https://acctglobal.atlassian.net/browse/VTEX-44): Creat searchList input style and native blocks - Home
+- [VTEX-44](https://acctglobal.atlassian.net/browse/VTEX-44): Create searchList input style and native blocks - Home

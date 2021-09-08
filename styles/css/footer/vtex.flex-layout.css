@@ -64,12 +64,6 @@
  * A partir daqui seguem estilos para container da pagina
  * -------------------------------------------------------- */
 
-.flexRow--container {
-  display: block;
-  width: 100%;
-  max-width: 1600px;
-  padding: 0px 12px;
-}
 
 /*
  * A partir daqui seguem estilos para footer
@@ -142,10 +136,4 @@ footer-accept-payment-image
 
 .flexRowContent--footer-mobile-1 .stretchChildrenWidth {
   width: auto !important;
-}
-
-@media (min-width: 64em) {
-  .flexRow--container {
-    padding: 0 24px;
-  }
 }
