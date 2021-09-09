@@ -18,7 +18,6 @@
 
   "gallery#mobile": {
     "props": {
-      "blockClass": "galleryContainer",
       "layouts": [
         {
           "name": "grid",

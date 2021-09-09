@@ -107,7 +107,6 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "width": "grow",
       "preventVerticalStretch": true
     }
   },
@@ -148,10 +147,6 @@
   "search-content#desktop": {
     "blocks": ["gallery#desktop", "not-found"]
   },
-  "search-content#mobile": {
-    "blocks": ["gallery#mobile", "not-found"]
-  },
-
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#fetchprevious",
@@ -159,6 +154,7 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
+      "blockClass":"galleryMobile",
       "pagination": "show-more",
       "mobileLayout": {
         "mode1": "small",
@@ -167,7 +163,9 @@
       "defaultGalleryLayout": "grid"
     }
   },
-
+  "search-content#mobile": {
+    "blocks": ["gallery#mobile", "not-found"]
+  },
   "flex-layout.col#orderByMobile": {
     "children": ["order-by.v2"],
     "props": {

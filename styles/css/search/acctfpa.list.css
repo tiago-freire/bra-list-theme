@@ -4,6 +4,8 @@
 
 .addToListButtonContainer--button :global(.vtex-button) {
   width: 100%;
+  border-color: #134CD8 !important;
+  background-color: #134CD8 !important;
 }
 
 .addToListButtonText--button{

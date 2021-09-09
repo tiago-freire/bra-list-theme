@@ -40,3 +40,7 @@
   background-color: unset;
   color: #cacbcc;
 }
+.summaryContainer--quantity{
+  width: auto !important;
+  margin-bottom: 8px;
+}
