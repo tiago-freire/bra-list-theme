@@ -75,10 +75,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#breadcrumbslayout",
-<<<<<<< HEAD
-=======
       "flex-layout.row#searchbread",
->>>>>>> 75a54f0 (breadcrumps blocks)
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
