@@ -179,7 +179,6 @@
   },
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#breadcrumbslayout",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
