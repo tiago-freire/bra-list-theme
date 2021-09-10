@@ -65,7 +65,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#breadcrumbslayout",
-      "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -77,13 +76,6 @@
   },
   "flex-layout.row#breadcrumbslayout": {
     "children": ["breadcrumbs"]
-  },
-  "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
   },
   "flex-layout.row#searchtitle": {
     "children": ["search-title.v2"]
@@ -167,7 +159,7 @@
     "children": [
       "flex-layout.row#breadcrumbslayout",
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#searchbread",
+    
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
@@ -229,19 +221,13 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": [ "flex-layout.row#notfound"]
   },
 
   "flex-layout.row#notfound": {
     "children": ["not-found"],
     "props": {
       "fullWidth": true
-    }
-  },
-
-  "breadcrumb": {
-    "props": {
-      "showOnMobile": true
     }
   },
 
