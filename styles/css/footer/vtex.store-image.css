@@ -22,7 +22,6 @@
   margin-right: 8.5px;
   margin-left: 8.5px;
 }
-
 @media (min-width: 64em) {
   .imageElement--footer-safe-buy:first-child {
     margin-left: 0px;

@@ -49,7 +49,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[![](assets/plus.svg)Crie sua lista](#crie-sua-lista)",
+      "text": "[![](assets/plus.svg)Crie sua lista](/login)",
       "blockClass": "advantages-cta"
     }
   },

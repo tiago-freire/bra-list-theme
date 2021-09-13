@@ -43,11 +43,11 @@
   "flex-layout.row#search-list": {
     "children": ["flex-layout.col#search-list-col"],
     "props": {
-      "blockClass": ["search-list", "container"]
+      "blockClass": "search-list"
     }
   },
   "flex-layout.col#user-list-col": {
-    "children": ["rich-text#user-list-title", "user-lists"],
+    "children": ["rich-text#user-list-title", "user-lists", "modal-trigger#create-list-button"],
     "props": {
       "blockClass": "search-list"
     }

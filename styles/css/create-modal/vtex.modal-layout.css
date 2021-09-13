@@ -1,0 +1,62 @@
+.triggerContainer--primary-button {
+  background-color: #134cd8;
+  padding: 11px 20px;
+  border-radius: 4px;
+  border: 1px solid #134cd8;
+  cursor: pointer;
+}
+
+.triggerContainer--primary-button
+  :global(.vtex-rich-text-0-x-paragraph--create-list-button) {
+  font-size: 20px;
+  color: #fff;
+  line-height: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.triggerContainer--primary-button
+  :global(.vtex-rich-text-0-x-paragraph--create-list-button)
+  :global(.vtex-rich-text-0-x-image--create-list-button) {
+  vertical-align: bottom;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.paper--create-list {
+  border-radius: 0;
+}
+
+.headerContainer--create-list {
+  align-items: center;
+  padding: 24px 0;
+  margin: 0 32px;
+  border: none;
+}
+
+.closeButton--create-list {
+  padding: 0;
+}
+
+.closeIcon--create-list {
+  width: 20px;
+  height: 20px;
+  color: #e13232;
+  display: block;
+}
+
+.headerContent--create-list :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 40em) {
+  .paper--create-list {
+    max-width: 540px;
+    height: auto;
+    border-radius: 4px;
+    overflow: visible;
+  }
+}
