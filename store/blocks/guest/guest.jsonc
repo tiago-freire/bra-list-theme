@@ -3,6 +3,9 @@
     "blocks": ["flex-layout.row#breadcrumbsguest"]
   },
   "flex-layout.row#breadcrumbsguest": {
-    "children": ["breadcrumbs"]
+    "children": ["breadcrumbs"],
+    "props": {
+      "blockClass": ["container"]
+    }
   }
 }

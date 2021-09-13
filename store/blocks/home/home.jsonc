@@ -9,7 +9,10 @@
     }
   },
   "flex-layout.row#breadcrumbs": {
-    "children": [ "breadcrumbs"]
+    "children": [ "breadcrumbs"],
+    "props": {
+      "blockClass": ["container"]
+    }
  },
   "auth-condition#search-list": {
     "props": {

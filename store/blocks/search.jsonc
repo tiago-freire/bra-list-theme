@@ -12,6 +12,9 @@
     }
   },
   "store.search#brand": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -25,6 +28,9 @@
   },
 
   "store.search#department": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -35,6 +41,9 @@
   },
   
   "store.search#category": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -45,6 +54,9 @@
   },
 
   "store.search#subcategory": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
