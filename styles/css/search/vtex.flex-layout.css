@@ -9,9 +9,6 @@
 .flexRowContent--productInfo{
   flex-direction: column;
 }
-.flexRowContent--productInfo{
-  flex-direction: column;
-}
 .flexRowContent--productInfo .stretchChildrenWidth{
   width: 100% !important;
 }

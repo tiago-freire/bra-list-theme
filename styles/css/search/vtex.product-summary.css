@@ -8,6 +8,10 @@
   max-width: 100% !important;
 }
 
+.clearLink--showcase{
+  width: 275px;
+}
+
 .element--showcase {
   padding-bottom: 0;
 }
@@ -81,7 +85,6 @@
   max-width: 100px;
   max-height: 120px;
   overflow: hidden;
-  margin: 0px;
 }
 
 .nameContainer--title {
@@ -113,13 +116,13 @@
   }
 
   .image--desktopImage {
-    width: 100%;
+    max-width: 180px;
     height:auto;
     margin-bottom: 12px;
   }
 
   .imageContainer {
-    max-width: 180px;
+    max-width: 275px;
     max-height: 220px;                        
   }
 }
