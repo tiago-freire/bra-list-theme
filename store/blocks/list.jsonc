@@ -18,6 +18,32 @@
     }
   },
   "gallery.list-items": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "EmptyList": "flex-layout.row#empty-list"
+    }
+  },
+
+  "flex-layout.row#empty-list": {
+    "children": ["flex-layout.col#empty-list"]
+  },
+  "flex-layout.col#empty-list": {
+    "children": ["rich-text#empty-list", "rich-text#add-itens-link-button"]
+  },
+  "rich-text#empty-list": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sua lista está vazia\nAdicione itens agora mesmo",
+      "blockClass": "empty-list-text"
+    }
+  },
+  "rich-text#add-itens-link-button": {
+    "props": {
+      "text": "![](assets/add.svg)[Adicionar itens](/alimentos)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["add-itens-link", "primary-button"]
+    }
   }
 }
