@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- [VTEX-297](https://acctglobal.atlassian.net/browse/VTEX-297): Create header list and organize flex-layout rows
+
+### Fixed
+
+- Some layout fixes on footer and header
+
 ## [0.2.0] - 2021-09-07
 
 ### Added
