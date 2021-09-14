@@ -1,0 +1,9 @@
+.eventDateText::before {
+  content: '(';
+}
+.eventDateText::after {
+  content: ')';
+}
+.listNameText::after {
+  content: ':';
+}
