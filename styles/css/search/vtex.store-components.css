@@ -1,3 +1,10 @@
+
+.container {
+  display: block;
+    width: 100%;
+    max-width: 1600px;
+    padding: 0px 20px;
+}
 .listPriceValue {
   color: #979899;
   font-size: 12px;

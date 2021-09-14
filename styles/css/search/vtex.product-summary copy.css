@@ -1,12 +1,15 @@
 .container--showcase {
   margin: 0;
-  max-width: 316px !important;
+  max-width: 100% !important;
   height: unset;
   border-radius: unset;
 }
-
 .containerNormal--productinfo{
   max-width: 100% !important;
+}
+
+.clearLink--showcase{
+  width: 275px;
 }
 
 .element--showcase {
@@ -76,9 +79,9 @@
 }
 
 .imageContainer {
-  height: 120px;
+  max-width: 100px;
+  max-height: 120px;
   overflow: hidden;
-    width: 180px !important;
 }
 
 .nameContainer--title {
@@ -90,9 +93,6 @@
 .containerNormal--showCaseProduct{
   max-width: 100% !important;
   margin: 0px !important;
-}
-.image--desktopImageMobile{
-  height:100%;
 }
 @media screen and (min-width: 20em) {
   .container--showcase {
@@ -110,19 +110,17 @@
   }
 
   .nameContainer--title {
-    margin: 12px 0;
+    margin: 12px 0; 
   }
-
-  .image--desktopImage {
-    max-height: 220px;
-    width: 100%;
-  }
-  .imageContainer--desktopImage{
-    display: flex;
-    align-items: center;
-  }
-  .imageContainer {
-    width: 100% !important;
-    height: 232px;
-  }
+.image--desktopImage {
+  height: 100%;
+  margin-bottom: 12px;
+  width: 100%;
+  height: 200px;
+}
+.imageContainer {
+  max-width: 100%;
+  max-height: 220px;                     
+}
+  
 }

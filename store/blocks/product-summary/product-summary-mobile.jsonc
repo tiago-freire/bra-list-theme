@@ -27,7 +27,7 @@
   },
   "product-summary-image#mobileImage": {
     "props": {
-      "blockClass": "desktopImage"
+      "blockClass": "desktopImageMobile"
     }
   },
   "flex-layout.col#mobileProductTexts": {
