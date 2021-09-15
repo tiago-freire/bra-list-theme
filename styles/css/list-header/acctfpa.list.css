@@ -4,6 +4,9 @@
 .eventDateText::after {
   content: ')';
 }
-.listNameText::after {
-  content: ':';
+
+@media screen and (min-width: 40em) {
+  .listNameText::after {
+    content: ':';
+  }
 }

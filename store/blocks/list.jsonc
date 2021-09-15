@@ -13,9 +13,16 @@
   },
 
   "flex-layout.row#list-info": {
-    "children": ["list-info.name", "list-info.owner", "list-info.event-date"],
+    "children": ["list-info.name", "flex-layout.row#owner-and-date"],
     "props": {
       "blockClass": ["list-info", "container"]
+    }
+  },
+  "flex-layout.row#owner-and-date": {
+    "children": ["list-info.owner", "list-info.event-date"],
+    "props": {
+      "blockClass": "owner-and-date",
+      "preserveLayoutOnMobile": true
     }
   },
 
