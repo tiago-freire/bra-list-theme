@@ -26,3 +26,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - [VTEX-319](https://acctglobal.atlassian.net/browse/VTEX-319): Removed header control panel button and removed cta (create your list) from logged in environment
+
+### Added
+
+- [VTEX-332](https://acctglobal.atlassian.net/browse/VTEX-332): Added login/logout mobile button
