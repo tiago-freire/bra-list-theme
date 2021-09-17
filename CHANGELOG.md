@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-09-07
+
+### Added
+
+- [VTEX-176](https://acctglobal.atlassian.net/browse/VTEX-176): Create list button on home page
+
 ### Fixed
 
 - [VTEX-250](https://acctglobal.atlassian.net/browse/VTEX-250): Home layout CSS fixes and blocks positioning
@@ -16,3 +22,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - [VTEX-44](https://acctglobal.atlassian.net/browse/VTEX-44): Create searchList input style and native blocks - Home
+
+### Fixed
+
+- [VTEX-319](https://acctglobal.atlassian.net/browse/VTEX-319): Removed header control panel button and removed cta (create your list) from logged in environment

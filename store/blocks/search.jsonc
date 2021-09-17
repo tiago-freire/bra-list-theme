@@ -27,7 +27,6 @@
       }
     }
   },
-
   "store.search#department": {
     "parent": {
       "searchWrapper": "searchWrapper#default"
@@ -74,7 +73,6 @@
       "search-not-found-layout"
     ]
   },
-
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
@@ -171,7 +169,6 @@
   "search-content": {
     "blocks": ["gallery", "not-found"]
   },
-
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",

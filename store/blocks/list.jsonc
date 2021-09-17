@@ -23,7 +23,6 @@
       "EmptyList": "flex-layout.row#empty-list"
     }
   },
-
   "flex-layout.row#empty-list": {
     "children": ["flex-layout.col#empty-list"]
   },
