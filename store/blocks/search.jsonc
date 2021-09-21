@@ -198,11 +198,14 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "flex-layout.col#search-content":{
-    "children":["filter-navigator.v3#selected-filters","search-content"],
+  "flex-layout.col#selected-filters-mobile":{
+    "children": ["filter-navigator.v3#selected-filters"],
     "props": {
       "blockClass": "selectedFilters"
     }
+  },
+  "flex-layout.col#search-content":{
+    "children":["flex-layout.col#selected-filters-mobile","search-content"]
   },
   "flex-layout.row#searchinfomobile": {
     "children": [
