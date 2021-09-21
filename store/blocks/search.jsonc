@@ -98,7 +98,10 @@
     }
   },
   "flex-layout.col#filter": {
-    "children": ["filter-navigator.v3"]
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filterProducts"
+    }
   },
   "flex-layout.col#selected-filters":{
     "children": ["filter-navigator.v3#selected-filters"],
