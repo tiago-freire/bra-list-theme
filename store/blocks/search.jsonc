@@ -102,7 +102,7 @@
     }
   },
   "flex-layout.col#filter": {
-    "children": ["filter-navigator.v2"],
+    "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "filterCol"
     }
