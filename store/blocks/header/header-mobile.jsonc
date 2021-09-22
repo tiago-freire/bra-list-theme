@@ -18,11 +18,6 @@
       "url": "assets/Logo_mobile.png"
     }
   },
-  "minicart": {
-    "props": {
-      "horizontalAlign": "left"
-    }
-  },
   "menu#drawer": {
     "children": [
       "menu#bottom-navbar-link",
