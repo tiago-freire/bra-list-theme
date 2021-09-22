@@ -98,10 +98,7 @@
     }
   },
   "flex-layout.col#filter": {
-    "children": ["filter-navigator.v3"],
-    "props": {
-      "blockClass": "filterProducts"
-    }
+    "children": ["filter-navigator.v3"]
   },
   "flex-layout.col#selected-filters":{
     "children": ["filter-navigator.v3#selected-filters"],
@@ -201,14 +198,11 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "flex-layout.col#selected-filters-mobile":{
-    "children": ["filter-navigator.v3#selected-filters"],
+  "flex-layout.col#search-content":{
+    "children":["filter-navigator.v3#selected-filters","search-content"],
     "props": {
       "blockClass": "selectedFilters"
     }
-  },
-  "flex-layout.col#search-content":{
-    "children":["flex-layout.col#selected-filters-mobile","search-content"]
   },
   "flex-layout.row#searchinfomobile": {
     "children": [
