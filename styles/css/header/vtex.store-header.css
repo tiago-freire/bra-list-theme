@@ -12,4 +12,5 @@
 
 .headerRowBackground :global(.vtex-store-components-3-x-container) {
   padding: 0;
+  max-width: 100%;
 }
