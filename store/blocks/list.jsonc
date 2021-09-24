@@ -27,7 +27,11 @@
   },
 
   // Organizar o conteudo da lista interna de acordo com os blocos abaixo
-  "flex-layout.row#breadcrumb": {},
+  "flex-layout.row#breadcrumb": {
+    "children": [
+      "breadcrumbs"
+    ]
+  },
   "flex-layout.row#list-content": {
     "children": [
       "flex-layout.row#list-items-gallery",
