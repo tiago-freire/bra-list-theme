@@ -10,9 +10,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - [VTEX-297](https://acctglobal.atlassian.net/browse/VTEX-297): Create header list and organize flex-layout rows
+- [VTEX-56](https://acctglobal.atlassian.net/browse/VTEX-56): List items gallery on List page
+- [VTEX-301](https://acctglobal.atlassian.net/browse/VTEX-301): Place breadcrumb on pages
 
 ### Fixed
 
+- [VTEX-319](https://acctglobal.atlassian.net/browse/VTEX-319): Remove header links and "create list" rich-text on Home
 - Some layout fixes on footer and header
 
 ## [0.2.0] - 2021-09-07
