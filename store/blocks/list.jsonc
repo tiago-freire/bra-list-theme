@@ -28,9 +28,10 @@
 
   // Organizar o conteudo da lista interna de acordo com os blocos abaixo
   "flex-layout.row#breadcrumb": {
-    "children": [
-      "breadcrumbs"
-    ]
+    "children": ["breadcrumbs"],
+    "props": {
+      "blockClass": "container"
+    }
   },
   "flex-layout.row#list-content": {
     "children": [
@@ -40,45 +41,34 @@
   },
   "flex-layout.row#filter-list": {
     "children": ["filter-navigator.v3"],
-    "props":{
-    "blockClass": "filterNavigatorList",
-    "showFacetQuantity": true
+    "props": {
+      "blockClass": "filterNavigatorList",
+      "showFacetQuantity": true
     }
   },
   "flex-layout.row#list-items-gallery": {
-    "children": [
-      "gallery.list-items"
-    ],
+    "children": ["gallery.list-items"],
     "props": {
-      "blockClass": "list-items-gallery"
+      "blockClass": ["list-items-gallery", "container"]
     }
   },
   "flex-layout.row#list-fetch-more": {
-    "children": [
-      "search-fetch-more.list-items"
-    ],
+    "children": ["search-fetch-more.list-items"],
     "props": {
       "blockClass": "list-fetch-more"
     }
   },
   "gallery.list-items": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "EmptyList": "flex-layout.row#empty-list"
     }
   },
   "flex-layout.row#empty-list": {
-    "children": [
-      "flex-layout.col#empty-list"
-    ]
+    "children": ["flex-layout.col#empty-list"]
   },
   "flex-layout.col#empty-list": {
-    "children": [
-      "rich-text#empty-list",
-      "rich-text#add-itens-link-button"
-    ]
+    "children": ["rich-text#empty-list", "rich-text#add-itens-link-button"]
   },
   "rich-text#empty-list": {
     "props": {
@@ -93,10 +83,7 @@
       "text": "![](assets/add.svg)[Adicionar itens](/alimentos)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": [
-        "add-itens-link",
-        "primary-button"
-      ]
+      "blockClass": ["add-itens-link", "primary-button"]
     }
   }
 }
