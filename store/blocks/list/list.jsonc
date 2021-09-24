@@ -1,0 +1,11 @@
+{
+  "store.list": {
+    "blocks": ["flex-layout.row#breadcrumbslist"]
+  },
+  "flex-layout.row#breadcrumbslist": {
+    "children": ["breadcrumbs"],
+    "props": {
+      "blockClass": ["container"]
+    }
+  }
+}

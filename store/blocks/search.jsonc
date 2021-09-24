@@ -3,7 +3,7 @@
     "parent": {
       "searchWrapper": "searchWrapper#default"
     },
-    "blocks": ["search-result-layout"],
+    "blocks": [ "search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -11,7 +11,6 @@
       }
     }
   },
-
   "store.search#brand": {
     "parent": {
       "searchWrapper": "searchWrapper#default"
@@ -39,6 +38,7 @@
       }
     }
   },
+  
   "store.search#category": {
     "parent": {
       "searchWrapper": "searchWrapper#default"
@@ -74,7 +74,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread",
+      "flex-layout.row#breadcrumbslayout",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -84,12 +84,8 @@
       "defaultGalleryLayout": "grid"
     }
   },
-  "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
+  "flex-layout.row#breadcrumbslayout": {
+    "children": ["breadcrumbs"]
   },
   "flex-layout.row#searchtitle": {
     "children": ["search-title.v2"]
@@ -171,8 +167,8 @@
   },
   "search-result-layout.mobile": {
     "children": [
+      "flex-layout.row#breadcrumbslayout",
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
@@ -234,7 +230,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": [ "flex-layout.row#notfound"]
   },
 
   "flex-layout.row#notfound": {
