@@ -137,11 +137,6 @@
       "htmlElementForButton": "a"
     }
   },
-  "search-fetch-more": {
-    "props": {
-      "htmlElementForButton": "a"
-    }
-  },
   "search-content#desktop": {
     "blocks": ["gallery#desktop", "not-found"]
   },
