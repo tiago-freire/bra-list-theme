@@ -13,6 +13,9 @@
   },
 
   "store.search#brand": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -24,8 +27,10 @@
       }
     }
   },
-
   "store.search#department": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -34,8 +39,10 @@
       }
     }
   },
-
   "store.search#category": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -46,6 +53,9 @@
   },
 
   "store.search#subcategory": {
+    "parent": {
+      "searchWrapper": "searchWrapper#default"
+    },
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -54,7 +64,7 @@
       }
     }
   },
-
+  
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
@@ -62,7 +72,6 @@
       "search-not-found-layout"
     ]
   },
-
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
@@ -98,6 +107,7 @@
       "blockClass": "filterCol"
     }
   },
+  
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchinfo",
@@ -159,7 +169,6 @@
   "search-content": {
     "blocks": ["gallery", "not-found"]
   },
-
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",
@@ -240,7 +249,19 @@
       "showOnMobile": true
     }
   },
-
+  "filter-navigator.v3": {
+    "blocks": ["sidebar-close-button"],
+    "props": {
+        "truncateFilters": true,
+        "showClearByFilter": true,
+        "fullWidthOnMobile": true,
+        "navigationTypeOnMobile": "collapsible",         
+	"appliedFiltersOverview": "show",
+        "totalProductsOnMobile": "show",
+        "updateOnFilterSelectionOnMobile": true,
+        "priceRangeLayout": "inputAndSlider"
+    }
+  },
   "gallery": {
     "props": {
       "layouts": [
@@ -308,14 +329,13 @@
   },
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
+      "product-summary-image",
       "product-summary-name",
       "product-rating-inline",
-      "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
-      "product-summary-quantity"
-      // "add-to-list-button"
+      "product-summary-quantity",
+      "add-to-list-button"
     ]
   }
   // "add-to-list-button#default": {
