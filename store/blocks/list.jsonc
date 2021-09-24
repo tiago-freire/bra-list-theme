@@ -1,6 +1,7 @@
 {
   "store.list": {
     "children": [
+      "flex-layout.row#list-items-gallery",
       "flex-layout.row#list-fetch-more"
     ]
   },
