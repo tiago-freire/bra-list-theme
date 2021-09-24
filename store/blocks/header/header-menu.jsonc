@@ -52,11 +52,7 @@
     }
   },
   "menu#bottom-navbar-link": {
-    "children": [
-      "menu-item#my-list",
-      "menu-item#create-list",
-      "menu-item#control-panel"
-    ],
+    "children": ["menu-item#my-list", "menu-item#create-list"],
     "props": {
       "blockClass": "bottom-navbar-link-action"
     }
@@ -99,28 +95,9 @@
       }
     }
   },
-  "menu-item#control-panel": {
-    "props": {
-      "id": "menu-item-control-panel",
-      "type": "custom",
-      "highlight": false,
-      "blockClass": "link-control-panel",
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Painel de controle",
-        "text": "Painel de controle"
-      },
-      "iconProps": {
-        "id": "control-panel",
-        "size": 20,
-        "viewBox": "0 0 24 24"
-      }
-    }
-  },
+
   "menu#actionaccess": {
-    "children": ["login", "minicart"],
+    "children": ["login", "minicart.v2"],
     "props": {
       "blockClass": "top-navbar-link-action"
     }

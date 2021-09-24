@@ -113,7 +113,7 @@
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
       "link": "#0F3E99",
-      "emphasis": "#f71963",
+      "emphasis": "#0F3E99",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -283,7 +283,7 @@
       "heading-3": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "700",
-        "fontSize": "1.75rem",
+        "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
@@ -312,7 +312,7 @@
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1rem",
-        "textTransform": "initial",
+        "textTransform": "initial; color: #3F3F40",
         "letterSpacing": "0"
       },
       "small": {
