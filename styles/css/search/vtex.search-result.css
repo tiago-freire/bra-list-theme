@@ -84,10 +84,10 @@
 }
 .filterItem--selectedFiltersNav--selected :global(.vtex__icon-check){
     display: none;
-}  
-.filterItem--selectedFiltersNav--selected :global(.vtex-checkbox__input){
-    background-color: red;
-} 
+}
+.filterItem--selectedFiltersNav--selected :global(.vtex-checkbox__label){
+    color: #585959;
+}
 @media screen and (min-width:64em) {
     .filtersWrapper--selectedFiltersNav{
         border-bottom: none;
