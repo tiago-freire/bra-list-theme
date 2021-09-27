@@ -94,3 +94,44 @@
         padding-bottom: 8px;
     }
 }
+
+.filterPopupTitle--filterProducts {
+    color: #0C389F;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.filterBreadcrumbsText--filterProducts {
+    text-transform: uppercase;
+}
+.filtersWrapperMobile--filterProducts .filterPopupButton {
+    flex-direction: row-reverse;
+}
+.filtersWrapperMobile--filterProducts .filterPopupArrowIcon{
+    padding-right: .5rem;
+    padding-top: 0;
+}
+
+.filterAccordionItemBox {
+    margin-right: 2rem;
+    border-color: #CACBCC;
+}
+.accordionFilter .filterAccordionBreadcrumbs {
+    padding: 3rem 0 0 2rem;
+    height: auto;
+    border-color: #CACBCC;
+}
+
+.sidebar .filterButtonsBox {
+    border-color: none;
+    width: 95%;
+    margin: auto;
+}
+
+.filterButtonsBox :global(.vtex-button__label){ 
+      text-transform: uppercase;
+}
+.accordionFilterItemIcon--filterProducts .caretIcon {
+    color: #0C389F;
+    transform: rotate(270deg);
+}
