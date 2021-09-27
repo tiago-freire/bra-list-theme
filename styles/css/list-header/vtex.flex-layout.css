@@ -1,0 +1,23 @@
+.flexRowContent--list-info {
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 4px;
+}
+
+.flexRowContent--list-info .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRowContent--owner-and-date {
+  column-gap: 4px;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--list-info {
+    margin-top: 48px;
+  }
+
+  .flexRow--owner-and-date {
+    margin-left: 16px;
+  }
+}

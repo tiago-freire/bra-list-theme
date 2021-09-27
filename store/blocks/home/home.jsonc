@@ -1,8 +1,19 @@
 {
   "store.home": {
-    "blocks": ["auth-condition#search-list"],
+    "blocks": ["auth-condition#breadcrumbs" ,"auth-condition#search-list"],
     "parent": { "storeWrapper": "storeWrapper#home" }
   },
+  "auth-condition#breadcrumbs": {
+    "props": {
+      "Then": "flex-layout.row#breadcrumbs"
+    }
+  },
+  "flex-layout.row#breadcrumbs": {
+    "children": [ "breadcrumbs"],
+    "props": {
+      "blockClass": ["container"]
+    }
+ },
   "auth-condition#search-list": {
     "props": {
       "Then": "flex-layout.row#home-with-user",
@@ -35,11 +46,11 @@
   "flex-layout.row#search-list": {
     "children": ["flex-layout.col#search-list-col"],
     "props": {
-      "blockClass": ["search-list", "container"]
+      "blockClass": "search-list"
     }
   },
   "flex-layout.col#user-list-col": {
-    "children": ["rich-text#user-list-title", "user-lists"],
+    "children": ["rich-text#user-list-title", "user-lists", "modal-trigger#create-list-button"],
     "props": {
       "blockClass": "search-list"
     }

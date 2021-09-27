@@ -14,8 +14,27 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#advantages"
+      "flex-layout.col#advantages-muted"
     ]
+  },
+
+  "flex-layout.col#advantages-muted": {
+    "props": {
+      "blockClass": "advantages-container",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#advantages",
+      "responsive-layout.desktop#advantages-muted",
+      "responsive-layout.mobile#advantages"
+    ]
+  },
+
+  "responsive-layout.desktop#advantages-muted": {
+    "props": {
+      "blockClass": "advantages"
+    },
+    "children": ["flex-layout.row#advantage-cards", "rich-text#cta"]
   },
 
   "flex-layout.col#advantages": {
@@ -34,7 +53,7 @@
     "props": {
       "blockClass": "advantages"
     },
-    "children": ["flex-layout.row#advantage-cards", "rich-text#cta"]
+    "children": ["flex-layout.row#advantage-cards"]
   },
 
   "flex-layout.row#advantage-cards": {
@@ -49,7 +68,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[![](assets/plus.svg)Crie sua lista](#crie-sua-lista)",
+      "text": "[![](assets/plus.svg)Crie sua lista](/login)",
       "blockClass": "advantages-cta"
     }
   },
