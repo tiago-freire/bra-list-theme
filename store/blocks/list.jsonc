@@ -15,7 +15,7 @@
   "flex-layout.row#list-items-gallery": {
     "children": ["gallery.list-items"],
     "props": {
-      "blockClass": "list-items-gallery"
+      "blockClass": ["list-items-gallery","container"]
     }
   },
   "flex-layout.row#list-items-gallery-mobile": {
@@ -30,7 +30,7 @@
   "gallery.list-items": {
     "blocks": ["product-summary.shelf#desktopShowcase"],
     "props": {
-      "blockClass": "list-items",
+      "blockClass": ["list-items"],
       "EmptyList": "flex-layout.row#empty-list"
     }
   },
