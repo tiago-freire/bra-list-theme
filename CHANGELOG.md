@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
+
 ## [0.3.0] - 2021-09-24
 
 ### Added
@@ -48,7 +52,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.1.0] - 2021-08-13
 
-### AddedW
+### Added
 
 - [VTEX-44](https://acctglobal.atlassian.net/browse/VTEX-44): Create searchList input style and native blocks - Home
 
