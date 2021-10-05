@@ -18,6 +18,28 @@
 .filtersWrapper--selectedFiltersNav .selectedFilterItem {
     cursor: pointer;
 }
+.filtersWrapper--selectedFiltersNav .filter__container--idioma{
+    display: none;
+}
+.filtersWrapper--selectedFiltersNav .filter__container--lente{
+    display: none;
+}
+.filtersWrapper--selectedFiltersNav .filter__container--modelo{
+    display: none;
+}
+.filtersWrapper--selectedFiltersNav .filter__container--tamanho-da-tela{
+    display: none;
+}
+.filtersWrapper--selectedFiltersNav .filter__container--memoria-ram
+{
+    display: none;
+}
+.filtersWrapper--selectedFiltersNav .filter__container--autor{
+    display: none;
+}
+.filtersWrapper--selectedFiltersNav .filter__container--camera{
+    display: none;
+}
 .filtersWrapper--selectedFiltersNav .filter__container--priceRange{
     display: none;
 }
