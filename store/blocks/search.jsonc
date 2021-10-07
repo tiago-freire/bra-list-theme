@@ -176,6 +176,7 @@
   },
   "search-result-layout.mobile": {
     "children": [
+      "flex-layout.row#breadcrumbslayout",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
@@ -197,14 +198,11 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "flex-layout.col#selected-filters-mobile":{
-    "children": ["filter-navigator.v3#selected-filters"],
+  "flex-layout.col#search-content":{
+    "children":["filter-navigator.v3#selected-filters","search-content"],
     "props": {
       "blockClass": "selectedFilters"
     }
-  },
-  "flex-layout.col#search-content":{
-    "children":["flex-layout.col#selected-filters-mobile","search-content"]
   },
   "flex-layout.row#searchinfomobile": {
     "children": [
