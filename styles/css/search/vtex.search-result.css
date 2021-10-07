@@ -123,7 +123,13 @@
 }
 .filterBreadcrumbsText--filterProducts {
     text-transform: uppercase;
+    font-size: 1rem;
+    padding-right: .2rem;
 }
+.filterBreadcrumbsItemName--filterProducts {
+    font-size: 1rem;
+}
+
 .filtersWrapperMobile--filterProducts .filterPopupButton {
     flex-direction: row-reverse;
 }
@@ -136,19 +142,30 @@
     border-color: #CACBCC;
 }
 .accordionFilter .filterAccordionBreadcrumbs {
-    padding: 3rem 0 0 2rem;
+    padding: 4rem 0 0 2rem;
     height: auto;
     border-color: #CACBCC;
 }
 .sidebar .filterButtonsBox {
-    border-color: none;
-    width: 95%;
+    border: none;
+    width: 92%;
     margin: auto;
 }
 .filterButtonsBox :global(.vtex-button__label){ 
       text-transform: uppercase;
+      font-weight: normal;
+      color: #0C389F;
+      height: 36px;
+      padding: 12px 16px !important;
 }
 .accordionFilterItemIcon--filterProducts .caretIcon {
     color: #0C389F;
     transform: rotate(270deg);
+}
+.accordionFilterItemTitle--filterProducts {
+    font-size: 1rem;
+}
+.caretIcon--filterProducts {
+    width: 10px;
+    color: #979899;
 }
