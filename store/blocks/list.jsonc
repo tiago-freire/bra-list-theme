@@ -42,7 +42,9 @@
     }
   },
   "flex-layout.row#empty-list": {
-    "children": ["flex-layout.col#empty-list"]
+    "children": [
+      "flex-layout.col#empty-list"
+    ]
   },
   "flex-layout.col#empty-list": {
     "children": ["rich-text#empty-list", "responsive-layout.desktop#add-itens-link","responsive-layout.mobile#add-itens-link-mobile"],
@@ -69,7 +71,10 @@
       "text": "![](assets/add.svg)[Adicionar itens](/alimentos)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["add-itens-link", "primary-button"]
+      "blockClass": [
+        "add-itens-link",
+        "primary-button"
+      ]
     }
   },
   "rich-text#add-itens-link-button-mobile": {
