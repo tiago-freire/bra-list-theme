@@ -6,6 +6,9 @@
 .galleryItem--mobileShowcase--normal{
   border: 1px solid red;
 }
+.galleryItem--grid{
+  padding: 0px;
+}
 
 .gallery--galleryContainer {
   border-top: 1px solid #cacbcc;
@@ -38,6 +41,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
+  .galleryItem--grid{
+    padding: 0.75em;
+  }
 }
 
 @media (min-width: 64em) {
@@ -46,11 +52,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
-    margin: 0 48px !important;
+    margin: 0px !important;
+    padding-left: 48px;
   }
 
   .galleryItem--galleryContainer {
-    padding: 8px;
+    padding: 4px;
     max-width: unset !important;
   }
 }
