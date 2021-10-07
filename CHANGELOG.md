@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
+
+## [0.3.0] - 2021-09-24
+
+### Added
+
+- [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
+
+## [0.3.0] - 2021-09-24
+
+### Added
+
+- [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
+
 ## [0.3.0] - 2021-09-24
 
 ### Added
@@ -24,6 +40,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
+- [VTEX-258](https://acctglobal.atlassian.net/browse/VTEX-258): Created selected filters in category page
+
+### Added
+
 - [VTEX-176](https://acctglobal.atlassian.net/browse/VTEX-176): Create list button on home page
 
 ### Fixed
@@ -32,10 +52,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.1.0] - 2021-08-13
 
-### Added
+### AddedW
 
 - [VTEX-44](https://acctglobal.atlassian.net/browse/VTEX-44): Create searchList input style and native blocks - Home
 
 ### Fixed
 
 - [VTEX-319](https://acctglobal.atlassian.net/browse/VTEX-319): Removed header control panel button and removed cta (create your list) from logged in environment
+
