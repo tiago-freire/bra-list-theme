@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- [VTEX-261](https://acctglobal.atlassian.net/browse/VTEX-261): Desktop filter layout on desktop 
+=======
 ### Added
 
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
