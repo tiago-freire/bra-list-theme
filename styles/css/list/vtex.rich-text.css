@@ -1,0 +1,28 @@
+.container--add-itens-link{
+    margin-top: 24px;
+}
+.wrapper--add-itens-link{
+    width: 100%;
+    border: 2px solid #CACBCC;
+    background-color: #FFFFFF!important;
+    border-radius: 4px;
+    padding: 6px 16px;
+}
+.link--add-itens-link{
+    color: #0C389F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.paragraph--add-itens-link{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 64em){
+    .wrapper--add-itens-link{
+    border-color: #134CD8!important;
+    background-color: #134CD8!important;
+    }
+    .link--add-itens-link{
+        color: #fff;
+    }
+}

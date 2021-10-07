@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.3.0] - 2021-09-24
 
 ### Added
-
+- [VTEX-255] (https://acctglobal.atlassian.net/browse/VTEX-275): Styling of the list of products showcase
 - [VTEX-297](https://acctglobal.atlassian.net/browse/VTEX-297): Create header list and organize flex-layout rows
 - [VTEX-56](https://acctglobal.atlassian.net/browse/VTEX-56): List items gallery on List page
 - [VTEX-301](https://acctglobal.atlassian.net/browse/VTEX-301): Place breadcrumb on pages
