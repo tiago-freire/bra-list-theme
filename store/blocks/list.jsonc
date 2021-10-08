@@ -1,6 +1,7 @@
 {
   "store.list": {
     "children": [
+      "flex-layout.row#list-header",
       "responsive-layout.desktop#list-items",
       "responsive-layout.mobile#list-items",
       "flex-layout.row#fetchmore"
@@ -20,6 +21,51 @@
   },
   "flex-layout.row#list-items-gallery-mobile": {
     "children": ["gallery.list-items#mobile"]
+  },
+  "flex-layout.row#list-header": {
+    "children": [
+      "flex-layout.col#list-header"
+    ],
+    "props": {
+      "blockClass": "list-header"
+    }
+  },
+  "flex-layout.col#list-header": {
+    "children": [
+      "flex-layout.row#breadcrumb",
+      "flex-layout.row#list-info"
+    ]
+  },
+  "flex-layout.row#list-info": {
+    "children": [
+      "list-info.name",
+      "flex-layout.row#owner-and-date"
+    ],
+    "props": {
+      "blockClass": [
+        "list-info",
+        "container"
+      ]
+    }
+  },
+  "flex-layout.row#owner-and-date": {
+    "children": [
+      "list-info.owner",
+      "list-info.event-date"
+    ],
+    "props": {
+      "blockClass": "owner-and-date",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  // Organizar o conteudo da lista interna de acordo com os blocos abaixo
+  "flex-layout.row#breadcrumb": {
+    "children": [
+      "breadcrumbs"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
   },
   "flex-layout.row#fetchmore": {
     "props": {
