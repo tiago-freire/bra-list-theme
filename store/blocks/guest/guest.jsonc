@@ -1,5 +1,5 @@
 {
-  "store.guest": {
+  "store.guest#guest": {
     "blocks": ["flex-layout.row#breadcrumbsguest"]
   },
   "flex-layout.row#breadcrumbsguest": {

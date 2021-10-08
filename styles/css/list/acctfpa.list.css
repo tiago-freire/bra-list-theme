@@ -1,0 +1,26 @@
+.emptyList--list-items{
+    margin-top: 48px;
+    justify-content: center;
+}
+.emptyList--list-items-mobile{
+    margin-top:28px;
+    justify-content: center;
+}
+.galleryItem--list-items{
+    padding: 2rem;
+}
+.gallery--list-items-mobile{
+    flex-direction: column !important;
+}
+.galleryItem--list-items-mobile{
+    width: 100% !important;
+}
+
+@media screen and (min-width: 40em){
+    .gallery--list-items-mobile{
+        flex-direction: row !important;
+    }
+    .galleryItem--list-items-mobile{
+        width: 50% !important;
+    }
+}

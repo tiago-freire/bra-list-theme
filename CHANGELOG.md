@@ -6,11 +6,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+
+- [VTEX-261](https://acctglobal.atlassian.net/browse/VTEX-261): Desktop filter layout on desktop 
+
+- [VTEX-332](https://acctglobal.atlassian.net/browse/VTEX-332): Added login/logout mobile button
+
+- [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
 
 ## [0.3.0] - 2021-09-24
 
 ### Added
 
+- [VTEX-255] (https://acctglobal.atlassian.net/browse/VTEX-275): Styling of the list of products showcase
 - [VTEX-297](https://acctglobal.atlassian.net/browse/VTEX-297): Create header list and organize flex-layout rows
 - [VTEX-56](https://acctglobal.atlassian.net/browse/VTEX-56): List items gallery on List page
 - [VTEX-301](https://acctglobal.atlassian.net/browse/VTEX-301): Place breadcrumb on pages
@@ -24,6 +32,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
+- [VTEX-258](https://acctglobal.atlassian.net/browse/VTEX-258): Created selected filters in category page
+
 - [VTEX-176](https://acctglobal.atlassian.net/browse/VTEX-176): Create list button on home page
 
 ### Fixed
@@ -36,6 +46,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-44](https://acctglobal.atlassian.net/browse/VTEX-44): Create searchList input style and native blocks - Home
 
-### Fixed
 
-- [VTEX-319](https://acctglobal.atlassian.net/browse/VTEX-319): Removed header control panel button and removed cta (create your list) from logged in environment
+
