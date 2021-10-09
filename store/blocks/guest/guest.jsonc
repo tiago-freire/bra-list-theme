@@ -7,8 +7,7 @@
       "flex-layout.row#listProducts",
       "responsive-layout.desktop#list-items",
       "responsive-layout.mobile#list-items",
-      "flex-layout.row#fetchmore-guest",
-      "flex-layout.row#mostrar-mais-link"
+      "flex-layout.row#fetchmore-guest"
     ]
   },
   "flex-layout.row#breadcrumbsguest": {
@@ -158,13 +157,6 @@
         "add-itens-link",
         "primary-button"
       ]
-    }
-  },
-  "flex-layout.row#mostrar-mais-link": {
-    "props": {
-      "blockClass": "home-main-productlist-link",
-      "href": "/#",
-      "label": "Ver mais"
     }
   }
 }

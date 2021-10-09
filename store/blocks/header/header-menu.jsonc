@@ -100,7 +100,10 @@
   },
 
   "menu#actionaccess": {
-    "children": ["login", "minicart.v2"],
+    "children": [
+      "login",
+      "minicart.v2"
+    ],
     "props": {
       "blockClass": "top-navbar-link-action"
     }
@@ -114,7 +117,10 @@
   },
   "logo": {
     "props": {
-      "blockClass": ["header-bottom-bar-logo", "justify-content-start-end"],
+      "blockClass": [
+        "header-bottom-bar-logo",
+        "justify-content-start-end"
+      ],
       "url": "assets/Logo.png",
       "href": "/"
     }
