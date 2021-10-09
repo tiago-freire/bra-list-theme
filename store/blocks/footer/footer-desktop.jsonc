@@ -1,12 +1,18 @@
 {
   "flex-layout.row#footer-desktop-1": {
-    "children": ["flex-layout.row#footer-nav"],
+    "children": [
+      "flex-layout.row#footer-nav"
+    ],
     "props": {
-      "blockClass": ["footer-navbar-link"]
+      "blockClass": [
+        "footer-navbar-link"
+      ]
     }
   },
   "flex-layout.row#footer-nav": {
-    "children": ["menu#footer-navbar-link"],
+    "children": [
+      "menu#footer-navbar-link"
+    ],
     "props": {
       "blockClass": ["container"]
     }
@@ -24,7 +30,10 @@
       "flex-layout.col#footer-social-desktop"
     ],
     "props": {
-      "blockClass": ["container", "footer-main-desktop"]
+      "blockClass": [
+        "container",
+        "footer-main-desktop"
+      ]
     }
   },
   "flex-layout.col#footer-accept-payment": {
@@ -79,7 +88,9 @@
     }
   },
   "flex-layout.row#footer-accept-payment-image": {
-    "children": ["image-list#footer-accept-payment"],
+    "children": [
+      "image-list#footer-accept-payment"
+    ],
     "props": {
       "blockClass": "footer-accept-payment-image"
     }
@@ -105,13 +116,17 @@
     }
   },
   "flex-layout.row#footer-safe-buy-image": {
-    "children": ["image-list#footer-safe-buy"],
+    "children": [
+      "image-list#footer-safe-buy"
+    ],
     "props": {
       "blockClass": "footer-safe-buy-image"
     }
   },
   "flex-layout.row#footer-social-networks-image": {
-    "children": ["image-list#footer-social-networks"],
+    "children": [
+      "image-list#footer-social-networks"
+    ],
     "props": {
       "blockClass": "footer-social-networks-image"
     }

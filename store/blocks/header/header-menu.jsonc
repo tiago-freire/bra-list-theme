@@ -52,7 +52,10 @@
     }
   },
   "menu#bottom-navbar-link": {
-    "children": ["menu-item#my-list", "menu-item#create-list"],
+    "children": [
+      "menu-item#my-list",
+      "menu-item#create-list"
+    ],
     "props": {
       "blockClass": "bottom-navbar-link-action"
     }
