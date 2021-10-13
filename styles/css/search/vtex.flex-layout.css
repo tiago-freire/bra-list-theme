@@ -18,13 +18,20 @@
 }
 .flexRow--header-search{
   border-top: 1px solid;
-    border-bottom: 1px solid;
     border-color: #CACBCC;
     padding-top: 13px;
     padding-bottom: 13px;
-    margin-bottom: 64px;
+    margin-bottom: 24px;
 }
 @media (min-width: 64em) {
+  .flexRow--header-search{
+    border-top: 1px solid;
+      border-bottom: 1px solid;
+      border-color: #CACBCC;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      margin-bottom: 64px;
+  }
   .flexRowContent--productInfo{
     flex-direction: row;
   }
