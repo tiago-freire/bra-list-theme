@@ -35,3 +35,11 @@
 .sellingPriceLabel {
   display: none;
 }
+
+.searchBarInnerContainer--header-search{
+  max-width: 451px;
+  height: 40px;
+}
+.searchBarIcon--header-search{
+  background-color: #ffffff;
+}
