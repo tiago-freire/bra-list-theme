@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.7.0] - 2021-11-25
 
 ### Added
+- [VTEX-251](https://acctglobal.atlassian.net/browse/VTEX-251): Product showcase - header search and search bar
+
+## [0.4.0]
+### Added
 
 - [VTEX-248](https://acctglobal.atlassian.net/browse/VTEX-248): implement minicart custom block
 
