@@ -43,3 +43,6 @@
 .searchBarIcon--header-search{
   background-color: #ffffff;
 }
+.resultsList--header-search{
+  display: none;
+}
