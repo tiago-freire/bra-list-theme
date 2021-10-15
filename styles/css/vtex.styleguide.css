@@ -2,7 +2,3 @@
     padding-right: 12px;
     padding-left: 12px;
 }
-:global(.vtex-toast) {
-    background: #f71963!important;
-    color: white!important
-}
