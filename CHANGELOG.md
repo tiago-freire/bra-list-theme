@@ -8,7 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 
-- [VTEX-261](https://acctglobal.atlassian.net/browse/VTEX-261): Desktop filter layout on desktop 
+- [VTEX-296](https://acctglobal.atlassian.net/browse/VTEX-296): Header Vitrine - convidado
+
+- [VTEX-261](https://acctglobal.atlassian.net/browse/VTEX-261): Desktop filter layout on desktop
 
 - [VTEX-332](https://acctglobal.atlassian.net/browse/VTEX-332): Added login/logout mobile button
 
