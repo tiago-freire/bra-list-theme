@@ -61,5 +61,32 @@
       "blockClass": "button"
     }
     // "blocks": ["quickview-button"]
+  },
+  
+  //Guest
+  "product-summary.shelf#mobileShowcase-guest": {
+    "children": [
+      "flex-layout.row#productinfo-guest"
+    ],
+    "props":{
+      "blockClass":"showCaseProduct"
+    }
+  },
+  "flex-layout.row#productinfo-guest": {
+    "children": [
+      "flex-layout.row#headerProduct",
+      "add-to-cart-button#mobileAddToCartButton-guest"
+    ],
+    "props":{
+      "blockClass":"productInfo"
+    }
+  },
+
+  "add-to-cart-button#mobileAddToCartButton-guest": {
+    "props": {
+      "blockClass": "button"
+    }
+    // "blocks": ["quickview-button"]
   }
+
 }

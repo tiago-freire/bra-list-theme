@@ -1,16 +1,31 @@
 {
   "store.guest#guest": {
     "blocks": [
-      "flex-layout.row#breadcrumbsguest",
+      "flex-layout.row#breadcrumbs-guest",
       "flex-layout.row#list-header-guest",
       "flex-layout.row#searchOrder",
       "flex-layout.row#listProducts",
-      "responsive-layout.desktop#list-items",
-      "responsive-layout.mobile#list-items",
+      "responsive-layout.desktop#list-items-guest",
+      "responsive-layout.mobile#list-items-guest",
       "flex-layout.row#fetchmore-guest"
     ]
   },
-  "flex-layout.row#breadcrumbsguest": {
+  "responsive-layout.desktop#list-items-guest":{
+    "children": ["flex-layout.row#list-items-gallery-guest"]
+  },
+  "responsive-layout.mobile#list-items-guest":{
+    "children": ["flex-layout.row#list-items-gallery-mobile-guest"]
+  },
+  "flex-layout.row#list-items-gallery-guest": {
+    "children": ["gallery.list-items#guest"],
+    "props": {
+      "blockClass": ["list-items-gallery","container"]
+    }
+  },
+  "flex-layout.row#list-items-gallery-mobile-guest": {
+    "children": ["gallery.list-items#mobile-guest"]
+  },
+  "flex-layout.row#breadcrumbs-guest": {
     "children": ["breadcrumbs"],
     "props": {
       "blockClass": ["container"]
@@ -95,9 +110,16 @@
       "search-fetch-more"
     ]
   },
-  "gallery.list-items#mobile": {
+  "gallery.list-items#guest": {
+    "blocks": ["product-summary.shelf#desktopShowcase-guest"],
+    "props": {
+      "blockClass": ["list-items"],
+      "EmptyList": "flex-layout.row#empty-list"
+    }
+  },
+  "gallery.list-items#mobile-guest": {
     "blocks": [
-      "product-summary.shelf#mobileShowcase"
+      "product-summary.shelf#mobileShowcase-guest"
     ],
     "props": {
       "blockClass": "list-items-mobile",
