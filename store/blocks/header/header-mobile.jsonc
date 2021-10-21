@@ -1,15 +1,25 @@
 {
   "header-row#mobile-1": {
-    "children": ["flex-layout.row#header-topbar-mobile"],
+    "children": [
+      "flex-layout.row#header-topbar-mobile"
+    ],
     "props": {
       "blockClass": "header-topbar"
     }
   },
   "flex-layout.row#header-topbar-mobile": {
-    "children": ["drawer", "logo#mobile", "auth-condition#login", "minicart.v2"],
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "auth-condition#login",
+      "minicart.v2"
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
-      "blockClass": ["container", "header-topbar-mobile"]
+      "blockClass": [
+        "container",
+        "header-topbar-mobile"
+      ]
     }
   },
   "auth-condition#login": {
@@ -19,19 +29,23 @@
     }
   },
   "link#to-account-page": {
-    "children": ["rich-text#login-logout"],
+    "children": [
+      "rich-text#login-logout"
+    ],
     "props": {
       "href": "https://acctfpa.myvtex.com/"
     },
     "title": "Logout Link"
   },
   "link#to-login": {
-    "children": ["rich-text#login-logout"],
+    "children": [
+      "rich-text#login-logout"
+    ],
     "props": {
       "href": "/login"
     },
     "title": "Login Link"
-  }, 
+  },
   "rich-text#login-logout": {
     "props": {
       "text": "![](assets/login.svg)",
@@ -59,9 +73,13 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"],
+    "children": [
+      "menu#drawer"
+    ],
     "props": {
-      "blockClass": ["header-topbar-drawer"]
+      "blockClass": [
+        "header-topbar-drawer"
+      ]
     }
   }
 }

@@ -44,11 +44,17 @@
   }
   .paragraph--title-social-networks {
     margin-bottom: 12px !important;
+    font-size: 12px;
+    line-height: 20px;
   }
   .paragraph--title-payment {
     margin-bottom: 12px !important;
+    font-size: 12px;
+    line-height: 20px;
   }
   .paragraph--title-safe-buy {
     margin-bottom: 12px !important;
+    font-size: 12px;
+    line-height: 20px;
   }
 }
