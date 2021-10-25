@@ -29,6 +29,24 @@
 .drawerContent--header-top-bar-minicart .minicartSideBarContentWrapper--header-top-bar-minicart .drawerStyles {
   height: auto;
 }
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background-color: #134CD8;
+  border-color: #134CD8;
+}
+
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button)::after {
+  content: "Ir para o carrinho";
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Fabriga;
+  font-weight: normal;
+}
+
 @media (max-width: 50em) {
 
 }
