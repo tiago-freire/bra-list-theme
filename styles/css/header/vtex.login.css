@@ -14,7 +14,10 @@ div[class*='vtex-minicart-2-x-minicartSummary ph4 ph6-l pt5']
 span[class*='vtex-checkout-summary-0-x-summarySmallDisclaimer t-small db mv4'] {
   display: none;
 }
-a[class*='vtex-product-list-0-x-productImageAnchor'] img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload lazyloaded'] {
+a[class*='vtex-product-list-0-x-productImageAnchor'] 
+img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded'],
+a[class*='vtex-product-list-0-x-productImageAnchor'] 
+img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload lazyloaded'] {
   border: 1px solid #727273;
   border-radius: 6px;
   max-width: 96px;
@@ -50,7 +53,9 @@ button[class*='vtex-product-list-0-x-removeButton pointer bg-transparent bn pa2'
   margin: 0 auto;
 }
 a[class*='vtex-product-list-0-x-productImageAnchor'] 
-img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded'] {
+img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded'],
+a[class*='vtex-product-list-0-x-productImageAnchor'] 
+img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload lazyloaded'] {
   border: 1px solid #727273;
   border-radius: 6px;
   max-width: 96px;
