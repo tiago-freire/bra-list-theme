@@ -2,7 +2,7 @@
     margin-top: 24px;
 }
 .wrapper--add-itens-link{
-    width: 100%;
+    width: auto;
     border: 2px solid #CACBCC;
     background-color: #FFFFFF!important;
     border-radius: 4px;
@@ -19,10 +19,21 @@
 }
 @media screen and (min-width: 64em){
     .wrapper--add-itens-link{
-    border-color: #134CD8!important;
-    background-color: #134CD8!important;
+        border-color: #134CD8!important;
+        background-color: #134CD8!important;
+        padding: 11px 20px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        transition: 0.3s;
+    }
+    .wrapper--add-itens-link:hover{
+        border-color: #0C389F!important;
+        background-color: #0C389F!important;
     }
     .link--add-itens-link{
         color: #fff;
+        font-size: 20px;
+        line-height: 20px;
+        margin-left: 8px;
     }
 }

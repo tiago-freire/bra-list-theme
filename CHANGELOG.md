@@ -8,7 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 
-- [VTEX-261](https://acctglobal.atlassian.net/browse/VTEX-261): Desktop filter layout on desktop 
+- [VTEX-271](https://acctglobal.atlassian.net/browse/VTEX-271): Added guest gallery
+- [VTEX-296](https://acctglobal.atlassian.net/browse/VTEX-296): Header Vitrine - convidado
+- [VTEX-261](https://acctglobal.atlassian.net/browse/VTEX-261): Desktop filter layout on desktop
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
 - [VTEX-192](https://acctglobal.atlassian.net/browse/VTEX-192): Added list item search block
 
