@@ -49,5 +49,13 @@ div[class*='flex w-100 c-on-base lh-copy items-center vtex-checkout-summary-0-x-
 button[class*='vtex-product-list-0-x-removeButton pointer bg-transparent bn pa2'] {
   margin: 0 auto;
 }
+a[class*='vtex-product-list-0-x-productImageAnchor'] 
+img[class*='vtex-product-list-0-x-productImage br2 vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded'] {
+  border: 1px solid #727273;
+  border-radius: 6px;
+  max-width: 96px;
+  height: 96px;
+  object-fit: scale-down;
+  margin-top: 4px;
 }
-
+}
