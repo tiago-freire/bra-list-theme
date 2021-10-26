@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 
+- [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Added minicart
+
 - [VTEX-271](https://acctglobal.atlassian.net/browse/VTEX-271): Added guest gallery
 
 - [VTEX-296](https://acctglobal.atlassian.net/browse/VTEX-296): Header Vitrine - convidado
