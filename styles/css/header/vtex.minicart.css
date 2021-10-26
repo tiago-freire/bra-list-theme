@@ -43,10 +43,14 @@
   content: "Ir para o carrinho";
   text-transform: uppercase;
   font-size: 20px;
-  font-family: Fabriga;
   font-weight: normal;
 }
 
 @media (max-width: 50em) {
-
+  .drawer--header-top-bar-minicart .closeIconContainer--header-top-bar-minicart .closeIconButton--header-top-bar-minicart {
+    padding-right: 10px;
+  }
+  .drawerContent--header-top-bar-minicart .minicartSideBarContentWrapper--header-top-bar-minicart .drawerStyles {
+    height: 100%;
+  }
 }
