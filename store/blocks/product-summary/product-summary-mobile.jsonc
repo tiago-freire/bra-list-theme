@@ -75,7 +75,8 @@
   "flex-layout.row#productinfo-guest": {
     "children": [
       "flex-layout.row#headerProduct",
-      "add-to-cart-button#mobileAddToCartButton-guest"
+      "add-to-cart-button#mobileAddToCartButton-guest",
+      "gifted-button"
     ],
     "props":{
       "blockClass":"productInfo"
