@@ -147,7 +147,7 @@
     "children": ["quantity-selector"],
     "props": {
       "preventHorizontalStretch": "true",
-      "blockClass": "quantity-selector-minicart"
+      "blockClass": "quantity-selector-custom-minicart-desk"
     }
   },
   "flex-layout.row#unit-price.desktop": {
@@ -243,7 +243,7 @@
     "props": {
       "marginTop": "5",
       "preventHorizontalStretch": "true",
-      "blockClass": "quantity-selector-custom"
+      "blockClass": "quantity-selector-custom-minicart-mob"
     }
   },
   "flex-layout.row#unit-price.mobile": {
