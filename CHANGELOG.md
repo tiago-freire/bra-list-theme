@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-261](https://acctglobal.atlassian.net/browse/VTEX-261): Desktop filter layout on desktop
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
 - [VTEX-192](https://acctglobal.atlassian.net/browse/VTEX-192): Added list item search block
+- [VTEX-236](https://acctglobal.atlassian.net/browse/VTEX-236): added block of gifted items
 
 ## [0.3.0] - 2021-09-24
 
