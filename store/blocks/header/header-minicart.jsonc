@@ -144,7 +144,7 @@
     }
   },
   "flex-layout.row#quantity-selector.desktop": {
-    "children": ["quantity-selector"],
+    "children": ["quantity-selector-minicart"],
     "props": {
       "preventHorizontalStretch": "true",
       "blockClass": "quantity-selector-custom-minicart-desk"
@@ -239,7 +239,7 @@
     }
   },
   "flex-layout.row#quantity-selector.mobile": {
-    "children": ["quantity-selector"],
+    "children": ["quantity-selector-minicart"],
     "props": {
       "marginTop": "5",
       "preventHorizontalStretch": "true",
