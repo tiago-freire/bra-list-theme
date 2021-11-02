@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-### Added
+### Added 
 
 - [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Added minicart
 
@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
 
 - [VTEX-192](https://acctglobal.atlassian.net/browse/VTEX-192): Added list item search block
+
+- [VTEX-236](https://acctglobal.atlassian.net/browse/VTEX-236): added block of gifted items
 
 ## [0.3.0] - 2021-09-24
 
