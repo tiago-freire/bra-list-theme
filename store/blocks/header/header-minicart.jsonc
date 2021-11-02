@@ -243,7 +243,8 @@
     "props": {
       "marginTop": "5",
       "preventHorizontalStretch": "true",
-      "blockClass": "quantity-selector-custom-minicart-mob"
+      "blockClass": "quantity-selector-custom-minicart-mob",
+      "showLabel": false
     }
   },
   "flex-layout.row#unit-price.mobile": {
