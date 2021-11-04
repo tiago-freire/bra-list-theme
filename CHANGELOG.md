@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-332](https://acctglobal.atlassian.net/browse/VTEX-332): Added login/logout mobile button
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
-- [VTEX-255] (https://acctglobal.atlassian.net/browse/VTEX-275): Styling of the list of products showcase
+- [VTEX-275] (https://acctglobal.atlassian.net/browse/VTEX-275): Styling of the list of products showcase
 - [VTEX-297](https://acctglobal.atlassian.net/browse/VTEX-297): Create header list and organize flex-layout rows
 - [VTEX-56](https://acctglobal.atlassian.net/browse/VTEX-56): List items gallery on List page
 - [VTEX-301](https://acctglobal.atlassian.net/browse/VTEX-301): Place breadcrumb on pages
