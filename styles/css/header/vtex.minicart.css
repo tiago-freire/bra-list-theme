@@ -5,3 +5,52 @@
 .minicartWrapperContainer--header-top-bar-minicart {
   width: auto !important;
 }
+
+.drawer--header-top-bar-minicart .drawerContent--header-top-bar-minicart {
+  position: relative;
+}
+
+.drawer--header-top-bar-minicart .closeIconContainer--header-top-bar-minicart{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.drawer--header-top-bar-minicart .closeIconContainer--header-top-bar-minicart .closeIconButton--header-top-bar-minicart {
+  color: #E13232;
+  padding-top: 13px;
+  padding-right: 23px;
+}
+
+.drawerContent--header-top-bar-minicart .minicartSideBarContentWrapper--header-top-bar-minicart .drawerStyles .minicartTitle {
+  margin: 16px 0;
+}
+
+.drawerContent--header-top-bar-minicart .minicartSideBarContentWrapper--header-top-bar-minicart .drawerStyles {
+  height: auto;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background-color: #134CD8;
+  border-color: #134CD8;
+}
+
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button)::after {
+  content: "Ir para o carrinho";
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+@media (max-width: 50em) {
+  .drawer--header-top-bar-minicart .closeIconContainer--header-top-bar-minicart .closeIconButton--header-top-bar-minicart {
+    padding-right: 10px;
+  }
+  .drawerContent--header-top-bar-minicart .minicartSideBarContentWrapper--header-top-bar-minicart .drawerStyles {
+    height: 100%;
+  }
+}

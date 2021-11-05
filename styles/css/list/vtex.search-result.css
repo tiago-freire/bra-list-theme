@@ -94,3 +94,13 @@
         padding-bottom: 8px;
     }
 }
+
+.filterTemplateOverflow--selectedFiltersNav {
+    display: none; 
+} 
+ .filterAvailable--selectedFiltersNav {
+    display: none; 
+}
+.filter__container--selectedFiltersNav {
+    border: none;
+}
