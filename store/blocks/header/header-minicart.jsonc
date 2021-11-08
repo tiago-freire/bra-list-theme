@@ -1,15 +1,16 @@
 {
+  "add-to-cart-button-list": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "list-add-to-cart-button"
+    }
+  },
   "minicart.v2": {
     "props": {
-      "customPixelEventId": "add-to-cart-button",
+      "customPixelEventId": "list-add-to-cart-button",
       "blockClass": "header-top-bar-minicart"
     },
     "children": ["minicart-base-content"]
-  },
-  "acctfpa.list:add-to-cart-button": {
-    "props": {
-      "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button"
-    }
   }
+  
 }
