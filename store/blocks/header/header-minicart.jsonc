@@ -6,7 +6,7 @@
     },
     "children": ["minicart-base-content"]
   },
-  "add-to-cart-button": {
+  "acctfpa.list:add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"
