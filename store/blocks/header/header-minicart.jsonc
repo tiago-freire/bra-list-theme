@@ -1,8 +1,9 @@
 {
-  "add-to-cart-button-list": {
+
+  "add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
-      "customPixelEventId": "list-add-to-cart-button"
+      "customPixelEventId": "add-to-cart-button"
     }
   },
   "minicart.v2": {
@@ -288,11 +289,12 @@
       "layout": "rows"
     }
   },
-  "add-to-cart-button": {
+  "add-to-cart-button-list": {
     "props": {
       "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button"
+      "customPixelEventId": "list-add-to-cart-button"
     }
+  
   }
   
 }
