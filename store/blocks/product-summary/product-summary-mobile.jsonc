@@ -76,14 +76,15 @@
     "children": [
       "flex-layout.row#headerProduct",
       "add-to-cart-button#mobileAddToCartButton-guest",
-      "gifted-button"
+      "gifted-button",
+      "add-to-cart-button-list#mobileAddToCartButton-guest"
     ],
     "props":{
       "blockClass":"productInfo"
     }
   },
 
-  "add-to-cart-button#mobileAddToCartButton-guest": {
+  "add-to-cart-button-list#mobileAddToCartButton-guest": {
     "props": {
       "blockClass": "button"
     }
