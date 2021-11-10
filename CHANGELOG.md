@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-### Added 
+
+## [0.5.1] - 2020-11-08
+
+### Fixed
+
+- [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Fixed add-to-cart-button
+
+## [0.5.0] - 2021-11-04
+### Added
 
 - [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Added minicart
 
@@ -30,7 +38,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-332](https://acctglobal.atlassian.net/browse/VTEX-332): Added login/logout mobile button
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
-- [VTEX-255] (https://acctglobal.atlassian.net/browse/VTEX-275): Styling of the list of products showcase
+- [VTEX-275] (https://acctglobal.atlassian.net/browse/VTEX-275): Styling of the list of products showcase
 - [VTEX-297](https://acctglobal.atlassian.net/browse/VTEX-297): Create header list and organize flex-layout rows
 - [VTEX-56](https://acctglobal.atlassian.net/browse/VTEX-56): List items gallery on List page
 - [VTEX-301](https://acctglobal.atlassian.net/browse/VTEX-301): Place breadcrumb on pages

@@ -53,12 +53,12 @@
       "product-summary-image#desktopImage",
       "product-summary-name#desktopProductName",
       "flex-layout.col#desktopPriceAndQuantity",
-      "add-to-cart-button#desktopAddToCartButton",
+      "add-to-cart-button-list#desktopAddToCartButton",
       "gifted-button"
     ]
   },
  
-  "add-to-cart-button#desktopAddToCartButton": {
+  "add-to-cart-button-list#desktopAddToCartButton": {
     "props": {
       "blockClass": "button"
     }
