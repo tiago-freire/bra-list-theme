@@ -68,30 +68,47 @@
   },
   "flex-layout.row#searchOrder": {
     "children": [
-      "flex-layout.row#search-order-search"
+      // "flex-layout.row#search-order-search"
+      "flex-layout.col#filter-orderby-guest"
     ],
     "props": {
       "blockClass": ["orderList"]
     }
   },
-  "flex-layout.row#search-order-search": {
+  // "flex-layout.row#search-order-search": {
+  //   "children": [
+  //     "flex-layout.row#search-list-guest"
+  //   ],
+  //   "props": {
+  //     "blockClass": [
+  //       "search-list-guest"
+  //     ]
+  //   }
+  // },
+  // "flex-layout.row#search-list-guest": {
+  //   "children": [
+  //     "flex-layout.col#search-list-col"
+  //   ],
+  //   "props": {
+  //     "blockClass": [
+  //       "search-list-col-guest"
+  //     ]
+  //   }
+  // },
+  "flex-layout.col#filter-orderby-guest": {
     "children": [
-      "flex-layout.row#search-list-guest"
+      "list-items-orderby"
     ],
     "props": {
-      "blockClass": [
-        "search-list-guest"
-      ]
+      "blockClass": "filterOrderBy"
     }
   },
-  "flex-layout.row#search-list-guest": {
+  "flex-layout.col#filter-orderby-mobile-guest": {
     "children": [
-      "flex-layout.col#search-list-col"
+      "list-items-orderby"
     ],
     "props": {
-      "blockClass": [
-        "search-list-col-guest"
-      ]
+      "blockClass": "filterOrderBy"
     }
   },
   "flex-layout.row#listProducts": {

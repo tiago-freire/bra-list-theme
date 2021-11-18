@@ -55,3 +55,17 @@
   justify-content:flex-start;
   margin-right: 12px;
 }
+.flexCol--filterOrderBy {
+  max-width: 145px;
+}
+.flexCol--filterOrderBy :global(.vtex-dropdown__container) {
+  border: none;
+}
+.flexCol--filterOrderBy :global(.vtex-dropdown__button){
+  color:#3F3F40;
+}
+@media screen and (min-width: 64em){
+  .flexCol--filterOrderBy{
+      max-width: 214px;
+  } 
+}
