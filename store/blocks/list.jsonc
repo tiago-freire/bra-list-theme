@@ -70,7 +70,8 @@
   "flex-layout.row#edit-list": {
     "children": [
       "modal-trigger#edit-list-button"
-      ],
+      ]
+  },
   "flex-layout.row#search-bar.list": {
     "children": [
       "flex-layout.col#search-bar.list"
@@ -238,4 +239,3 @@
     }
   }  
   }
-}
