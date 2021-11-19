@@ -1,7 +1,14 @@
 .flexRowContent--list-info {
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flexRowContent--list-info :first-child {
+  flex: 1 1 100%;
 }
 
 .flexRowContent--list-info .stretchChildrenWidth {
@@ -12,13 +19,26 @@
   column-gap: 4px;
 }
 
+.flexRow--edit-list {
+  margin-left: 6px;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--list-info {
     margin-top: 48px;
   }
 
+  .flexRowContent--list-info :first-child {
+    flex: 0 1 auto;
+  }
+
   .flexRow--owner-and-date {
     margin-left: 16px;
+  }
+
+  .flexRow--edit-list {
+    margin-left: 16px;
+    height: 20px;
   }
 }
 .flexRow--search-bar-list-item {

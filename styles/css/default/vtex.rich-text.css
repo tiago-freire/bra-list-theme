@@ -23,6 +23,13 @@
 }
 
 @media screen and (min-width: 40em) {
+  .paragraph {
+    color: #585959;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+  }
+
   .paragraph--title-1 {
     font-size: 36px;
     line-height: 48px;
