@@ -1,13 +1,13 @@
 .label {
   color: #585959;
-  padding: 0px;
+  padding: 0;
 }
 .button:hover {
   border-radius: 4px;
 }
 .container :global(.vtex-button__label) {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 /*minicart*/
 div[class*='vtex-minicart-2-x-minicartSummary ph4 ph6-l pt5'] 
