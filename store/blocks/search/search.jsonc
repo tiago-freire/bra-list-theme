@@ -82,6 +82,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#breadcrumbslayout",
+      "flex-layout.row#searchinfo",
       "flex-layout.row#header-search",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
