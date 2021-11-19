@@ -81,6 +81,7 @@
       "flex-layout.col#search-bar.list"
     ],
     "props": {
+      "blockClass": "edit-list",
       "preserveLayoutOnMobile": true
     }
   },
