@@ -158,7 +158,7 @@
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "search-content#desktop",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmoresearch"
     ],
     "props": {
       "width": "grow",
@@ -199,7 +199,7 @@
       "search-fetch-previous"
     ]
   },
-  "flex-layout.row#fetchmore": {
+  "flex-layout.row#fetchmoresearch": {
     "props": {
       "marginTop": 3
     },
@@ -237,7 +237,7 @@
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmoresearch"
     ],
     "props": {
       "pagination": "show-more",

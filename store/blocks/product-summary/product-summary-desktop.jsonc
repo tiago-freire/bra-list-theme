@@ -42,5 +42,25 @@
       "blockClass": "button"
     }
     // "blocks": ["quickview-button"]
+  },
+
+  //Guest
+  "product-summary.shelf#desktopShowcase-guest": {
+    "props": {
+      "blockClass": "showcase"
+    },
+    "children": [
+      "product-summary-image#desktopImage",
+      "product-summary-name#desktopProductName",
+      "flex-layout.col#desktopPriceAndQuantity",
+      "add-to-cart-button-list#desktopAddToCartButton"
+    ]
+  },
+ 
+  "add-to-cart-button-list#desktopAddToCartButton": {
+    "props": {
+      "blockClass": "button"
+    }
+    // "blocks": ["quickview-button"]
   }
 }

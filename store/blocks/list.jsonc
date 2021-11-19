@@ -8,19 +8,28 @@
     ]
   },
   "responsive-layout.desktop#list-items":{
-    "children": ["flex-layout.row#list-items-gallery"]
-  },
-  "responsive-layout.mobile#list-items":{
-    "children": ["flex-layout.row#list-items-gallery-mobile"]
+    "children": [
+      "flex-layout.row#list-items-gallery"
+    ]
   },
   "flex-layout.row#list-items-gallery": {
     "children": ["gallery.list-items"],
     "props": {
-      "blockClass": ["list-items-gallery","container"]
+      "blockClass": [
+        "list-items-gallery",
+        "container"
+      ]
     }
   },
+  "responsive-layout.mobile#list-items":{
+    "children": [
+      "flex-layout.row#list-items-gallery-mobile"
+    ]
+  },
   "flex-layout.row#list-items-gallery-mobile": {
-    "children": ["gallery.list-items#mobile"]
+    "children": [
+      "gallery.list-items#mobile"
+    ]
   },
   "flex-layout.row#list-header": {
     "children": [
@@ -33,7 +42,8 @@
   "flex-layout.col#list-header": {
     "children": [
       "flex-layout.row#breadcrumb",
-      "flex-layout.row#list-info"
+      "flex-layout.row#list-info",
+      "flex-layout.row#search-bar.list"
     ]
   },
   "flex-layout.row#list-info": {
@@ -58,6 +68,74 @@
       "preserveLayoutOnMobile": true
     }
   },
+  "flex-layout.row#search-bar.list": {
+    "children": [
+      "flex-layout.col#search-bar.list"
+    ],
+    "props": {
+      "blockClass": ["container"]
+    }
+  },
+  "flex-layout.col#search-bar.list": {
+    "children": [
+      "flex-layout.row#search-bar.list-item"
+    ]
+  },
+  "flex-layout.row#search-bar.list-item": {
+    "children": [
+      "flex-layout.col#search-bar.list-item",
+      "flex-layout.col#btn-add-itens"
+    ],
+    "props": {
+      "blockClass": [
+        "search-bar-list-item"
+      ]
+    }
+  },
+  "flex-layout.col#search-bar.list-item": {
+      "children": [
+        "search-bar.list-item"
+      ]
+  },
+  "flex-layout.col#btn-add-itens": {
+    "children": [
+      "responsive-layout.desktop#desktop.add-itens-link-header",
+      "responsive-layout.mobile#mobile.add-itens-link-header"
+    ]
+  },
+  "responsive-layout.desktop#desktop.add-itens-link-header":{
+    "children":[
+      "rich-text#desktop.add-itens-link-header-button"
+    ]
+  },
+  "responsive-layout.mobile#mobile.add-itens-link-header":{
+    "children":[
+      "rich-text#mobile.add-itens-link-header-button"
+    ]
+  },
+  "rich-text#desktop.add-itens-link-header-button": {
+    "props": {
+      "text": "![](assets/ico_plus_blue.svg)[Adicionar itens](/eletronicos)",
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT",
+      "blockClass": [
+        "add-itens-link-header",
+        "primary-button"
+      ]
+    }
+  },
+  "rich-text#mobile.add-itens-link-header-button": {
+    "props": {
+      "text": "![](assets/ico_plus_blue.svg)[Pôr item](/eletronicos)",
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT",
+      "blockClass": [
+        "add-itens-link-header",
+        "primary-button"
+      ]
+    }
+  },
+
   // Organizar o conteudo da lista interna de acordo com os blocos abaixo
   "flex-layout.row#breadcrumb": {
     "children": [
@@ -67,21 +145,26 @@
       "blockClass": "container"
     }
   },
+
   "flex-layout.row#fetchmore": {
-    "props": {
-      "marginTop": 3
-    },
     "children": ["search-fetch-more"]
   },
+
   "gallery.list-items": {
-    "blocks": ["product-summary.shelf#desktopShowcase"],
+    "blocks": [
+      "product-summary.shelf#desktopShowcase"
+    ],
     "props": {
-      "blockClass": ["list-items"],
+      "blockClass": [
+        "list-items"
+      ],
       "EmptyList": "flex-layout.row#empty-list"
     }
   },
   "gallery.list-items#mobile": {
-    "blocks": ["product-summary.shelf#mobileShowcase"],
+    "blocks": [
+      "product-summary.shelf#mobileShowcase"
+    ],
     "props": {
       "blockClass": "list-items-mobile",
       "EmptyList": "flex-layout.row#empty-list"
@@ -93,29 +176,37 @@
     ]
   },
   "flex-layout.col#empty-list": {
-    "children": ["rich-text#empty-list", "responsive-layout.desktop#add-itens-link","responsive-layout.mobile#add-itens-link-mobile"],
+    "children": [
+      "rich-text#empty-list",
+      "responsive-layout.desktop#add-itens-link",
+      "responsive-layout.mobile#add-itens-link-mobile"
+    ],
     "props": {
       "blockClass": "empty-list"
     }
   },
   "responsive-layout.desktop#add-itens-link":{
-    "children":["rich-text#add-itens-link-button"]
+    "children":[
+      "rich-text#add-itens-link-button"
+    ]
   },
   "responsive-layout.mobile#add-itens-link-mobile":{
-    "children":["rich-text#add-itens-link-button-mobile"]
+    "children":[
+      "rich-text#add-itens-link-button-mobile"
+    ]
   },
   "rich-text#empty-list": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "![](assets/sad.svg)\n Sua lista está vazia\nAdicione itens agora mesmo",
-      "blockClass": "empty-list-text"
+      "blockClass": ["empty-list-text", "text-paragraph"]
     }
   },
   "rich-text#add-itens-link-button": {
     "props": {
       "text": "![](assets/add.svg)[Adicionar itens](/alimentos)",
-      "textAlignment": "CENTER",
+      "textAlignment": "right",
       "textPosition": "CENTER",
       "blockClass": [
         "add-itens-link",
@@ -125,10 +216,13 @@
   },
   "rich-text#add-itens-link-button-mobile": {
     "props": {
-      "text": "![](assets/plus.svg)[Adicionar itens](/alimentos)",
+      "text": "![](assets/add.svg)[Adicionar itens](/alimentos)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["add-itens-link", "primary-button"]
+      "blockClass": [
+        "add-itens-link",
+        "primary-button"
+      ]
     }
   }
 }
