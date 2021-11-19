@@ -8,7 +8,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip"
       }
     }
@@ -23,10 +23,10 @@
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 10
       }
     }
   },
@@ -39,7 +39,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip"
       }
     }
@@ -53,7 +53,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "skip"
       }
     }
@@ -82,6 +82,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#breadcrumbslayout",
+      "flex-layout.row#searchinfo",
       "flex-layout.row#header-search",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -155,7 +156,6 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.col#selected-filters",
-      "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "search-content#desktop",
       "flex-layout.row#fetchmoresearch"
@@ -167,20 +167,29 @@
   },
   "flex-layout.row#searchinfo": {
     "children": [
-      "flex-layout.col#productCount",
       "flex-layout.row#orderByAndSwitcher"
+      // Entrará na versão posterior ao MVP
+      // ,"flex-layout.col#productCount"
     ]
   },
   "flex-layout.row#orderByAndSwitcher": {
     "children": [
-      "order-by.v2",
-      "gallery-layout-switcher"
+      "gallery-layout-switcher",
+      "order-by.v2"
     ],
     "props": {
-      "horizontalAlign": "right",
+      "horizontalAlign": "left",
       "preventHorizontalStretch": true,
       "blockClass": "orderByAndSwitcher",
       "colGap": 3
+    }
+  },
+  "order-by.v2": {
+    "props": {
+      "hiddenOptions": [
+        "OrderByReleaseDateDESC",
+        "OrderByBestDiscountDESC"
+      ]
     }
   },
   "flex-layout.col#productCount": {
@@ -234,7 +243,8 @@
       "flex-layout.row#breadcrumbslayout",
       "flex-layout.row#header-search",
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#productCountMobile",
+       // Entrará na versão posterior ao MVP
+      //"flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmoresearch"
@@ -279,10 +289,19 @@
   },
   "flex-layout.col#orderByMobile": {
     "children": [
-      "order-by.v2"
+      "order-by.v2#mobile"
     ],
     "props": {
       "blockClass": "orderByMobileCol"
+    }
+  },
+  "order-by.v2#mobile": {
+    "props": {
+      "hiddenOptions": [
+        "OrderByReleaseDateDESC",
+        "OrderByBestDiscountDESC"
+      ],
+      "blockClass": "orderByText"
     }
   },
   "flex-layout.row#productCountMobile": {
@@ -357,8 +376,9 @@
   },
   "gallery-layout-switcher": {
     "children": [
-      "gallery-layout-option#grid",
-      "gallery-layout-option#list"
+      // Entrará na versão posterior ao MVP
+      // "gallery-layout-option#grid",
+      // "gallery-layout-option#list"
     ]
   },
   "gallery-layout-option#grid": {

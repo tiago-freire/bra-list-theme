@@ -181,6 +181,8 @@
 }
 .filterItem--selectedFiltersNav--selected :global(.vtex-checkbox__label){
     color: #585959;
+    font-size: 12px!important;
+    line-height: 20px!important;
 }
 @media screen and (min-width:64em) {
     .filtersWrapper--selectedFiltersNav{
@@ -240,4 +242,36 @@
 .caretIcon--filterProducts {
     width: 10px;
     color: #979899;
+}
+.orderByOptionItem--selected {
+    background-color: #F2F4F5;
+}
+.orderByButton {
+    padding-top: 12px;
+}
+.orderByDropdown .filterPopupTitle {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.orderByDropdown .orderByText {
+    color: #3F3F40;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.orderByButton .filterPopupArrowIcon{
+    color: #0C389F;
+    padding-left: 32px;
+}
+.orderByOptionItem {
+    font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:64em) {
+    .orderByButton .filterPopupArrowIcon{
+        padding-left: 8px;
+    }
+    .orderByText--orderByText {
+        display: none;
+    }
 }
