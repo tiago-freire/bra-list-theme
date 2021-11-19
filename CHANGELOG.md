@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- [VTEX-293](https://acctglobal.atlassian.net/browse/VTEX-293): Correction of OrderBy positioning and css
+
 ### Added
 
 - [VTEX-320](https://acctglobal.atlassian.net/browse/VTEX-320): Create modal and "Edit List" button
