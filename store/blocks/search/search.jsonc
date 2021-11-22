@@ -82,7 +82,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#breadcrumbslayout",
-      "flex-layout.row#searchinfo",
       "flex-layout.row#header-search",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -169,8 +168,6 @@
   "flex-layout.col#searchinfo": {
     "children": [
       "flex-layout.row#orderByAndSwitcher"
-      // Entrará na versão posterior ao MVP
-      // ,"flex-layout.col#productCount"
     ]
   },
   "flex-layout.row#orderByAndSwitcher": {
@@ -244,8 +241,6 @@
       "flex-layout.row#breadcrumbslayout",
       "flex-layout.row#header-search",
       "flex-layout.row#searchinfomobile",
-       // Entrará na versão posterior ao MVP
-      //"flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmoresearch"
