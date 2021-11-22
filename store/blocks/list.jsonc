@@ -44,7 +44,11 @@
       "flex-layout.row#breadcrumb",
       "flex-layout.row#list-info",
       "flex-layout.row#search-bar.list"
-    ]
+    ],
+    "props": {
+      "blockClass": "container",
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.row#list-info": {
     "children": [
@@ -77,7 +81,6 @@
       "flex-layout.col#search-bar.list"
     ],
     "props": {
-      "blockClass": "edit-list",
       "preserveLayoutOnMobile": true
     }
   },
@@ -93,6 +96,7 @@
     ],
     "props": {
       "blockClass": [
+        "container",
         "search-bar-list-item"
       ]
     }
