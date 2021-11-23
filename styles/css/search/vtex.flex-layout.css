@@ -23,6 +23,9 @@
     padding-bottom: 13px;
     margin-bottom: 24px;
 }
+.flexRowContent--header-search .stretchChildrenWidth:first-child{
+  width: auto !important;
+}
 @media (min-width: 64em) {
   .flexRow--header-search{
     border-top: 1px solid;
