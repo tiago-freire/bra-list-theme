@@ -82,7 +82,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#breadcrumbslayout",
-      "flex-layout.row#searchinfo",
       "flex-layout.row#header-search",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -95,6 +94,7 @@
   },
   "flex-layout.row#header-search": {
     "children": [
+      "flex-layout.col#searchinfo",
       "flex-layout.col#search-product"
     ],
     "props": {
@@ -165,7 +165,7 @@
       "preventVerticalStretch": true
     }
   },
-  "flex-layout.row#searchinfo": {
+  "flex-layout.col#searchinfo": {
     "children": [
       "flex-layout.row#orderByAndSwitcher"
       // Entrará na versão posterior ao MVP
