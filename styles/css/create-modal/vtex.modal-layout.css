@@ -7,7 +7,9 @@
 }
 
 .triggerContainer--primary-button
-  :global(.vtex-rich-text-0-x-paragraph--create-list-button) {
+  :global(.vtex-rich-text-0-x-paragraph--create-list-button),
+.triggerContainer--primary-button
+  :global(.vtex-rich-text-0-x-paragraph--edit-list-button) {
   font-size: 20px;
   color: #fff;
   line-height: 20px;
@@ -17,43 +19,52 @@
 
 .triggerContainer--primary-button
   :global(.vtex-rich-text-0-x-paragraph--create-list-button)
-  :global(.vtex-rich-text-0-x-image--create-list-button) {
+  :global(.vtex-rich-text-0-x-image--create-list-button),
+.triggerContainer--primary-button
+  :global(.vtex-rich-text-0-x-paragraph--edit-list-button)
+  :global(.vtex-rich-text-0-x-image--edit-list-button) {
   vertical-align: bottom;
   width: 20px;
   height: 20px;
   margin-right: 6px;
 }
 
-.paper--create-list {
+.paper--create-list,
+.paper--edit-list {
   border-radius: 0;
 }
 
-.headerContainer--create-list {
+.headerContainer--create-list,
+.headerContainer--edit-list {
   align-items: center;
   padding: 24px 0;
   margin: 0 32px;
   border: none;
 }
 
-.closeButton--create-list {
+.closeButton--create-list,
+.closeButton--edit-list {
   padding: 0;
 }
 
-.closeIcon--create-list {
+.closeIcon--create-list,
+.closeIcon--edit-list {
   width: 20px;
   height: 20px;
   color: #e13232;
   display: block;
 }
 
-.headerContent--create-list :global(.vtex-rich-text-0-x-paragraph) {
+.headerContent--create-list :global(.vtex-rich-text-0-x-paragraph),
+.headerContent--edit-list :global(.vtex-rich-text-0-x-paragraph) {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
 }
 
 @media screen and (min-width: 40em) {
-  .paper--create-list {
+  .paper--create-list,
+  .paper--edit-list {
     max-width: 540px;
     height: auto;
     border-radius: 4px;
