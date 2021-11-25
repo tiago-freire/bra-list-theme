@@ -55,13 +55,6 @@
   padding-bottom: 64px;
 }
 
-.flexRow--orderList {
-  padding-top: 18px;
-  border-top: 1px solid #CACBCC!important;
-  border-bottom: 1px solid #CACBCC!important;
-  padding-bottom: 20px;
-  margin: 18px;
-}
 .flexRow--search-list-col-guest {
   display: none!important;
 }
