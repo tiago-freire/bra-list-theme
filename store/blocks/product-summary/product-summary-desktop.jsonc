@@ -52,10 +52,23 @@
     "children": [
       "product-summary-image#desktopImage",
       "product-summary-name#desktopProductName",
-      "flex-layout.col#desktopPriceAndQuantity",
-      "add-to-cart-button-list#desktopAddToCartButton"
+      "flex-layout.col#desktopPriceAndQuantityGuest",
+      "add-to-cart-button-list#desktopAddToCartButton",
+      "gifted-button"
     ]
   },
+  "flex-layout.col#desktopPriceAndQuantityGuest": {
+    "props": {
+      "blockClass": "priceAndQuantity"
+    },
+    "children": ["product-summary-price#desktopPriceGuest", "quantity-selector-shelf-guest"]
+  },
+  "product-summary-price#desktopPriceGuest": {
+    "props": {
+      "showLabels": false
+    }
+  },
+  
  
   "add-to-cart-button-list#desktopAddToCartButton": {
     "props": {
