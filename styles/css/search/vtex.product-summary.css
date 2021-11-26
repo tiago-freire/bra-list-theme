@@ -90,6 +90,7 @@
 .containerNormal--showCaseProduct{
   max-width: 100% !important;
   margin: 0px !important;
+  align-items: center;
 }
 .image--desktopImageMobile{
   height:100%;
