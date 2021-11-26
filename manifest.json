@@ -1,7 +1,7 @@
 {
-  "vendor": "acctfpa",
+  "vendor": "acupula",
   "name": "list-theme",
-  "version": "0.5.1",
+  "version": "0.7.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -51,8 +51,10 @@
     "vtex.store-icons": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.condition-layout": "1.x",
-    "acctfpa.list": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "acupula.list": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
