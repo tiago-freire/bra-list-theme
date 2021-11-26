@@ -7,11 +7,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.7.1] - 2021-11-25
+
+## [0.7.0] - 2021-11-25
+
 ### Added
 
 - [VTEX-248](https://acctglobal.atlassian.net/browse/VTEX-248): implement minicart custom block
-
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
+## [0.6.0] - 2021-11-19
+
+### Fixed
+
+- [VTEX-293](https://acctglobal.atlassian.net/browse/VTEX-293): Correction of OrderBy positioning and css
+
+### Added
+
+- [VTEX-320](https://acctglobal.atlassian.net/browse/VTEX-320): Create modal and "Edit List" button
+- [VTEX-251](https://acctglobal.atlassian.net/browse/VTEX-251): Product showcase - header search and search bar
+
 
 ## [0.5.1] - 2020-11-08
 
@@ -22,6 +36,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.5.0] - 2021-11-04
 ### Added
 
+- [VTEX-320](https://acctglobal.atlassian.net/browse/VTEX-320): Create modal and "Edit List" button
 - [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Added minicart
 - [VTEX-271](https://acctglobal.atlassian.net/browse/VTEX-271): Added guest gallery
 - [VTEX-296](https://acctglobal.atlassian.net/browse/VTEX-296): Header Vitrine - convidado
