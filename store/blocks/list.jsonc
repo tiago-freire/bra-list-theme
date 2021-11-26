@@ -16,8 +16,7 @@
     "children": ["gallery.list-items"],
     "props": {
       "blockClass": [
-        "list-items-gallery",
-        "container"
+        "list-items-gallery"
       ]
     }
   },
