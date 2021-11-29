@@ -104,7 +104,12 @@
   "flex-layout.col#search-bar.list-item": {
       "children": [
         "search-bar.list-item"
+      ],
+    "props": {
+      "blockClass": [
+        "search-list-item"
       ]
+    }
   },
   "flex-layout.col#btn-add-itens": {
     "children": [
