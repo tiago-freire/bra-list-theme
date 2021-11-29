@@ -41,3 +41,12 @@
   border-bottom: 1px solid #CACBCC;
   padding: 13px 0;
 }
+.flexColChild--search-list-item{
+  width: 451px;
+}
+
+@media screen and (max-width: 64em){
+  .flexColChild--search-list-item{
+    width: 100%;
+  }
+}
