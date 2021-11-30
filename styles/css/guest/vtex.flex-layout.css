@@ -2,12 +2,12 @@
     margin: 0 auto;
     width: 80%;
 }
-.flexRow--search-order {
-  padding-top: 18px;
+
+.flexRow--tools {
   border-top: 1px solid #CACBCC!important;
   border-bottom: 1px solid #CACBCC!important;
-  padding-bottom: 20px;
   margin: 20px;
+  padding: 13px 0;
 }
 
 .flexCol--orderBy :global(.vtex-dropdown__container) {
@@ -19,7 +19,7 @@
 .flexColChild--orderBy{
   width: 210px;
 }
-.flexRow--search-order .stretchChildrenWidth  {
+.flexRow--tools .stretchChildrenWidth  {
   width:auto !important;
 }
 @media screen and (max-width: 64em){

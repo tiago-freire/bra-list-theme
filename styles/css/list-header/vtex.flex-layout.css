@@ -39,8 +39,10 @@
 .flexRow--search-bar-list-item {
   border-top: 1px solid #CACBCC;
   border-bottom: 1px solid #CACBCC;
+  margin: 20px;
   padding: 13px 0;
 }
+
 .flexColChild--search-list-item{
   width: 451px;
 }
