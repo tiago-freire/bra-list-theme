@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.6.0] - 2021-11-19
 
 ### Fixed
-- [VTEX-516](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
+- [VTEX-514](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
 - [VTEX-293](https://acctglobal.atlassian.net/browse/VTEX-293): Correction of OrderBy positioning and css
 
 ### Added
