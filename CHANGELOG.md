@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
+## [0.8.1]
+
+### Added
+
+- [VTEX-514](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
+- [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
 
 ## [0.7.1] - 2021-11-25
 
@@ -21,7 +27,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.6.0] - 2021-11-19
 
 ### Fixed
-
 - [VTEX-293](https://acctglobal.atlassian.net/browse/VTEX-293): Correction of OrderBy positioning and css
 
 ### Added

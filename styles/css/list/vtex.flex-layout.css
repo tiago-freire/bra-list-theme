@@ -3,3 +3,18 @@
     border: 1px solid #F2F4F5;
     background-color: #F2F4F5;
 }
+.flexRowContent--list-info-title{
+    display: flex;
+    position: relative;
+}
+
+.flexRowContent--list-info-title .stretchChildrenWidth{
+    width: 100% !important;
+}
+
+
+@media screen and (min-width: 40em) {
+    .flexRowContent--list-info-title{
+        display: flex;
+    }
+}
