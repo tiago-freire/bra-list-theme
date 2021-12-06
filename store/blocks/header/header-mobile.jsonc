@@ -11,7 +11,7 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "header-spacer",
+      "auth-condition#login",
       "minicart.v2"
     ],
     "props": {
@@ -22,15 +22,43 @@
       ]
     }
   },
-  "logo#mobile": {
+  "auth-condition#login": {
+    "props": {
+      "Then": "link#to-account-page",
+      "Else": "link#to-login"
+    }
+  },
+  "link#to-account-page": {
+    "children": [
+      "rich-text#login-logout"
+    ],
+    "props": {
+      "href": "https://acctfpa.myvtex.com/"
+    },
+    "title": "Logout Link"
+  },
+  "link#to-login": {
+    "children": [
+      "rich-text#login-logout"
+    ],
+    "props": {
+      "href": "/login"
+    },
+    "title": "Login Link"
+  },
+  "rich-text#login-logout": {
+    "props": {
+      "text": "![](assets/login.svg)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "login-logout"
+    },
+    "title": "Icon"
+  },
+    "logo#mobile": {
     "props": {
       "blockClass": "header-topbar-mobile-logo",
       "url": "assets/Logo_mobile.png"
-    }
-  },
-  "minicart": {
-    "props": {
-      "horizontalAlign": "left"
     }
   },
   "menu#drawer": {

@@ -1,0 +1,11 @@
+@media (min-width: 64em) {
+  .menuContainer--footer-navbar-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .menuContainer--footer-navbar-link
+    .menuItem:first-child
+    .styledLinkContainer {
+    margin-left: 0px;
+  }
+}

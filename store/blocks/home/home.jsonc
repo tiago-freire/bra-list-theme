@@ -1,7 +1,131 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
+  "store.home": {
+    "blocks": ["auth-condition#breadcrumbs" ,"auth-condition#search-list"],
+    "parent": { "storeWrapper": "storeWrapper#home" }
+  },
+  "auth-condition#breadcrumbs": {
+    "props": {
+      "Then": "flex-layout.row#breadcrumbs"
+    }
+  },
+  "flex-layout.row#breadcrumbs": {
+    "children": [ "breadcrumbs"],
+    "props": {
+      "blockClass": ["container"]
+    }
+ },
+  "auth-condition#search-list": {
+    "props": {
+      "Then": "flex-layout.row#home-with-user",
+      "Else": "flex-layout.row#home-without-user"
+    }
+  },
+  /* With User*/
+  "flex-layout.row#home-with-user": {
+    "children": ["flex-layout.col#home-with-user-col"],
+    "props": {
+      "blockClass": "home-with-user"
+    }
+  },
+  "flex-layout.col#home-with-user-col": {
+    "children": [
+      "flex-layout.row#user-list",
+      "flex-layout.row#search-list",
+      "flex-layout.row#advantages"
+    ],
+    "props": {
+      "blockClass": "home"
+    }
+  },
+  "flex-layout.row#user-list": {
+    "children": ["flex-layout.col#user-list-col"],
+    "props": {
+      "blockClass": ["user-list", "container"]
+    }
+  },
+  "flex-layout.row#search-list": {
+    "children": ["flex-layout.col#search-list-col"],
+    "props": {
+      "blockClass": "search-list"
+    }
+  },
+  "flex-layout.col#user-list-col": {
+    "children": ["rich-text#user-list-title", "user-lists", "modal-trigger#create-list-button"],
+    "props": {
+      "blockClass": "search-list"
+    }
+  },
+  "flex-layout.col#search-list-col": {
+    "children": ["rich-text#logged-search-list-title", "search-list"],
+    "props": {
+      "blockClass": "search-list-col"
+    }
+  },
+  /* Without User */
+  "flex-layout.row#home-without-user": {
+    "children": ["flex-layout.col#home-without-user"],
+    "props": {
+      "blockClass": "home-without-user"
+    }
+  },
+  "flex-layout.col#home-without-user": {
+    "children": [
+      "flex-layout.row#search-list-without-user",
+      "flex-layout.row#advantages-muted"
     ]
+  },
+  "flex-layout.row#search-list-without-user": {
+    "children": ["flex-layout.col#search-list-without-user"],
+    "props": {
+      "blockClass": ["search-list-without-user", "container"]
+    }
+  },
+  "flex-layout.col#search-list-without-user": {
+    "children": [
+      "rich-text#unlogged-search-list-title",
+      "search-list",
+      "flex-layout.row#search-list-buttons"
+    ],
+    "props": {
+      "blockClass": "search-list-col"
+    }
+  },
+  "flex-layout.row#search-list-buttons": {
+    "children": ["rich-text#create-list-button", "rich-text#my-lists-button"],
+    "props": {
+      "blockClass": "search-list-buttons"
+    }
+  },
+
+  /* Rich-Text */
+  "rich-text#unlogged-search-list-title": {
+    "props": {
+      "text": "Encontre uma Lista",
+      "blockClass": ["search-list-title", "title-1"]
+    }
+  },
+  "rich-text#logged-search-list-title": {
+    "props": {
+      "text": "Encontre uma Lista",
+      "blockClass": ["search-list-title", "title-2"]
+    }
+  },
+  "rich-text#user-list-title": {
+    "props": {
+      "text": "Minhas Listas",
+      "blockClass": ["search-list-title", "title-1"]
+    }
+  },
+  "rich-text#create-list-button": {
+    "props": {
+      "text": "[CRIE SUA LISTA](/login)",
+      "blockClass": "search-list-button"
+    }
+  },
+  "rich-text#my-lists-button": {
+    "props": {
+      "text": "[MINHAS LISTAS](/login)",
+      "blockClass": "search-list-button"
+    }
   }
 }

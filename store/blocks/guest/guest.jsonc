@@ -1,0 +1,183 @@
+{
+  "store.guest#guest": {
+    "blocks": [
+      "flex-layout.row#breadcrumbs-guest",
+      "flex-layout.row#list-header-guest",
+      "flex-layout.row#searchOrder",
+      "flex-layout.row#listProducts",
+      "responsive-layout.desktop#list-items-guest",
+      "responsive-layout.mobile#list-items-guest",
+      "flex-layout.row#fetchmore"
+    ]
+  },
+  "responsive-layout.desktop#list-items-guest":{
+    "children": ["flex-layout.row#list-items-gallery-guest"]
+  },
+  "responsive-layout.mobile#list-items-guest":{
+    "children": ["flex-layout.row#list-items-gallery-mobile-guest"]
+  },
+  "flex-layout.row#list-items-gallery-guest": {
+    "children": ["gallery.list-items#guest"],
+    "props": {
+      "blockClass": ["list-items-gallery","container", "gallery-guest"]
+    }
+  },
+  "flex-layout.row#list-items-gallery-mobile-guest": {
+    "children": ["gallery.list-items#mobile-guest"]
+  },
+  "flex-layout.row#breadcrumbs-guest": {
+    "children": ["breadcrumbs"],
+    "props": {
+      "blockClass": ["container"]
+    }
+  },
+  "flex-layout.row#list-header-guest": {
+    "children": [
+      "flex-layout.col#list-header-guest"
+    ],
+    "props": {
+      "blockClass": "list-header"
+    }
+  },
+  "flex-layout.col#list-header-guest": {
+    "children": [
+      "flex-layout.row#list-info-guest"
+    ]
+  },
+  "flex-layout.row#list-info-guest": {
+    "children": [
+      "list-info.name",
+      "flex-layout.row#owner-and-date-guest"
+    ],
+    "props": {
+      "blockClass": [
+        "list-info",
+        "container"
+      ]
+    }
+  },
+  "flex-layout.row#owner-and-date-guest": {
+    "children": [
+      "list-info.owner",
+      "list-info.event-date"
+    ],
+    "props": {
+      "blockClass": "owner-and-date",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#searchOrder": {
+    "children": [
+      "flex-layout.row#search-order-search"
+    ],
+    "props": {
+      "blockClass": ["orderList"]
+    }
+  },
+  "flex-layout.row#search-order-search": {
+    "children": [
+      "flex-layout.row#search-list-guest"
+    ],
+    "props": {
+      "blockClass": [
+        "search-list-guest"
+      ]
+    }
+  },
+  "flex-layout.row#search-list-guest": {
+    "children": [
+      "flex-layout.col#search-list-col"
+    ],
+    "props": {
+      "blockClass": [
+        "search-list-col-guest"
+      ]
+    }
+  },
+  "flex-layout.row#listProducts": {
+    "children": [],
+    "props": {
+      "blockClass": [
+        "listProductsGuest"
+      ]
+    }
+  },
+  "flex-layout.row#fetchmore-guest": {
+    "props": {
+      "marginTop": 3
+    },
+    "children": [
+      "search-fetch-more"
+    ]
+  },
+
+  "gallery.list-items#guest": {
+    "blocks": ["product-summary.shelf#desktopShowcase-guest"],
+    "props": {
+      "blockClass": ["list-items","items-gallery-guest"],
+      "EmptyList": "flex-layout.row#empty-list-guest"
+    }
+  },
+  "gallery.list-items#mobile-guest": {
+    "blocks": [
+      "product-summary.shelf#mobileShowcase-guest"
+    ],
+    "props": {
+      "blockClass": "list-items-mobile",
+      "EmptyList": "flex-layout.row#empty-list-guest"
+    }
+  },
+  "flex-layout.row#empty-list-guest": {
+    "children": [
+      "flex-layout.col#empty-list-guest"
+    ]
+  },
+  "flex-layout.col#empty-list-guest": {
+    "children": [
+      "rich-text#empty-list-guest",
+      "responsive-layout.desktop#add-itens-link-guest",
+      "responsive-layout.mobile#add-itens-link-mobile"
+    ],
+    "props": {
+      "blockClass": "empty-list"
+    }
+  },
+  "responsive-layout.desktop#add-itens-link-guest":{
+    "children":[
+      "rich-text#add-itens-link-button-guest"
+    ]
+  },
+  "responsive-layout.mobile#add-itens-link-mobile-guest":{
+    "children":[
+      "rich-text#add-itens-link-button-mobile-guest"
+    ]
+  },
+  "rich-text#empty-list-guest": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "![](assets/sad.svg)\n A pessoa responsável pela lista\n não adicionou nenhum item",
+      "blockClass": "empty-list-text"
+    }
+  },
+  "rich-text#add-itens-link-button-guest": {
+    "props": {
+      "text": "![](assets/add.svg)[Crie sua própria lista](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "add-itens-link"
+      ]
+    }
+  },
+  "rich-text#add-itens-link-button-mobile-guest": {
+    "props": {
+      "text": "![](assets/plus.svg)[Crie sua própria lista](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "add-itens-link"
+      ]
+    }
+  }
+}

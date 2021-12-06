@@ -1,0 +1,65 @@
+{
+  "modal-trigger#create-list-button": {
+    "children": [
+      "rich-text#create-list",
+      "modal-layout#create-list"
+    ],
+    "props": {
+      "blockClass": [
+        "create-list",
+        "primary-button"
+      ]
+    }
+  },
+  "modal-trigger#create-list": {
+    "children": [
+      "rich-text#create-list",
+      "modal-layout#create-list"
+    ],
+    "props": {
+      "blockClass": "create-list"
+    }
+  },
+  "rich-text#create-list": {
+    "props": {
+      "text": "![](assets/add.svg)Criar lista",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "create-list-button"
+    }
+  },
+  "modal-layout#create-list": {
+    "children": [
+      "modal-header#create-list",
+      "create-list-form"
+    ],
+    "props": {
+      "blockClass": "create-list",
+      "fullScreen": true
+    }
+  },
+  "modal-header#create-list": {
+    "children": [
+      "rich-text#create-list-modal-header"
+    ],
+    "props": {
+      "blockClass": [
+        "container",
+        "create-list"
+      ],
+      "showCloseButton": true
+    }
+  },
+  "rich-text#create-list-modal-header": {
+    "props": {
+      "text": "Criar lista",
+      "textAlignment": "LEFT",
+      "blockClass": "modal-header-title"
+    }
+  },
+  "modal-actions.close#create-list": {
+    "props": {
+      "label": "Cancelar"
+    }
+  }
+}
