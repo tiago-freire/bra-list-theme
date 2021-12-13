@@ -126,4 +126,10 @@
     width: 100% !important;
     height: 232px;
   }
+  .installmentContainer {
+    width: 90px;
+    display: inline;
+    white-space: normal;
+    margin: 0 auto;
+  }
 }

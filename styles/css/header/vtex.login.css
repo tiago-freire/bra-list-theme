@@ -51,9 +51,16 @@ div[class*='flex w-100 c-on-base lh-copy items-center vtex-checkout-summary-0-x-
 /*product-summary-quantity - Guest shelf*/
 :global(.vtex-numeric-stepper__minus-button-container)
   button[class*='vtex-numeric-stepper__minus-button numeric-stepper__minus-button br2 pa0 br-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  pointer bg-base c-action-primary '],
-  :global(.vtex-numeric-stepper__plus-button-container)
+:global(.vtex-numeric-stepper__plus-button-container)
   button[class*='vtex-numeric-stepper__plus-button numeric-stepper__plus-button br2 pa0 bl-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  pointer bg-base c-action-primary '] {
   color: #585959;
+  width: 100% !important;
+}
+:global(.vtex-numeric-stepper__minus-button-container)
+  button[class*='vtex-numeric-stepper__minus-button numeric-stepper__minus-button br2 pa0 br-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  bg-muted-5 c-disabled o-100 '],
+:global(.vtex-numeric-stepper__plus-button-container)
+  button[class*='vtex-numeric-stepper__plus-button numeric-stepper__plus-button br2 pa0 bl-0 flex items-center justify-center ba b--muted-4 bw1  h-small f6  bg-muted-5 c-disabled o-100 '] {
+  width: 100% !important;
 }
 
 @media (max-width: 50em) {
