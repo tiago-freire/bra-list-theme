@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - **VTEX-294** - (https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
-- **VTEX-292** - (https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem
+- **VTEX-292** - (https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
 
 
 ## [0.8.1]
