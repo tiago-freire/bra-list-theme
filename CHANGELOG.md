@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
 
+
+## [Unreleased]
+
+### Added
+- **VTEX-294** - (https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem
+
+
 ## [0.8.1]
 
 ### Added
