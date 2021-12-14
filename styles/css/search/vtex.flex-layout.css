@@ -11,6 +11,8 @@
 }
 .flexRowContent--productInfo .stretchChildrenWidth{
   width: 100% !important;
+  max-width: 350px;
+  align-self: center;
 }
 .flexColChild--filterDesktop{
   padding-left: 16px;
@@ -26,7 +28,7 @@
 .flexRowContent--header-search .stretchChildrenWidth:first-child{
   width: auto !important;
 }
-@media (min-width: 64em) {
+@media (min-width: 65em) {
   .flexRow--header-search{
     border-top: 1px solid;
       border-bottom: 1px solid;
