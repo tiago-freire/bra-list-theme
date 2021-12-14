@@ -3,27 +3,3 @@
     width: 80%;
 }
 
-.flexRow--tools {
-  border-top: 1px solid #CACBCC!important;
-  border-bottom: 1px solid #CACBCC!important;
-  margin: 20px;
-  padding: 13px 0;
-}
-
-.flexCol--orderBy :global(.vtex-dropdown__container) {
-  border: none;
-}
-.flexCol--orderBy :global(.vtex-dropdown__button){
-  color:#3F3F40;
-}
-.flexColChild--orderBy{
-  width: 210px;
-}
-.flexRow--tools .stretchChildrenWidth  {
-  width:auto !important;
-}
-@media screen and (max-width: 64em){
-  .flexColChild--orderBy{
-    width: auto;
-  }
-}
