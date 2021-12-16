@@ -55,6 +55,3 @@
   justify-content:flex-start;
   margin-right: 12px;
 }
-.flexColChild--priceAndQuantity {
-  pointer-events: all;
-}

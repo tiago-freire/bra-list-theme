@@ -34,4 +34,5 @@
 .summaryContainer--quantity{
   width: auto !important;
   margin-bottom: 8px;
+  pointer-events: all;
 }
