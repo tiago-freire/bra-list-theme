@@ -133,9 +133,9 @@
     margin: 0 auto;
   }
 }
-.clearLink--showcase {
+.clearLink--showcase, .clearLink--showCaseProduct {
   pointer-events: none;
 }
-.element--showcase :global(.vtex-button) {
+.clearLink--showcase :global(.vtex-button), .clearLink--showCaseProduct :global(.vtex-button) {
   pointer-events: all;
 }
