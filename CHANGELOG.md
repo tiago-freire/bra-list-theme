@@ -5,18 +5,18 @@ All notable changes to this project will be documented in this file!
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
+
+### Added
+
+- **VTEX-294** - (https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
+- **VTEX-292** - (https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
+
+## [0.8.3] - 2021-12-14
 ### Fixed
 
 - [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout  in product-summary guest shelf
 
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
-
-
-## [Unreleased]
-
-### Added
-- **VTEX-294** - (https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
-- **VTEX-292** - (https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
 
 
 ## [0.8.1]
@@ -25,10 +25,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-514](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
-
-### Added
-
-- [VTEX-294](https://acctglobal.atlassian.net/browse/VTEX-294): added orderby guest
 
 ## [0.7.1] - 2021-11-25
 
