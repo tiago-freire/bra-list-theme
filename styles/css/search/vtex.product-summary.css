@@ -133,3 +133,9 @@
     margin: 0 auto;
   }
 }
+.clearLink--showcase {
+  pointer-events: none;
+}
+.element--showcase :global(.vtex-button) {
+  pointer-events: all;
+}
