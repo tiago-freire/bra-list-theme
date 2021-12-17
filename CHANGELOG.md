@@ -14,11 +14,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+- [VTEX-294](https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
+- [VTEX-292](https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
 - [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout  in product-summary guest shelf
-
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
-
 - [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
+
 ## [0.8.1]
 
 ### Added
