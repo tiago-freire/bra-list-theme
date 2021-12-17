@@ -22,6 +22,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
 - [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
 
+## [Unreleased]
+
+### Fixed
+
+- [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
 ## [0.8.1]
 
 ### Added
