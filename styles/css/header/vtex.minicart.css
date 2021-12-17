@@ -46,6 +46,15 @@
   font-weight: normal;
 }
 
+@media (max-width: 65em) {
+  /*mobile login icon*/
+  .cartIcon--header-top-bar-minicart {
+    width: 20px;
+    height: 20px;
+    color: #585959;
+  }
+}
+
 @media (max-width: 50em) {
   .drawer--header-top-bar-minicart .closeIconContainer--header-top-bar-minicart .closeIconButton--header-top-bar-minicart {
     padding-right: 10px;

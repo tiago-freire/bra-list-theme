@@ -11,6 +11,12 @@
       ]
     }
   },
+  "modal-trigger#create-list-link": {
+    "children": [
+      "menu-item#create-list",
+      "modal-layout#create-list"
+    ]
+  },
   "modal-trigger#create-list": {
     "children": [
       "rich-text#create-list",

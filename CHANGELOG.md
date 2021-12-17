@@ -5,19 +5,26 @@ All notable changes to this project will be documented in this file!
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
+
 ### Fixed
 
-- [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout  in product-summary guest shelf
+- [VTEX-620](https://acctglobal.atlassian.net/browse/VTEX-620): Redirection of header links
 
+## [0.8.2] - 2021-12-14
+
+### Fixed
+
+- [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout in product-summary guest shelf
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
 
 
 ## [Unreleased]
 
 ### Added
-- **VTEX-294** - (https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
-- **VTEX-292** - (https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
 
+- [VTEX-294](https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
+- [VTEX-292](https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
+- [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
 
 ## [0.8.1]
 
@@ -38,9 +45,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-248](https://acctglobal.atlassian.net/browse/VTEX-248): implement minicart custom block
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
+
 ## [0.6.0] - 2021-11-19
 
 ### Fixed
+
 - [VTEX-293](https://acctglobal.atlassian.net/browse/VTEX-293): Correction of OrderBy positioning and css
 
 ### Added
@@ -56,6 +65,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Fixed add-to-cart-button
 
 ## [0.5.0] - 2021-11-04
+
 ### Added
 
 - [VTEX-320](https://acctglobal.atlassian.net/browse/VTEX-320): Create modal and "Edit List" button
@@ -67,7 +77,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-332](https://acctglobal.atlassian.net/browse/VTEX-332): Added login/logout mobile button
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
 - [VTEX-192](https://acctglobal.atlassian.net/browse/VTEX-192): Added list item search block
-
 - [VTEX-236](https://acctglobal.atlassian.net/browse/VTEX-236): added block of gifted items
 
 ## [0.3.0] - 2021-09-24
