@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-294](https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
 - [VTEX-292](https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
 
+- [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Fixed filter scroll mobile - department
+
 ## [0.8.2] - 2021-12-14
 
 ### Fixed
@@ -26,6 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-514](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
+
 
 ## [0.7.1] - 2021-11-25
 
