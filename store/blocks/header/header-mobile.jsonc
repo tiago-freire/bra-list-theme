@@ -11,7 +11,7 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "auth-condition#login",
+      "login",
       "minicart.v2"
     ],
     "props": {
@@ -33,7 +33,7 @@
       "rich-text#login-logout"
     ],
     "props": {
-      "href": "https://acctfpa.myvtex.com/"
+      "href": "https://vtex511p--acupula.myvtex.com/"
     },
     "title": "Logout Link"
   },
