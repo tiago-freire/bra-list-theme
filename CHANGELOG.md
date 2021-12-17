@@ -5,12 +5,20 @@ All notable changes to this project will be documented in this file!
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
+
+### Fixed
+
+- [VTEX-620](https://acctglobal.atlassian.net/browse/VTEX-620): Redirection of header links
+
+## [0.8.2] - 2021-12-14
+
 ### Fixed
 
 - [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout  in product-summary guest shelf
 
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
 
+- [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
 ## [0.8.1]
 
 ### Added
