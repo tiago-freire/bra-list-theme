@@ -154,18 +154,6 @@
   },
  
   "flex-layout.col#search-bar.list-item": {
-    "children": [
-      "flex-layout.col#orderby",
-      "flex-layout.row#btn-add-itens"
-    ],
-     "props": {
-          "blockClass": [
-            "tools-ownerList"
-          ]
-      }
-  },
- 
-  "flex-layout.col#search-bar.list-item": {
       "children": [
         "search-bar.list-item"
       ],
@@ -174,10 +162,8 @@
         "search-list-item"
       ]
     }
-  },
-  "flex-layout.row#btn-add-itens": {
-    "children": [ "flex-layout.col#btn-add-itens" ]
-  },
+   },
+
   "flex-layout.row#btn-add-itens": {
     "children": [ "flex-layout.col#btn-add-itens" ]
   },
