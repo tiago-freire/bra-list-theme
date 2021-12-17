@@ -51,10 +51,15 @@
       }
     }
   },
+  "auth-condition#header-menu": {
+    "props": {
+      "Then": "menu#bottom-navbar-link"
+    }
+  },
   "menu#bottom-navbar-link": {
     "children": [
       "menu-item#my-list",
-      "menu-item#create-list"
+      "modal-trigger#create-list-link"
     ],
     "props": {
       "blockClass": "bottom-navbar-link-action"
@@ -67,7 +72,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Minha lista",
         "text": "Minha Lista"
@@ -86,9 +91,8 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Criar lista",
+        "noFollow": true,
+        "tagTitle": "Criar lista 11",
         "text": "Criar Lista"
       },
       "iconProps": {

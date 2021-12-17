@@ -32,7 +32,7 @@
     "children": [
       "logo",
       "header-spacer",
-      "menu#bottom-navbar-link"
+      "auth-condition#header-menu"
     ],
     "props": {
       "blockClass": [
