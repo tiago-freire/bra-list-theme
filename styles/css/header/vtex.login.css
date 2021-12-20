@@ -63,6 +63,16 @@ div[class*='flex w-100 c-on-base lh-copy items-center vtex-checkout-summary-0-x-
   width: 100% !important;
 }
 
+@media (max-width: 65em) {
+  /*mobile login icon*/
+  .profileIcon--login-topbar {
+    width: 20px;
+    height: 20px;
+    color: #585959;
+    padding-left: 20px;
+  }
+}
+
 @media (max-width: 50em) {
   div[class*='vtex-product-list-0-x-removeButtonContainer vtex-product-list-0-x-item ']
 button[class*='vtex-product-list-0-x-removeButton pointer bg-transparent bn pa2'] {

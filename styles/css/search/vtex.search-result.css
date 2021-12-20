@@ -216,7 +216,6 @@
     border-color: #CACBCC;
 }
 .accordionFilter .filterAccordionBreadcrumbs {
-    padding: 4rem 0 0 2rem;
     height: auto;
     border-color: #CACBCC;
 }
@@ -273,5 +272,8 @@
     }
     .orderByText--orderByText {
         display: none;
+    }
+    .sidebar .accordionFilter .accordionFilterItemOptions {
+        padding-bottom: 100px;
     }
 }
