@@ -107,12 +107,17 @@
     ]
   },
   "search-bar#header-search": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "blockClass": "header-search",
       "placeholder":"Buscar Itens na Loja",
       "disableBlurAndTouchEndHandler": true,
-      "displayMode": "search-and-clear-buttons"
+      "displayMode": "search-and-clear-buttons",
+      "blurOnSubmit":"true"
     }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
   },
   "flex-layout.row#breadcrumbslayout": {
     "children": [
