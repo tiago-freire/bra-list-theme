@@ -6,16 +6,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
 ### Added
 
 - [VTEX-62](https://acctglobal.atlassian.net/browse/VTEX-62): Implement autocomplete-result-list.v2 - search-bar Department
 
 ### Fixed
 
+- [VTEX-622](https://acctglobal.atlassian.net/browse/VTEX-622): Removed click event for PDP
 - [VTEX-620](https://acctglobal.atlassian.net/browse/VTEX-620): Redirection of header links
 - [VTEX-294](https://acctglobal.atlassian.net/browse/VTEX-294): Added sorting by listItem guest
 - [VTEX-292](https://acctglobal.atlassian.net/browse/VTEX-292): Added sorting by listItem
-
 - [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
 - [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Selection selection scroll does not display all departments
 
@@ -27,12 +28,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout  in product-summary guest shelf
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
 - [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
-
-## [Unreleased]
-
-### Fixed
-
 - [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
+
 ## [0.8.1]
 
 ### Added
