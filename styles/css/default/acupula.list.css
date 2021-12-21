@@ -9,7 +9,18 @@
     border: none;
     width: 100%;
     max-width: 50px;
+    pointer-events: all;
   }
+  .summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__plus-button-container),
+  .summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__minus-button-container) {
+  pointer-events: all;
+}
   .summaryContainer
     .quantitySelectorStepper
     :global(.vtex-numeric-stepper-container)

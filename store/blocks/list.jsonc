@@ -180,11 +180,11 @@
   },
   "gallery.list-items": {
     "blocks": [
-      "product-summary.shelf#desktopShowcase"
+      "product-summary.shelf#OwnerList"
     ],
     "props": {
       "blockClass": [
-        "list-items"
+        "list-itemsteste"
       ],
       "EmptyList": "flex-layout.row#empty-list"
     }
