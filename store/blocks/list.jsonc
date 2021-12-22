@@ -184,7 +184,7 @@
     ],
     "props": {
       "blockClass": [
-        "list-itemsteste"
+        "owner-list"
       ],
       "EmptyList": "flex-layout.row#empty-list"
     }

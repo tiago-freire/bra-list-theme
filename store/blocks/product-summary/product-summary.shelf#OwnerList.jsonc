@@ -7,7 +7,8 @@
         "product-summary-image#OwnerListDesktopImage",
         "product-summary-name#OwnerListDesktopProductName",
         "flex-layout.col#OwnerListDesktopPriceAndQuantity",
-        "add-to-list-button#OwnerListDesktopAddToListButton"
+        "add-to-list-button#OwnerListDesktopAddToListButton",
+        "gifted-button"
       ]
     },
     "product-summary-image#OwnerListDesktopImage": {

@@ -1,0 +1,19 @@
+.summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__input) {
+  pointer-events: all;
+}
+.summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__plus-button-container),
+  .summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__minus-button-container) {
+  pointer-events: all;
+}
+.gallery--owner-list .galleryItem--owner-list {
+    pointer-events: none;
+}
