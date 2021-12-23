@@ -191,7 +191,7 @@
   },
   "gallery.list-items#mobile": {
     "blocks": [
-      "product-summary.shelf#mobileShowcase"
+      "product-summary.shelf#ListOwnerMobile"
     ],
     "props": {
       "blockClass": "list-items-mobile",
