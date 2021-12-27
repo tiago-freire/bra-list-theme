@@ -273,7 +273,10 @@
     .orderByText--orderByText {
         display: none;
     }
+    .sidebar .accordionFilter {
+        overflow-y: scroll;
+    }
     .sidebar .accordionFilter .accordionFilterItemOptions {
-        padding-bottom: 100px;
+        padding-bottom: 0;
     }
 }
