@@ -29,7 +29,7 @@
     },
     "product-summary-price#OwnerListDesktopPrice": {
       "props": {
-        "blockClass": "PriceTeste",
+        "blockClass": "Price",
         "showLabels": false
       }
     },
