@@ -44,5 +44,23 @@
   background-color: #ffffff;
 }
 .resultsList--header-search{
-  display: none;
+  display: block;
+}
+.suffixWrapper--header-search .searchBarIcon--header-search--clear .closeIcon--header-search {
+  background: #CACBCC;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+@media (max-width: 50em) {
+  .searchBarInnerContainer--header-search--filled
+    .portalContainer--header-search
+    .portalWrapper--header-search
+    .resultsList {
+    min-width: 280px;
+    width: auto;
+    border-left: 2px solid #E3E4E6;
+    border-right: 2px solid #E3E4E6;
+    margin: 0 20px;
+  }
 }
