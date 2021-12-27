@@ -66,3 +66,4 @@ This will enable you to see the applied changes in real time, through the accoun
 
  - [Release/0.8.3](https://github.com/vtex-apps/list-theme/pull/4)
  - [Release/0.8.4](https://github.com/vtex-apps/list-theme/pull/5)
+ - [Release 0.8.5](https://github.com/vtex-apps/list-theme/pull/6)
