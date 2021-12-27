@@ -15,12 +15,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [0.8.4] - 2021-12-20
+
 ### Added
 
 - [VTEX-62](https://acctglobal.atlassian.net/browse/VTEX-62): Implement autocomplete-result-list.v2 - search-bar Department
 
 
 ## [0.8.3] - 2021-12-1
+
+### Fixed
 
 - [VTEX-622](https://acctglobal.atlassian.net/browse/VTEX-622): Removed click event for PDP
 - [VTEX-620](https://acctglobal.atlassian.net/browse/VTEX-620): Redirection of header links
