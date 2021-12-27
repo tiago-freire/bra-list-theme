@@ -29,6 +29,22 @@
     :global(.vtex-numeric-stepper-container)
     :global(.vtex-numeric-stepper__input) {
     width: 100%;
+    max-width: 50px;
+    cursor: pointer;
+    pointer-events: all;
+  }
+  .summaryContainer
+    .quantitySelectorStepper
+    :global(.vtex-numeric-stepper-container)
+    :global(.vtex-numeric-stepper__minus-button-container)
+    :global(.vtex-numeric-stepper__minus-button),
+    .summaryContainer
+    .quantitySelectorStepper
+    :global(.vtex-numeric-stepper-container)
+    :global(.vtex-numeric-stepper__plus-button-container)
+    :global(.vtex-numeric-stepper__plus-button) {
+    border: none;
+    background: #ffffff;
     display: inline-flex;
     margin: 0 auto;
     min-width: 28px;
