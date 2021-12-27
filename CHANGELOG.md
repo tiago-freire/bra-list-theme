@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 
-## [0.8.5] - 2021-12-27
 ### Fixed
 
 - [VTEX-602](https://acctglobal.atlassian.net/browse/VTEX-602): Fixed unavailable button with click in guest products shelf - mobile/tablet
