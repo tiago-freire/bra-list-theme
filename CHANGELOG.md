@@ -7,13 +7,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+## [0.8.5] - 2021-12-27
+### Fixed
+
+- [VTEX-602](https://acctglobal.atlassian.net/browse/VTEX-602): Fixed unavailable button with click in guest products shelf - mobile/tablet
+- [VTEX-517](https://acctglobal.atlassian.net/browse/VTEX-517): Fixed unavailable button with click in guest products shelf 
+
+
+## [0.8.4] - 2021-12-20
 ### Added
 
 - [VTEX-641](https://acctglobal.atlassian.net/browse/VTEX-641): created new logic and custom component to Owner List quantity selector.
 
 - [VTEX-62](https://acctglobal.atlassian.net/browse/VTEX-62): Implement autocomplete-result-list.v2 - search-bar Department
 
-### Fixed
+
+## [0.8.3] - 2021-12-1
 
 - [VTEX-622](https://acctglobal.atlassian.net/browse/VTEX-622): Removed click event for PDP
 - [VTEX-620](https://acctglobal.atlassian.net/browse/VTEX-620): Redirection of header links
@@ -32,10 +42,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
 - [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
 
-## [Unreleased]
-### Fixed
 
-- [VTEX-602](https://acctglobal.atlassian.net/browse/VTEX-602): Fixed unavailable button with click in guest products shelf - mobile/tablet
 ## [0.8.1]
 
 ### Added
@@ -43,7 +50,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-514](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
 
+
 - [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Fixed filter scroll mobile - department
+
 ## [0.7.1] - 2021-11-25
 
 ## [0.7.0] - 2021-11-25
