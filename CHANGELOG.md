@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.8.6] - 2021-12-30
 ### Added
 
 - [VTEX-641](https://acctglobal.atlassian.net/browse/VTEX-641): created new logic and custom component to Owner List quantity selector.
