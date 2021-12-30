@@ -180,18 +180,18 @@
   },
   "gallery.list-items": {
     "blocks": [
-      "product-summary.shelf#desktopShowcase"
+      "product-summary.shelf#OwnerList"
     ],
     "props": {
       "blockClass": [
-        "list-items"
+        "owner-list"
       ],
       "EmptyList": "flex-layout.row#empty-list"
     }
   },
   "gallery.list-items#mobile": {
     "blocks": [
-      "product-summary.shelf#mobileShowcase"
+      "product-summary.shelf#ListOwnerMobile"
     ],
     "props": {
       "blockClass": "list-items-mobile",
