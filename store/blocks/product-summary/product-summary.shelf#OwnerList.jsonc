@@ -1,0 +1,43 @@
+{
+    "product-summary.shelf#OwnerList": {
+      "props": {
+        "blockClass": "OwnerList"
+      },
+      "children": [
+        "product-summary-image#OwnerListDesktopImage",
+        "product-summary-name#OwnerListDesktopProductName",
+        "flex-layout.col#OwnerListDesktopPriceAndQuantity",
+        "add-to-list-button#OwnerListDesktopAddToListButton",
+        "gifted-button"
+      ]
+    },
+    "product-summary-image#OwnerListDesktopImage": {
+      "props": {
+        "blockClass": "desktopImage"
+      }
+    },
+    "product-summary-name#OwnerListDesktopProductName": {
+      "props": {
+        "blockClass": "title"
+      }
+    },
+    "flex-layout.col#OwnerListDesktopPriceAndQuantity": {
+      "props": {
+        "blockClass": "priceAndQuantity"
+      },
+      "children": ["product-summary-price#OwnerListDesktopPrice", "quantity-selector-shelf-guest-owner-list"]
+    },
+    "product-summary-price#OwnerListDesktopPrice": {
+      "props": {
+        "blockClass": "Price",
+        "showLabels": false
+      }
+    },
+    "add-to-list-button#OwnerListDesktopAddToListButton": {
+      "props": {
+        "blockClass": "button"
+      }
+      // "blocks": ["quickview-button"]
+    }
+  }
+  

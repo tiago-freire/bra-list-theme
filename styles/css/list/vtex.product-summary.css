@@ -1,0 +1,4 @@
+.element--OwnerList :global(.vtex-list-0-x-addToListButtonContainer) :global(.vtex-button) {
+    pointer-events: all;
+    cursor: pointer;
+}

@@ -16,6 +16,24 @@
 .galleryItem--list-items-mobile{
     width: 100% !important;
 }
+.summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__input) {
+  pointer-events: all;
+  cursor: pointer;
+}
+.summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__plus-button-container),
+  .summaryContainer
+  .quantitySelectorStepper
+  :global(.vtex-numeric-stepper-container)
+  :global(.vtex-numeric-stepper__minus-button-container) {
+  pointer-events: all;
+  cursor: pointer;
+}
 
 @media screen and (min-width: 40em){
     .gallery--list-items-mobile{
