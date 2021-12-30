@@ -59,6 +59,13 @@
         margin-left: 8px;
     }
 }
+@media screen and (max-width: 65em){
+    .container--add-itens-link-header {
+        display: inline-flex;
+        margin: 0px 10px;
+        float: right;
+    }
+}
 @media screen and (max-width: 40em){
     .wrapper--text-paragraph .paragraph{
         color: #585959;
