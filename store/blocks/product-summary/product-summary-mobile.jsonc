@@ -10,7 +10,7 @@
   "flex-layout.row#productinfo": {
     "children": [
       "flex-layout.row#headerProduct",
-      "add-to-list-button#mobileAddToListButton"
+      "modal-trigger#product-details"
     ],
     "props":{
       "blockClass":"productInfo"
@@ -62,7 +62,31 @@
     }
     // "blocks": ["quickview-button"]
   },
-  
+  "modal-trigger#product-details": {
+    "children": [
+      "rich-text#trigger",
+      "modal-layout#product-details"
+    ],
+    "props": {
+      "blockClass": "product-details"
+    }
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "VER ITEM",
+      "blockClass": "product-details"
+    }
+  },
+  "modal-layout#product-details": {
+     "children": [
+       "rich-text#hello"
+     ]
+   },
+   "rich-text#hello": {
+     "props": {
+       "text": "Hello"
+    }
+  },
   //Guest
   "product-summary.shelf#mobileShowcase-guest": {
     "children": [

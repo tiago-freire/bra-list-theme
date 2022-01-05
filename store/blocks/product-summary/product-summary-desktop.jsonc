@@ -7,7 +7,7 @@
       "product-summary-image#desktopImage",
       "product-summary-name#desktopProductName",
       "flex-layout.col#desktopPriceAndQuantity",
-      "modal-trigger#first"
+      "modal-trigger#product-details"
     ]
   },
   "product-summary-image#desktopImage": {
@@ -43,18 +43,22 @@
     }
     // "blocks": ["quickview-button"]
   },
-  "modal-trigger#first": {
+  "modal-trigger#product-details": {
     "children": [
       "rich-text#trigger",
-     "modal-layout#first"
-    ]
+      "modal-layout#product-details"
+    ],
+    "props": {
+      "blockClass": "product-details"
+    }
   },
   "rich-text#trigger": {
     "props": {
-      "text": "CLICK ME"
+      "text": "VER ITEM",
+      "blockClass": "product-details"
     }
   },
-  "modal-layout#first": {
+  "modal-layout#product-details": {
      "children": [
        "rich-text#hello"
      ]
