@@ -7,13 +7,29 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.8.6] - 2021-12-30
+## [0.10.0] - 2022-01-06
+
 ### Added
 
 - [VTEX-557](https://acctglobal.atlassian.net/browse/VTEX-557): Creating  Documentation a List Theme App.
+
+
+## [0.9.7] - 2021-12-30
+
+### Fixed
+
+- Version list theme
+
+
+## [0.8.6] - 2021-12-30
+
+### Added
+
 - [VTEX-641](https://acctglobal.atlassian.net/browse/VTEX-641): created new logic and custom component to Owner List quantity selector.
 
+
 ## [0.8.5] - 2021-12-27
+
 ### Fixed
 
 - [VTEX-602](https://acctglobal.atlassian.net/browse/VTEX-602): Fixed unavailable button with click in guest products shelf - mobile/tablet
