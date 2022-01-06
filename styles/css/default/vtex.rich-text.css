@@ -3,6 +3,15 @@
   line-height: 28px;
   font-weight: 700;
 }
+.container--product-details {
+  display: block;
+  margin: auto;
+}
+.paragraph--product-details {
+  color: #fff !important;
+  text-align: center;
+  line-height: 16px !important;
+}
 
 .paragraph--title-2 {
   font-size: 20px;
