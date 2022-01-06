@@ -1,0 +1,20 @@
+{
+    "modal-trigger#view-item": {
+        "children": [
+            "rich-text#view-item",
+            "modal-layout#view-item"
+        ]
+    },
+    "rich-text#view-item": {
+        "props": {
+            "text": "VER ITEM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "create-list-button"
+        }
+    },
+    "modal-layout#view-item": {
+       
+    "children": ["modal-header#edit-list", "edit-list-form"]
+    }
+}

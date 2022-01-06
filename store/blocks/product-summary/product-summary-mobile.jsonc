@@ -10,12 +10,13 @@
   "flex-layout.row#productinfo": {
     "children": [
       "flex-layout.row#headerProduct",
-      "add-to-list-button#mobileAddToListButton"
+      "modal-trigger#view-item"
     ],
     "props":{
       "blockClass":"productInfo"
     }
   },
+ 
   "flex-layout.row#headerProduct":{
     "children": [
       "product-summary-image#mobileImage",
