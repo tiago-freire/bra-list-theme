@@ -7,11 +7,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.10.0] - 2022-01-06
+
+### Added
+
+- [VTEX-557](https://acctglobal.atlassian.net/browse/VTEX-557): Creating  Documentation a List Theme App.
+
+
 ## [0.9.7] - 2021-12-30
 
 ### Fixed
 
 - Version list theme
+
 
 ## [0.8.6] - 2021-12-30
 
@@ -19,23 +27,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-641](https://acctglobal.atlassian.net/browse/VTEX-641): created new logic and custom component to Owner List quantity selector.
 
+
 ## [0.8.5] - 2021-12-27
 
 ### Fixed
 
 - [VTEX-602](https://acctglobal.atlassian.net/browse/VTEX-602): Fixed unavailable button with click in guest products shelf - mobile/tablet
-- [VTEX-517](https://acctglobal.atlassian.net/browse/VTEX-517): Fixed unavailable button with click in guest products shelf 
+- [VTEX-517](https://acctglobal.atlassian.net/browse/VTEX-517): Fixed unavailable button with click in guest products shelf
 
 
 ## [0.8.4] - 2021-12-20
 
-### Added
+
 - [VTEX-62](https://acctglobal.atlassian.net/browse/VTEX-62): Implement autocomplete-result-list.v2 - search-bar Department
 
 
 ## [0.8.3] - 2021-12-1
-
-### Fixed
 
 - [VTEX-622](https://acctglobal.atlassian.net/browse/VTEX-622): Removed click event for PDP
 - [VTEX-620](https://acctglobal.atlassian.net/browse/VTEX-620): Redirection of header links
