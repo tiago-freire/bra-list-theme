@@ -1,0 +1,12 @@
+.closeButton--product-details {
+    margin-top: 8px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    color:#0C389F;
+    border-radius: 4px;
+    text-transform: uppercase;
+} 
+.paper--product-details{
+    background-color: #F7F9FA !important;
+}
