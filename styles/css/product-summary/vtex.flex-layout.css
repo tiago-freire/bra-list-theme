@@ -1,6 +1,3 @@
-.flexColChild--product-details-mobile {
-  height: auto !important;
-}
 .flexColChild--product-details-main {
   height: auto !important;
   margin-left: 20px !important;
@@ -13,4 +10,11 @@
   margin-top: 14px !important;
   margin-bottom: 16px !important;
   border-top: 1px solid #cacbcc;
+}
+.flexColChild--product-details-desktop{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding-left: 52px;
+  padding-right: 52px;
 }

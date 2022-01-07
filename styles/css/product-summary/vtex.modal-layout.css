@@ -8,5 +8,13 @@
   text-transform: uppercase;
 }
 .paper--product-details {
-  background-color: #f7f9fa !important;
+  background-color: #F2F4F5 !important;
+}
+@media screen and (min-width: 40em) {
+  .paper--product-details {
+    width: 912px !important;
+    height: auto;
+    border-radius: 4px;
+    overflow: visible;
+  }
 }
