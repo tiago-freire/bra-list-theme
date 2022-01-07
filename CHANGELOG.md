@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-664](https://acctglobal.atlassian.net/browse/VTEX-664): Modal da página de detalhes do produto - mobile.
 
+- [VTEX-658](https://acctglobal.atlassian.net/browse/VTEX-658): Modal da página de detalhes do produto - Desktop.
+
 ## [0.8.6] - 2021-12-30
 ### Added
 
