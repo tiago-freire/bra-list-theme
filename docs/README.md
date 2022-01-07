@@ -1,19 +1,21 @@
 # List Theme
+
 This repository contains code for querying the VTEX api
 
 ## Getting started
+
 These instructions will allow you to get a copy of the running project on your local machine for the purposes of querying the vtex api and integrating with app List.
 
 While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
 
 ## Pre-Requisites
+
 When linking the app List Theme in the store, there is an order to link each app and this order must be respected to avoid possible conflicts.
 
 - list-graphql
 - list
 - list-theme
 - list-checkout
-
 
 ## Configuration
 
@@ -25,13 +27,16 @@ When linking the app List Theme in the store, there is an order to link each app
  vtex install list-theme
 ```
 
-#### Cloning 
+#### Cloning
+
 To start the installation, you need to clone the GitLab project into a directory of your choice:
+
 ```json
  cd "directory of your choice"
 ```
 
- SSH clone
+SSH clone
+
 ```json
  git clone git@gitlab.com:acct.global/acct.firstpartyapps/list/list-theme.git
 ```
@@ -39,10 +44,10 @@ To start the installation, you need to clone the GitLab project into a directory
 or
 
 HTTPS clone
+
 ```json
   git clone https://gitlab.com/acct.global/acct.firstpartyapps/list/list-theme.git
 ```
-
 
 Once the clone is done, now let's login, create the workspace and get it running in the store.
 
@@ -73,7 +78,6 @@ Therefore, if you find it in the app's list, copy its name and use it together w
 vtex uninstall vtex.store-theme
 ```
 
-
 ### Step 4 - Creating your workspace in the store
 
 Login and access the store
@@ -86,6 +90,7 @@ vtex login acountName
 #### Check VTEX account and workspace
 
 To verify the VTEX account and workspace in use, just type
+
 ```json
 vtex whoami
 ```
@@ -100,7 +105,7 @@ vtex use `vtex0000`.
 
 Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command.
 
-If the process runs without any errors, the following message will be displayed: 
+If the process runs without any errors, the following message will be displayed:
 `App linked successfully`.
 
 Then, run the `vtex browse` command to open a browser window having your linked store in it. This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
@@ -118,14 +123,13 @@ Run `vtex list` and check whether those apps are already installed.
 If they aren't, run the following command to install them:
 `vtex install vtex.store-sitemap vtex.store -f`
 
-
 ### Built with
 
 Mention the tools you used to create your project
+
 - Node
 - Typescript
 - GraphQl
-
 
 ### Version
 

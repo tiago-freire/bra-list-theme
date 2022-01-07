@@ -1,27 +1,15 @@
 {
   "modal-trigger#create-list-button": {
-    "children": [
-      "rich-text#create-list",
-      "modal-layout#create-list"
-    ],
+    "children": ["rich-text#create-list", "modal-layout#create-list"],
     "props": {
-      "blockClass": [
-        "create-list",
-        "primary-button"
-      ]
+      "blockClass": ["create-list", "primary-button"]
     }
   },
   "modal-trigger#create-list-link": {
-    "children": [
-      "menu-item#create-list",
-      "modal-layout#create-list"
-    ]
+    "children": ["menu-item#create-list", "modal-layout#create-list"]
   },
   "modal-trigger#create-list": {
-    "children": [
-      "rich-text#create-list",
-      "modal-layout#create-list"
-    ],
+    "children": ["rich-text#create-list", "modal-layout#create-list"],
     "props": {
       "blockClass": "create-list"
     }
@@ -35,24 +23,16 @@
     }
   },
   "modal-layout#create-list": {
-    "children": [
-      "modal-header#create-list",
-      "create-list-form"
-    ],
+    "children": ["modal-header#create-list", "create-list-form"],
     "props": {
       "blockClass": "create-list",
       "fullScreen": true
     }
   },
   "modal-header#create-list": {
-    "children": [
-      "rich-text#create-list-modal-header"
-    ],
+    "children": ["rich-text#create-list-modal-header"],
     "props": {
-      "blockClass": [
-        "container",
-        "create-list"
-      ],
+      "blockClass": ["container", "create-list"],
       "showCloseButton": true
     }
   },

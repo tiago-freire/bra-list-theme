@@ -1,27 +1,27 @@
 .productNameContainer--product-details {
-    margin-top: 16px;
-    font-size:18px;
-    font-weight: normal;
-    font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
-.price_sellingPrice--product-details{
-    margin-top:16px;
-    margin-bottom: 16px;
-    font-size: 30px !important;
-
+.price_sellingPrice--product-details {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 30px !important;
 }
-.skuSelectorContainer--product-details{
-    margin-top:16px;
+.skuSelectorContainer--product-details {
+  margin-top: 16px;
 }
-.skuSelectorItem--product-details{
-    margin-right: 12px;
+.skuSelectorItem--product-details {
+  margin-right: 12px;
 }
-.frameAround--product-details{ 
-    border-radius: 4px !important;
+.frameAround--product-details {
+  border-radius: 4px !important;
 }
-.skuSelectorInternalBox--product-details{
-    border: none !important;
+.skuSelectorInternalBox--product-details {
+  border: none !important;
 }
-.productImagesGallerySwiperContainer--product-details{
-    background-color: #fff !important;
+.productImagesGallerySwiperContainer--product-details {
+  background-color: #fff !important;
 }

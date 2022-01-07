@@ -1,5 +1,4 @@
 {
-
   "add-to-cart-button-list": {
     "props": {
       "addToCartFeedback": "customEvent",
@@ -85,10 +84,7 @@
     "blocks": ["product-list"]
   },
   "product-list": {
-    "blocks": [
-      "product-list-content-desktop",
-      "product-list-content-mobile"
-    ]
+    "blocks": ["product-list-content-desktop", "product-list-content-mobile"]
   },
   "product-list-content-desktop": {
     "children": ["flex-layout.row#list-row.desktop"]
@@ -289,5 +285,4 @@
       "layout": "rows"
     }
   }
-  
 }

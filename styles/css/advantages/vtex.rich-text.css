@@ -1,10 +1,10 @@
-.paragraph--advantages-cta{
+.paragraph--advantages-cta {
   margin: 0;
 }
 
-.link--advantages-cta{
+.link--advantages-cta {
   display: block;
-  background-color: #134CD8;
+  background-color: #134cd8;
   color: #fff;
   text-decoration: none;
   padding: 11px 20px;
@@ -15,19 +15,19 @@
   text-transform: uppercase;
 }
 
-.link--advantages-cta:hover{
-  background-color: #0C389F;
+.link--advantages-cta:hover {
+  background-color: #0c389f;
 }
 
-.image--advantages-cta{
+.image--advantages-cta {
   vertical-align: text-top;
   margin-right: 8px;
 }
 
-.container--advantages-cta{
+.container--advantages-cta {
   margin-bottom: 68px;
 }
 
 .paragraph--advantages-title {
-  margin-bottom: 16px!important;
+  margin-bottom: 16px !important;
 }
