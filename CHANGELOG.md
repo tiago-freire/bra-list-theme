@@ -28,7 +28,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-641](https://acctglobal.atlassian.net/browse/VTEX-641): created new logic and custom component to Owner List quantity selector.
 
-
 ## [0.8.5] - 2021-12-27
 
 ### Fixed
@@ -36,12 +35,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-602](https://acctglobal.atlassian.net/browse/VTEX-602): Fixed unavailable button with click in guest products shelf - mobile/tablet
 - [VTEX-517](https://acctglobal.atlassian.net/browse/VTEX-517): Fixed unavailable button with click in guest products shelf
 
-
 ## [0.8.4] - 2021-12-20
 
-
 - [VTEX-62](https://acctglobal.atlassian.net/browse/VTEX-62): Implement autocomplete-result-list.v2 - search-bar Department
-
 
 ## [0.8.3] - 2021-12-1
 
@@ -52,16 +48,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
 - [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Selection selection scroll does not display all departments
 
-
 ## [0.8.2] - 2021-12-14
 
 ### Fixed
 
-- [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout  in product-summary guest shelf
+- [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout in product-summary guest shelf
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
 - [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
 - [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
-
 
 ## [0.8.1]
 
@@ -69,7 +63,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-514](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
-
 
 - [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Fixed filter scroll mobile - department
 
@@ -81,16 +74,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-248](https://acctglobal.atlassian.net/browse/VTEX-248): implement minicart custom block
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
+
 ## [0.6.0] - 2021-11-19
 
 ### Fixed
+
 - [VTEX-293](https://acctglobal.atlassian.net/browse/VTEX-293): Correction of OrderBy positioning and css
 
 ### Added
 
 - [VTEX-320](https://acctglobal.atlassian.net/browse/VTEX-320): Create modal and "Edit List" button
 - [VTEX-251](https://acctglobal.atlassian.net/browse/VTEX-251): Product showcase - header search and search bar
-
 
 ## [0.5.1] - 2020-11-08
 
@@ -99,6 +93,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Fixed add-to-cart-button
 
 ## [0.5.0] - 2021-11-04
+
 ### Added
 
 - [VTEX-320](https://acctglobal.atlassian.net/browse/VTEX-320): Create modal and "Edit List" button

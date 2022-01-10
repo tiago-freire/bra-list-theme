@@ -1,6 +1,3 @@
-
-
-
 .flexRowContent--list-info .stretchChildrenWidth {
   width: auto !important;
 }
@@ -37,7 +34,7 @@
   }
 }
 .flexRow--search-bar-list-item {
-  border-top: 1px solid #CACBCC;
-  border-bottom: 1px solid #CACBCC;
+  border-top: 1px solid #cacbcc;
+  border-bottom: 1px solid #cacbcc;
   padding: 13px 0;
 }

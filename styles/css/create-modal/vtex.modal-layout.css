@@ -1,5 +1,5 @@
 .triggerContainer--primary-button,
-.triggerContainer--product-details{
+.triggerContainer--product-details {
   background-color: #134cd8;
   padding: 11px 20px;
   border-radius: 4px;
@@ -74,4 +74,3 @@
     overflow: visible;
   }
 }
-
