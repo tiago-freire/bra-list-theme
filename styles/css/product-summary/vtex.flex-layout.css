@@ -11,7 +11,7 @@
   margin-bottom: 16px !important;
   border-top: 1px solid #cacbcc;
 }
-.flexColChild--product-details-desktop{
+.flexColChild--product-details-desktop {
   display: flex;
   align-items: center;
   background: #fff;
@@ -22,14 +22,13 @@
 @media screen and (min-width: 40em) {
   .flexCol--product-details-main {
     margin-top: 24px;
-    margin-bottom:24px;
+    margin-bottom: 24px;
   }
-  .flexColChild--product-details-main{
-
-  margin-left: 40px !important;
-  margin-right: 40px !important;
+  .flexColChild--product-details-main {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
   }
-  .flexColChild--product-details-desktop{
+  .flexColChild--product-details-desktop {
     padding-top: 97px;
     padding-bottom: 97px;
   }

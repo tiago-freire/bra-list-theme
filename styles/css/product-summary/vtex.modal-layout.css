@@ -8,7 +8,7 @@
   text-transform: uppercase;
 }
 .paper--product-details {
-  background-color: #F2F4F5 !important;
+  background-color: #f2f4f5 !important;
 }
 @media screen and (min-width: 40em) {
   .paper--product-details {

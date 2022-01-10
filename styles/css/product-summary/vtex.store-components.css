@@ -35,7 +35,7 @@
     overflow-y: auto;
     scrollbar-gutter: stable;
   }
-  .content--product-details{
+  .content--product-details {
     width: 389px;
     min-height: 388px;
     max-height: auto;
