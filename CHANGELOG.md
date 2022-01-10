@@ -13,11 +13,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-658](https://acctglobal.atlassian.net/browse/VTEX-658): Modal da página de detalhes do produto - Desktop.
 
+## [0.11.0] - 2022-01-06
+
+## [0.10.0] - 2022-01-06
+
+### Added
+
+- [VTEX-557](https://acctglobal.atlassian.net/browse/VTEX-557): Creating  Documentation a List Theme App.
+
+
+## [0.9.7] - 2021-12-30
+
+### Fixed
+- Version list theme
+
+
 ## [0.8.6] - 2021-12-30
 
 ### Added
 
-- [VTEX-557](https://acctglobal.atlassian.net/browse/VTEX-557): Creating Documentation a List Theme App.
 - [VTEX-641](https://acctglobal.atlassian.net/browse/VTEX-641): created new logic and custom component to Owner List quantity selector.
 
 ## [0.8.5] - 2021-12-27
