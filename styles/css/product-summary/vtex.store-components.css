@@ -27,8 +27,17 @@
 }
 
 @media screen and (min-width: 40em) {
-.productNameContainer--product-details{
-  font-size: 20px;
-}
-
+  .productNameContainer--product-details {
+    font-size: 20px;
+  }
+  .productDescriptionText--product-details {
+    max-height: 80px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+  }
+  .content--product-details{
+    width: 389px;
+    min-height: 388px;
+    max-height: auto;
+  }
 }

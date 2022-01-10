@@ -15,6 +15,22 @@
   display: flex;
   align-items: center;
   background: #fff;
-  padding-left: 52px;
-  padding-right: 52px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (min-width: 40em) {
+  .flexCol--product-details-main {
+    margin-top: 24px;
+    margin-bottom:24px;
+  }
+  .flexColChild--product-details-main{
+
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+  }
+  .flexColChild--product-details-desktop{
+    padding-top: 97px;
+    padding-bottom: 97px;
+  }
 }

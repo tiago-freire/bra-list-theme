@@ -49,7 +49,10 @@
     "props": {
       "blockClass": "product-details",
       "displayThumbnailsArrows": true,
-      "thumbnailsOrientation": "horizontal"
+      "thumbnailsOrientation": "horizontal",
+      "aspectRatio":"1:1",
+      "maxHeight": 320,
+      "thumbnailMaxHeight": 48 
     }
   },
   "flex-layout.col#product-main": {
@@ -88,7 +91,8 @@
   },
   "product-description": {
     "props": {
-      "collapseContent": true,
+      "blockClass":"product-details",
+      "collapseContent": false,
       "showTitle": false
     }
   },
