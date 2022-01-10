@@ -7,10 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+<<<<<<< HEAD
 ## [0.11.0] - 2022-01-06
 
 ## [0.10.0] - 2022-01-06
 
+=======
+### Added
+
+- [VTEX-664](https://acctglobal.atlassian.net/browse/VTEX-664): Modal da página de detalhes do produto - mobile.
+
+## [0.8.6] - 2021-12-30
+>>>>>>> e6f76bb68fbf3457104b3198c3dfdcf77365cd40
 ### Added
 
 - [VTEX-557](https://acctglobal.atlassian.net/browse/VTEX-557): Creating  Documentation a List Theme App.
