@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- [VTEX-662](https://acctglobal.atlassian.net/browse/VTEX-662): create new add to list modal inside modal - department page.
+
 ## [0.11.0] - 2022-01-06
 
 ## [0.10.0] - 2022-01-06
