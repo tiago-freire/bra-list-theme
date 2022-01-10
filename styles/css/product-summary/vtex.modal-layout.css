@@ -17,4 +17,10 @@
     border-radius: 4px;
     overflow: visible;
   }
+  .headerContainer--product-details-close{
+    position: absolute;
+    float: right;
+    width: 37%;
+    top: 2%;
+  }
 }

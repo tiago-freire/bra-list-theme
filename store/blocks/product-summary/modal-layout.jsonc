@@ -15,6 +15,12 @@
       "fullScreen": true
     }
   },
+  
+  "modal-header#edit-list": {
+    "props": {
+      "showCloseButton": true
+    }
+  },
   "responsive-layout.mobile#product-details": {
     "children": ["flex-layout.col#product-details-mobile"]
   },
@@ -57,6 +63,7 @@
   },
   "flex-layout.col#product-main": {
     "children": [
+      "modal-header#product-details-close",
       "vtex.store-components:product-name",
       "product-price#product-details",
       "product-summary-quantity#mobileQuantity",
@@ -66,6 +73,12 @@
     ],
     "props": {
       "blockClass": "product-details-main"
+    }
+  },
+  "modal-header#product-details-close": {
+    "props": {
+      "blockClass": ["container", "edit-list", "product-details-close"],
+      "showCloseButton": true
     }
   },
   "vtex.store-components:product-name": {
