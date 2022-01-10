@@ -120,6 +120,7 @@
       "product-summary-quantity#mobileQuantity",
       "sku-selector",
       "product-description",
+      "modal-button-add-list",
       "modal-actions.close#product-details"
     ],
     "props":{
