@@ -15,7 +15,7 @@
       "fullScreen": true
     }
   },
-  
+
   "modal-header#edit-list": {
     "props": {
       "showCloseButton": true
@@ -99,7 +99,10 @@
   "sku-selector": {
     "props": {
       "blockClass": "product-details",
-      "hideImpossibleCombinations": false
+      "hideImpossibleCombinations": false,
+      "showValueForVariation": "all",
+      "visibility": "always",
+      "initialSelection": "image"
     }
   },
   "product-description": {

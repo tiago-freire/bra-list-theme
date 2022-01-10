@@ -13,6 +13,12 @@
 .skuSelectorContainer--product-details {
   margin-top: 16px;
 }
+.skuSelectorSubcontainer {
+  margin-bottom: 0 !important;
+}
+.skuSelectorTextContainer {
+  margin-left: 5px;
+}
 .skuSelectorItem--product-details {
   margin-right: 12px;
 }
