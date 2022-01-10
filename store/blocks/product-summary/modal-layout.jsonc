@@ -1,0 +1,118 @@
+{
+  "modal-trigger#product-details": {
+    "children": ["rich-text#trigger", "modal-layout#product-details"],
+    "props": {
+      "blockClass": "product-details"
+    }
+  },
+  "modal-layout#product-details": {
+    "children": [
+      "responsive-layout.mobile#product-details",
+      "responsive-layout.desktop#product-details"
+    ],
+    "props": {
+      "blockClass": "product-details",
+      "fullScreen": true
+    }
+  },
+  
+  "modal-header#edit-list": {
+    "props": {
+      "showCloseButton": true
+    }
+  },
+  "responsive-layout.mobile#product-details": {
+    "children": ["flex-layout.col#product-details-mobile"]
+  },
+  "responsive-layout.desktop#product-details": {
+    "children": ["flex-layout.row#product-details-desktop"]
+  },
+  "flex-layout.row#product-details-desktop": {
+    "children": [
+      "flex-layout.col#product-images",
+      "flex-layout.col#product-main"
+    ],
+    "props": {
+      "blockClass": ["product-details-desktop"]
+    }
+  },
+  "flex-layout.col#product-details-mobile": {
+    "children": [
+      "flex-layout.col#product-images",
+      "flex-layout.col#product-main"
+    ],
+    "props": {
+      "blockClass": ["container", "product-details-mobile"]
+    }
+  },
+  "flex-layout.col#product-images": {
+    "children": ["product-images"],
+    "props": {
+      "blockClass": ["product-details-desktop"]
+    }
+  },
+  "product-images": {
+    "props": {
+      "blockClass": "product-details",
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "horizontal",
+      "aspectRatio": "1:1",
+      "maxHeight": 320,
+      "thumbnailMaxHeight": 48
+    }
+  },
+  "flex-layout.col#product-main": {
+    "children": [
+      "modal-header#product-details-close",
+      "vtex.store-components:product-name",
+      "product-price#product-details",
+      "product-summary-quantity#mobileQuantity",
+      "sku-selector",
+      "product-description",
+      "modal-actions.close#product-details"
+    ],
+    "props": {
+      "blockClass": "product-details-main"
+    }
+  },
+  "modal-header#product-details-close": {
+    "props": {
+      "blockClass": ["container", "edit-list", "product-details-close"],
+      "showCloseButton": true
+    }
+  },
+  "vtex.store-components:product-name": {
+    "props": {
+      "blockClass": "product-details",
+      "showSku": true,
+      "showBrandName": true
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "blockClass": "product-details",
+      "showInstallments": false,
+      "showSavings": false,
+      "showListPrice": false
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "blockClass": "product-details",
+      "hideImpossibleCombinations": false
+    }
+  },
+  "product-description": {
+    "props": {
+      "blockClass": "product-details",
+      "collapseContent": false,
+      "showTitle": false
+    }
+  },
+  "modal-actions.close#product-details": {
+    "props": {
+      "blockClass": "product-details",
+      "label": "Cancelar"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["auth-condition#breadcrumbs" ,"auth-condition#search-list"],
+    "blocks": ["auth-condition#breadcrumbs", "auth-condition#search-list"],
     "parent": { "storeWrapper": "storeWrapper#home" }
   },
   "auth-condition#breadcrumbs": {
@@ -9,11 +9,11 @@
     }
   },
   "flex-layout.row#breadcrumbs": {
-    "children": [ "breadcrumbs"],
+    "children": ["breadcrumbs"],
     "props": {
       "blockClass": ["container"]
     }
- },
+  },
   "auth-condition#search-list": {
     "props": {
       "Then": "flex-layout.row#home-with-user",
@@ -50,7 +50,11 @@
     }
   },
   "flex-layout.col#user-list-col": {
-    "children": ["rich-text#user-list-title", "user-lists", "modal-trigger#create-list-button"],
+    "children": [
+      "rich-text#user-list-title",
+      "user-lists",
+      "modal-trigger#create-list-button"
+    ],
     "props": {
       "blockClass": "search-list"
     }

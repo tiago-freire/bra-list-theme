@@ -1,10 +1,8 @@
 {
   "product-summary.shelf#mobileShowcase": {
-    "children": [
-      "flex-layout.row#productinfo"
-    ],
-    "props":{
-      "blockClass":"showCaseProduct"
+    "children": ["flex-layout.row#productinfo"],
+    "props": {
+      "blockClass": "showCaseProduct"
     }
   },
   "flex-layout.row#productinfo": {
@@ -12,12 +10,12 @@
       "flex-layout.row#headerProduct",
       "modal-trigger#product-details"
     ],
-    "props":{
-      "blockClass":"productInfo"
+    "props": {
+      "blockClass": "productInfo"
     }
   },
- 
-  "flex-layout.row#headerProduct":{
+
+  "flex-layout.row#headerProduct": {
     "children": [
       "product-summary-image#mobileImage",
       "flex-layout.col#mobileProductTexts"
@@ -63,10 +61,7 @@
     }
   },
   "modal-trigger#product-details": {
-    "children": [
-      "rich-text#trigger",
-      "modal-layout#product-details"
-    ],
+    "children": ["rich-text#trigger", "modal-layout#product-details"],
     "props": {
       "blockClass": "product-details"
     }
@@ -77,97 +72,14 @@
       "blockClass": "product-details"
     }
   },
-  "modal-layout#product-details": {
-     "children": [
-      "responsive-layout.mobile#product-details"
-     ],
-    "props": {
-      "blockClass":"product-details",
-      "fullScreen": true
-    }
-   },
-   "rich-text#hello": {
-     "props": {
-       "text": "Hello"
-    }
-  },
-  "responsive-layout.mobile#product-details":{
-    "children":[
-      "flex-layout.col#product-details-mobile"
-    ]
-  },
-  "flex-layout.col#product-details-mobile":{
-    "children":["flex-layout.col#product-images","flex-layout.col#product-main"],
-    "props":{
-      "blockClass":["container","product-details-mobile"]
-    }
-  },
-  "flex-layout.col#product-images": {
-    "children": ["product-images"]
-  },
-  "product-images": {
-    "props": {
-      "blockClass":"product-details",
-      "displayThumbnailsArrows": true,
-      "width": "224",
-      "maxHeight" : "360"
-    }
-  },
-  "flex-layout.col#product-main":{
-    "children":[
-      "vtex.store-components:product-name",
-      "product-price#product-details",
-      "product-summary-quantity#mobileQuantity",
-      "sku-selector",
-      "product-description",
-      "modal-actions.close#product-details"
-    ],
-    "props":{
-      "blockClass":"product-details-main"
-    }
-  },
-  "vtex.store-components:product-name":{
-    "props": {
-      "blockClass": "product-details",
-      "showSku": true,
-      "showBrandName": true
-    }
-  },
-  "product-price#product-details": {
-    "props": {
-      "blockClass":"product-details",
-      "showInstallments": false,
-      "showSavings": false,
-      "showListPrice": false
-    }
-  },
-  "sku-selector": {
-    "props": {
-      "blockClass": "product-details",
-      "hideImpossibleCombinations": false
-    }
-  },
-  "product-description":{
-    "props": {
-      "collapseContent": false,
-      "showTitle": false
-    }
-  },
-  "modal-actions.close#product-details": {
-    "props": {
-      "blockClass":"product-details",
-      "label": "Cancelar"
-    }
-  },
-  "flex-layout.col#product-images-details":{
+
+  "flex-layout.col#product-images-details": {
     "children": ["flex-layout.col#mobileProductTextsGuest"]
   },
   "product-summary.shelf#mobileShowcase-guest": {
-    "children": [
-      "flex-layout.row#productinfo-guest"
-    ],
-    "props":{
-      "blockClass":"showCaseProduct"
+    "children": ["flex-layout.row#productinfo-guest"],
+    "props": {
+      "blockClass": "showCaseProduct"
     }
   },
   "flex-layout.row#productinfo-guest": {
@@ -176,11 +88,11 @@
       "add-to-cart-button-list#mobileAddToCartButtonGuest",
       "gifted-button"
     ],
-    "props":{
-      "blockClass":"productInfo"
+    "props": {
+      "blockClass": "productInfo"
     }
   },
-  "flex-layout.row#headerProductGuest":{
+  "flex-layout.row#headerProductGuest": {
     "children": [
       "product-summary-image#mobileImageGuest",
       "flex-layout.col#mobileProductTextsGuest"
@@ -220,5 +132,4 @@
       "blockClass": "button"
     }
   }
-
 }

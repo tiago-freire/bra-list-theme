@@ -57,13 +57,13 @@
 
 .flexRow--orderList {
   padding-top: 18px;
-  border-top: 1px solid #CACBCC!important;
-  border-bottom: 1px solid #CACBCC!important;
+  border-top: 1px solid #cacbcc !important;
+  border-bottom: 1px solid #cacbcc !important;
   padding-bottom: 20px;
   margin: 18px;
 }
 .flexRow--search-list-col-guest {
-  display: none!important;
+  display: none !important;
 }
 
 .flexRow--user-list {
