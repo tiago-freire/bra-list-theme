@@ -40,4 +40,7 @@
     min-height: 388px;
     max-height: auto;
   }
+  .productImagesThumb--product-details {
+    margin: 10px 10px;
+  }
 }

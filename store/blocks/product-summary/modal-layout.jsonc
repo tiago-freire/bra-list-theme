@@ -30,7 +30,7 @@
   "flex-layout.row#product-details-desktop": {
     "children": [
       "flex-layout.col#product-images",
-      "flex-layout.col#product-main"
+      "flex-layout.col#product-main-desk"
     ],
     "props": {
       "blockClass": ["product-details-desktop"]
@@ -63,7 +63,6 @@
   },
   "flex-layout.col#product-main": {
     "children": [
-      "modal-header#product-details-close",
       "vtex.store-components:product-name",
       "product-price#product-details",
       "product-summary-quantity#mobileQuantity",
@@ -74,6 +73,35 @@
     ],
     "props": {
       "blockClass": "product-details-main"
+    }
+  },
+  "flex-layout.col#product-main-desk": {
+    "children": [
+      "modal-header#product-details-close",
+      "vtex.store-components:product-name",
+      "product-price#product-details",
+      "flex-layout.row#quantity-text",
+      "product-summary-quantity#mobileQuantity",
+      "sku-selector",
+      "product-description",
+      "modal-button-add-list"
+    ],
+    "props": {
+      "blockClass": "product-details-main-desk"
+    }
+  },
+  "flex-layout.row#quantity-text": {
+    "children": [
+      "rich-text#quantity-text"
+    ],
+    "props": {
+      "blockClass": "quantity-text"
+    }
+  },
+  "rich-text#quantity-text": {
+    "props": {
+      "text": "Quantidade:",
+      "blockClass": "quantity-text-desk"
     }
   },
   "modal-header#product-details-close": {
