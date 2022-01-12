@@ -98,7 +98,8 @@
   },
   "product-summary-sku-selector": {
     "props":{
-      "showVariationsLabels": ["false"]
+      "showVariationsLabels": ["false"],
+      "blockClass": "product-details"
     }
   },
   "product-description": {
