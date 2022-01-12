@@ -10,7 +10,10 @@
   margin-bottom: 16px;
   font-size: 30px !important;
 }
-
+.skuSelectorSubcontainer{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
 .productImagesGallerySwiperContainer--product-details {
   background-color: #fff !important;
 }
