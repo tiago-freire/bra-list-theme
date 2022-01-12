@@ -67,7 +67,7 @@
       "vtex.store-components:product-name",
       "product-price#product-details",
       "product-summary-quantity#mobileQuantity",
-      "sku-selector",
+      "product-summary-sku-selector",
       "product-description",
       "modal-actions.close#product-details"
     ],
@@ -96,13 +96,9 @@
       "showListPrice": false
     }
   },
-  "sku-selector": {
-    "props": {
-      "blockClass": "product-details",
-      "hideImpossibleCombinations": false,
-      "showValueForVariation": "all",
-      "visibility": "always",
-      "initialSelection": "image"
+  "product-summary-sku-selector": {
+    "props":{
+      "showVariationsLabels": ["false"]
     }
   },
   "product-description": {
