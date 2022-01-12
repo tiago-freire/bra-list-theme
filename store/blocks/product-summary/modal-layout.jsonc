@@ -99,10 +99,7 @@
   "sku-selector": {
     "props": {
       "blockClass": "product-details",
-      "hideImpossibleCombinations": false,
-      "showValueForVariation": "all",
-      "visibility": "always",
-      "initialSelection": "image"
+      "hideImpossibleCombinations": false
     }
   },
   "product-description": {
