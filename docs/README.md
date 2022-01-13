@@ -1,26 +1,54 @@
-# Minimum Boilerplate Theme
+# List Theme
+This repository contains code for querying the VTEX api
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
-
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme).
+## Getting started
+These instructions will allow you to get a copy of the running project on your local machine for the purposes of querying the vtex api and integrating with app List.
 
 While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
 
+## Pre-Requisites
+When linking the app List Theme in the store, there is an order to link each app and this order must be respected to avoid possible conflicts.
+
+- list-graphql
+- list
+- list-theme
+- list-checkout
+
+
 ## Configuration
 
-### Step 1 - Basic setup
+### Step 1 - Installation or Cloning App List-Theme
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/2) and follow all the given steps.
+#### Installation List Theme
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+```json
+ vtex install list-theme
+```
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+#### Cloning 
+To start the installation, you need to clone the GitLab project into a directory of your choice:
+```json
+ cd "directory of your choice"
+```
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+ SSH clone
+```json
+ git clone git@gitlab.com:acct.global/acct.firstpartyapps/list/list-theme.git
+```
 
-Then, access the repository's directory using your terminal.
+or
 
-### Step 3 - Editing the `Manifest.json`
+HTTPS clone
+```json
+  git clone https://gitlab.com/acct.global/acct.firstpartyapps/list/list-theme.git
+```
+
+
+Once the clone is done, now let's login, create the workspace and get it running in the store.
+
+Tip: whenever you login, always check the 'manifest.json' file to get the correct name of the store.
+
+### Step 2 - Editing the `Manifest.json`
 
 Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file.
 
@@ -28,20 +56,12 @@ Once in are in the file, you must replace the `vendor` and `account` values. `ve
 
 ```json
 {
-  "vendor": "storecomponents",
-  "name": "my-test-theme"
+  "vendor": "vtex",
+  "name": "list-theme"
 }
 ```
 
-### Step 4 - Installing required apps
-
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
-
-Run `vtex list` and check whether those apps are already installed.
-
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
-
-### Step 5 - Uninstalling any existing theme
+### Step 3 - Uninstalling any existing theme
 
 By running `vtex list`, you can verify if any theme is installed.
 
@@ -53,10 +73,61 @@ Therefore, if you find it in the app's list, copy its name and use it together w
 vtex uninstall vtex.store-theme
 ```
 
-### Step 6- Run and preview your store
+
+### Step 4 - Creating your workspace in the store
+
+Login and access the store
+Access the project folder in terminal / cmd
+
+```json
+vtex login acountName
+```
+
+#### Check VTEX account and workspace
+
+To verify the VTEX account and workspace in use, just type
+```json
+vtex whoami
+```
+
+##### Creating your workspace in the store
+
+```json
+vtex use `vtex0000`.
+```
+
+### Step 5 - Run and preview your store
 
 Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command.
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
+If the process runs without any errors, the following message will be displayed: 
+`App linked successfully`.
 
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+Then, run the `vtex browse` command to open a browser window having your linked store in it. This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+
+```json
+https://vtex000--vtex.myvtex.com
+```
+
+### Step 6 - Installing required apps
+
+In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+
+Run `vtex list` and check whether those apps are already installed.
+
+If they aren't, run the following command to install them:
+`vtex install vtex.store-sitemap vtex.store -f`
+
+
+### Built with
+
+Mention the tools you used to create your project
+- Node
+- Typescript
+- GraphQl
+
+
+### Version
+
+We use SemVer for version control.
+For available versions, please note the tags in this repository.
