@@ -20,14 +20,11 @@
 .skuSelectorItem--product-details {
   border: 1px solid #727273;
   border-radius: 4px;
+  margin-right: 12px;
 }
 .skuSelectorContainer--product-details {
   margin-top: 8px;
   margin-bottom: 8px;
-}
-
-.skuSelectorItem--product-details {
-  margin-right: 12px;
 }
 .skuSelectorInternalBox--product-details {
   border: none !important;
