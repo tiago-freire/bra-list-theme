@@ -25,13 +25,13 @@
       "blockClass": "priceAndQuantity"
     },
     "children": [
-      "product-summary-price#desktopPrice",
-      "product-summary-quantity#desktopQuantity"
+      "product-summary-price#desktopPrice"
     ]
   },
   "product-summary-price#desktopPrice": {
     "props": {
-      "showLabels": false
+      "showLabels": false,
+      "showUnit": true
     }
   },
   "product-summary-quantity#desktopQuantity": {

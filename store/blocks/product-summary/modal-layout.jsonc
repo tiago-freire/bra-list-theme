@@ -81,7 +81,7 @@
       "vtex.store-components:product-name",
       "product-price#product-details",
       "flex-layout.row#quantity-text",
-      "product-summary-quantity#mobileQuantity",
+      "modal-quantity-selector",
       "sku-selector",
       "product-description",
       "modal-button-add-list"
