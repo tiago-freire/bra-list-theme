@@ -29,3 +29,6 @@
 .skuSelectorInternalBox--product-details {
   border: none !important;
 }
+:global(.vtex-product-summary-2-x-container){
+  pointer-events: all;
+}
