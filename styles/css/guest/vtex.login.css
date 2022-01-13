@@ -13,3 +13,9 @@
   cursor: default;
   pointer-events: none;
 }
+
+/* remove clickURL product */
+:global(.vtex-product-summary-2-x-container){
+  cursor: default;
+  pointer-events: none;
+}
