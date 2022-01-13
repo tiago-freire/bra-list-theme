@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## [0.11.0] - 2022-01-06
 
 ## [0.10.0] - 2022-01-06
@@ -31,6 +32,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.8.6] - 2021-12-30
 >>>>>>> e6f76bb68fbf3457104b3198c3dfdcf77365cd40
 =======
+=======
+## [0.11.1]
+
+### Changed
+
+- [VTEX-705](https://acctglobal.atlassian.net/browse/VTEX-705): Clickable card - Change behavior.
+
+
+>>>>>>> 6ebd0300db3b0d5f8c36579b58ef2eb7ad65af9b
 ## [0.11.0] - 2022-01-06
 
 ## [0.10.0] - 2022-01-06
