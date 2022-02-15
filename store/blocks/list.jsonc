@@ -134,36 +134,35 @@
   },
   "responsive-layout.desktop#desktop.add-itens-link-header": {
     "children": [
-      "rich-text#desktop.add-itens-link-header-button"
+      "add-new-item#desktop.add-itens-link-header-button"
     ]
   },
   "responsive-layout.mobile#mobile.add-itens-link-header": {
     "children": [
-      "rich-text#mobile.add-itens-link-header-button"
+      "add-new-item#mobile.add-itens-link-header-button"
     ]
   },
-  "rich-text#desktop.add-itens-link-header-button": {
+  "add-new-item#desktop.add-itens-link-header-button": {
     "props": {
-      "text": "![](assets/ico_plus_blue.svg)[Adicionar itens](/eletronicos)",
+      "linkIcon": "assets/ico_plus_blue.svg",
+      "linkRedirection": "/alimentos",
+      "nameButton": "Adicionar Itens",
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
-      "blockClass": [
-        "add-itens-link-header",
-        "primary-button"
-      ]
+      "classes": "header"
     }
   },
-  "rich-text#mobile.add-itens-link-header-button": {
+  "add-new-item#mobile.add-itens-link-header-button": {
     "props": {
-      "text": "![](assets/ico_plus_blue.svg)[Pôr item](/eletronicos)",
+      "linkIcon": "assets/ico_plus_blue.svg",
+      "linkRedirection": "/alimentos",
+      "nameButton": "Pôr item",
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
-      "blockClass": [
-        "add-itens-link-header",
-        "primary-button"
-      ]
+      "classes": "header"
     }
   },
+
   // Organizar o conteudo da lista interna de acordo com os blocos abaixo
   "flex-layout.row#breadcrumb": {
     "children": [
@@ -215,12 +214,12 @@
   },
   "responsive-layout.desktop#add-itens-link": {
     "children": [
-      "rich-text#add-itens-link-button"
+      "add-new-item#add-itens-link-button" 
     ]
   },
   "responsive-layout.mobile#add-itens-link-mobile": {
     "children": [
-      "rich-text#add-itens-link-button-mobile"
+      "add-new-item#add-itens-link-button-mobile"
     ]
   },
   "rich-text#empty-list": {
@@ -234,26 +233,24 @@
       ]
     }
   },
-  "rich-text#add-itens-link-button": {
+  "add-new-item#add-itens-link-button":{
     "props": {
-      "text": "![](assets/add.svg)[Adicionar itens](/alimentos)",
-      "textAlignment": "right",
-      "textPosition": "CENTER",
-      "blockClass": [
-        "add-itens-link",
-        "primary-button"
-      ]
-    }
-  },
-  "rich-text#add-itens-link-button-mobile": {
-    "props": {
-      "text": "![](assets/add.svg)[Adicionar itens](/alimentos)",
+      "linkIcon": "assets/add.svg",
+      "linkRedirection": "/alimentos",
+      "nameButton": "Adicionar Itens",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": [
-        "add-itens-link",
-        "primary-button"
-      ]
+      "classes": "text"
+    }
+  },
+  "add-new-item#add-itens-link-button-mobile":{
+    "props": {
+      "linkIcon": "assets/ico_plus_blue.svg",
+      "linkRedirection": "/alimentos",
+      "nameButton": "Adicionar itens",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "classes": "text"
     }
   },
   "rich-text#edit-list-button": {
