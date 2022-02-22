@@ -1,4 +1,5 @@
-div[class*='vtex-list-0-x-buttonErrorHome flex flex-column mb6 center f5 lh-copy mh-auto'] a {  
+div[class*='vtex-list-0-x-buttonErrorHome vtex-list-0-x-buttonErrorHome--owner-list flex flex-column mb6 center f5 lh-copy mh-auto'] a,
+div[class*='vtex-list-0-x-buttonErrorHome vtex-list-0-x-buttonErrorHome--list-items-mobile flex flex-column mb6 center f5 lh-copy mh-auto'] a {  
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
