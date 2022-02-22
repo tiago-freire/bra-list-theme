@@ -1,0 +1,9 @@
+div[class*='vtex-list-0-x-buttonErrorHome flex flex-column mb6 center f5 lh-copy mh-auto'] a {  
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+svg[class*='vtex-styleguide-9-x-rotate vtex__icon-spinner  c-action-primary '] {
+    width: 100%;
+    max-width: 50px;
+}
