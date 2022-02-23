@@ -1,6 +1,9 @@
 .emptyList--list-items{
-    margin-top: 48px;
+    display: inline-flex;
+    width: 100%;
+    margin: 50px auto;
     justify-content: center;
+    padding-bottom: 12px;
 }
 .emptyList--list-items-mobile{
     margin-top:28px;
@@ -33,6 +36,16 @@
   :global(.vtex-numeric-stepper__minus-button-container) {
   pointer-events: all;
   cursor: pointer;
+}
+.emptyList--owner-list {
+    display: inline-flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 100%;
+}
+.gallery--owner-list,
+.gallery--items-gallery-guest {
+    margin-bottom: 40px;
 }
 
 @media screen and (min-width: 40em){
