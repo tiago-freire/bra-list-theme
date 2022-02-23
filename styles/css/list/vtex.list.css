@@ -58,12 +58,13 @@
 }
 .fisrtTextError {
     color: #2E2E2E;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 700;
     width: 100%;
     display: inline-flex;
     align-content: center;
     margin-top: 0;
+    margin-bottom: 12px;
 }
 .secondTextError {
     color: #585959;
@@ -103,6 +104,9 @@
     top: 80px;
     background: white;
     z-index: 9999;
+}
+.fisrtTextErrorContainer--owner-list {
+    margin-top: 10px;
 }
 .fisrtTextErrorContainer--list-items-mobile {
     margin-bottom: 16px;
