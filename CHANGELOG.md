@@ -22,11 +22,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-785](https://acctglobal.atlassian.net/browse/VTEX-785): Create Component Add New Item.
   
 
-<<<<<<< HEAD
 ## [0.11.2] - 2022-01-13
 
-=======
->>>>>>> 93194cd87129bf5601f295c8b984ec0a3327ecd1
 ## [0.11.1] - 2022-01-13
 
 ### Changed
