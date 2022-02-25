@@ -7,11 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.13.0] - 2022-02-25
 
 ### Added
 
 - [VTEX-782](https://acctglobal.atlassian.net/browse/VTEX-782): Create new permission flow to the lists, adding spinner and new error page.
+
+## [0.13.0] - 2022-02-25
 
 ## [0.12.0] - 2022-02-15
 
@@ -20,8 +21,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-785](https://acctglobal.atlassian.net/browse/VTEX-785): Create Component Add New Item.
   
 
+<<<<<<< HEAD
 ## [0.11.2] - 2022-01-13
 
+=======
+>>>>>>> 93194cd87129bf5601f295c8b984ec0a3327ecd1
 ## [0.11.1] - 2022-01-13
 
 ### Changed
