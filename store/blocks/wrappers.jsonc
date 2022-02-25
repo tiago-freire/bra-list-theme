@@ -6,7 +6,7 @@
   },
   "searchWrapper#default": {
     "props": {
-      "CustomContext": "current-list-wrapper"
+      "CustomContext": "owner-list-wrapper"
     }
   }
 }
