@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+
+- [VTEX-782](https://acctglobal.atlassian.net/browse/VTEX-782): Create new permission flow to the lists, adding spinner and new error page.
+
+## [0.12.0] - 2022-02-15
+
+### Added
+
+- [VTEX-785](https://acctglobal.atlassian.net/browse/VTEX-785): Create Component Add New Item.
+  
+
+## [0.11.1] - 2022-01-13
+
+### Changed
+
+- [VTEX-705](https://acctglobal.atlassian.net/browse/VTEX-705): Clickable card - Change behavior.
+
 
 ### Added
 
