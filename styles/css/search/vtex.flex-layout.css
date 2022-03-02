@@ -6,38 +6,38 @@
 .flexCol--priceAndQuantity {
   flex-direction: column;
 }
-.flexRowContent--productInfo{
+.flexRowContent--productInfo {
   flex-direction: column;
 }
-.flexRowContent--productInfo .stretchChildrenWidth{
+.flexRowContent--productInfo .stretchChildrenWidth {
   width: 100% !important;
   max-width: 350px;
   align-self: center;
 }
-.flexColChild--filterDesktop{
+.flexColChild--filterDesktop {
   padding-left: 16px;
   padding-right: 20px;
 }
-.flexRow--header-search{
+.flexRow--header-search {
   border-top: 1px solid;
-    border-color: #CACBCC;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    margin-bottom: 24px;
+  border-color: #cacbcc;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 24px;
 }
-.flexRowContent--header-search .stretchChildrenWidth:first-child{
+.flexRowContent--header-search .stretchChildrenWidth:first-child {
   width: auto !important;
 }
 @media (min-width: 65em) {
-  .flexRow--header-search{
+  .flexRow--header-search {
     border-top: 1px solid;
-      border-bottom: 1px solid;
-      border-color: #CACBCC;
-      padding-top: 13px;
-      padding-bottom: 13px;
-      margin-bottom: 64px;
+    border-bottom: 1px solid;
+    border-color: #cacbcc;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 64px;
   }
-  .flexRowContent--productInfo{
+  .flexRowContent--productInfo {
     flex-direction: row;
   }
   .flexCol--priceAndQuantity {
@@ -46,12 +46,12 @@
     align-items: flex-end;
   }
 }
-.flexRowContent--headerProduct{
+.flexRowContent--headerProduct {
   display: flex;
 }
-.flexRowContent--headerProduct .stretchChildrenWidth{
+.flexRowContent--headerProduct .stretchChildrenWidth {
   width: auto !important;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: flex-start;
   margin-right: 12px;
 }

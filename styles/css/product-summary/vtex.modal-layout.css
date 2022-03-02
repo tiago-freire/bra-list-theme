@@ -1,0 +1,26 @@
+.closeButton--product-details {
+  margin-top: 8px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ffffff;
+  color: #0c389f;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.paper--product-details {
+  background-color: #f2f4f5 !important;
+}
+@media screen and (min-width: 40em) {
+  .paper--product-details {
+    width: 912px !important;
+    height: auto;
+    border-radius: 4px;
+    overflow: visible;
+  }
+  .headerContainer--product-details-close{
+    position: absolute;
+    float: right;
+    width: 37%;
+    top: 2%;
+  }
+}

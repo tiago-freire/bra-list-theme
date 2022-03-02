@@ -5,7 +5,7 @@
   border-radius: unset;
 }
 
-.containerNormal--productinfo{
+.containerNormal--productinfo {
   max-width: 100% !important;
 }
 
@@ -78,7 +78,7 @@
 .imageContainer {
   height: 120px;
   overflow: hidden;
-    width: 180px !important;
+  width: 180px !important;
 }
 
 .nameContainer--title {
@@ -87,13 +87,13 @@
   height: 40px;
   overflow: hidden;
 }
-.containerNormal--showCaseProduct{
+.containerNormal--showCaseProduct {
   max-width: 100% !important;
   margin: 0px !important;
   align-items: center;
 }
-.image--desktopImageMobile{
-  height:100%;
+.image--desktopImageMobile {
+  height: 100%;
 }
 @media screen and (min-width: 20em) {
   .container--showcase {
@@ -118,7 +118,7 @@
     max-height: 220px;
     width: 100%;
   }
-  .imageContainer--desktopImage{
+  .imageContainer--desktopImage {
     display: flex;
     align-items: center;
   }
@@ -133,9 +133,7 @@
     margin: 0 auto;
   }
 }
-.clearLink--showcase, .clearLink--showCaseProduct {
-  pointer-events: none;
-}
-.clearLink--showcase :global(.vtex-button), .clearLink--showCaseProduct :global(.vtex-button) {
+.clearLink--showcase :global(.vtex-button),
+.clearLink--showCaseProduct :global(.vtex-button) {
   pointer-events: all;
 }
