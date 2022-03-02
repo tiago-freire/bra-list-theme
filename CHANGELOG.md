@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file!
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.12.0]
+
+### Added
+
+- [VTEX-659](https://acctglobal.atlassian.net/browse/VTEX-659): add product sku in modal
 ## [Unreleased]
 ### Added
 
@@ -12,21 +17,29 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.12.0] - 2022-02-15
 
+## [0.11.0] - 2022-01-06
+
+## [0.10.0] - 2022-01-06
+
 ### Added
 
 - [VTEX-785](https://acctglobal.atlassian.net/browse/VTEX-785): Create Component Add New Item.
   
 
+
 ## [0.11.1] - 2022-01-13
+
+- [VTEX-658](https://acctglobal.atlassian.net/browse/VTEX-658): Product Details Modal - Desktop.
+
+
+## [0.8.6] - 2021-12-30
+
+## [0.11.1]
 
 ### Changed
 
 - [VTEX-705](https://acctglobal.atlassian.net/browse/VTEX-705): Clickable card - Change behavior.
 
-
-### Added
-
-- [VTEX-662](https://acctglobal.atlassian.net/browse/VTEX-662): create new add to list modal inside modal - department page.
 
 ## [0.11.0] - 2022-01-06
 

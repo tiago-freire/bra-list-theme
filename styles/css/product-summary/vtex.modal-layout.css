@@ -10,6 +10,9 @@
 .paper--product-details {
   background-color: #f2f4f5 !important;
 }
+.headerContainer--product-details-close{
+  display: none;
+}
 @media screen and (min-width: 40em) {
   .paper--product-details {
     width: 912px !important;
@@ -18,6 +21,7 @@
     overflow: visible;
   }
   .headerContainer--product-details-close{
+    display: flex;
     position: absolute;
     float: right;
     width: 37%;
