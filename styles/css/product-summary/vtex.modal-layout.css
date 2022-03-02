@@ -23,8 +23,8 @@
   .headerContainer--product-details-close{
     display: flex;
     position: absolute;
-    float: right;
-    width: 37%;
-    top: 2%;
+    width: auto;
+    right: 0;
+    top: auto;
   }
 }

@@ -6,6 +6,11 @@
   border: 1px solid #134cd8;
   cursor: pointer;
   pointer-events: all;
+  transition: 1s;
+}
+.triggerContainer--primary-button,
+.triggerContainer--product-details:hover {
+  background-color: #0C389F;
 }
 .triggerContainer--product-details {
   margin-top: 24px;

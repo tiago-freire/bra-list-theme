@@ -82,7 +82,7 @@
       "product-price#product-details",
       "flex-layout.row#quantity-text",
       "modal-quantity-selector",
-      "sku-selector",
+      "product-summary-sku-selector",
       "product-description",
       "modal-button-add-list"
     ],
