@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+### Added
+
+- [VTEX-662](https://acctglobal.atlassian.net/browse/VTEX-662): Create new add to list modal inside modal - department page.
+
+
+## [0.13.0] - 2022-02-25
+
 ### Added
 
 - [VTEX-782](https://acctglobal.atlassian.net/browse/VTEX-782): Create new permission flow to the lists, adding spinner and new error page.
@@ -98,9 +106,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-248](https://acctglobal.atlassian.net/browse/VTEX-248): implement minicart custom block
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
+  
+
 ## [0.6.0] - 2021-11-19
 
 ### Fixed
+
 - [VTEX-293](https://acctglobal.atlassian.net/browse/VTEX-293): Correction of OrderBy positioning and css
 
 ### Added
