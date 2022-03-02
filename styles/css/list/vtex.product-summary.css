@@ -4,3 +4,8 @@
   pointer-events: all;
   cursor: pointer;
 }
+.containerNormal--OwnerList,
+.containerNormal--showCaseProduct {
+  pointer-events: none !important;
+    cursor: default;
+}
