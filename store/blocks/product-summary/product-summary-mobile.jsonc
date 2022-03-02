@@ -77,12 +77,17 @@
       "blockClass": "product-details"
     }
   },
-
-  "flex-layout.col#product-images-details": {
-    "children": [
-      "flex-layout.col#mobileProductTextsGuest"
-    ]
+  "modal-layout#product-details": {
+     "children": [
+       "rich-text#hello"
+     ]
+   },
+   "rich-text#hello": {
+     "props": {
+       "text": "Hello"
+    }
   },
+  //Guest
   "product-summary.shelf#mobileShowcase-guest": {
     "children": [
       "flex-layout.row#productinfo-guest"
