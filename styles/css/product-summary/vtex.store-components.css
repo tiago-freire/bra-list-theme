@@ -21,6 +21,7 @@
 @media screen and (min-width: 40em) {
   .productNameContainer--product-details {
     font-size: 20px;
+    margin-top: 30px
   }
   .productDescriptionText--product-details {
     max-height: 80px;

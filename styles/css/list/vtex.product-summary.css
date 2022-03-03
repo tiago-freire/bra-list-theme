@@ -5,7 +5,8 @@
   cursor: pointer;
 }
 .containerNormal--OwnerList,
-.containerNormal--showCaseProduct {
+.containerNormal--showCaseProduct,
+.containerNormal--showcase {
   pointer-events: none !important;
     cursor: default;
 }
