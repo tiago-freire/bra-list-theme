@@ -10,17 +10,9 @@
   margin-bottom: 16px;
   font-size: 30px !important;
 }
-.skuSelectorContainer--product-details {
-  margin-top: 16px;
-}
-.skuSelectorItem--product-details {
-  margin-right: 12px;
-}
-.frameAround--product-details {
-  border-radius: 4px !important;
-}
-.skuSelectorInternalBox--product-details {
-  border: none !important;
+.skuSelectorSubcontainer{
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .productImagesGallerySwiperContainer--product-details {
   background-color: #fff !important;
@@ -29,6 +21,7 @@
 @media screen and (min-width: 40em) {
   .productNameContainer--product-details {
     font-size: 20px;
+    margin-top: 30px
   }
   .productDescriptionText--product-details {
     max-height: 80px;

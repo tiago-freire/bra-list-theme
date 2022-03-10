@@ -1,8 +1,6 @@
 {
   "product-summary.shelf#ListOwnerMobile": {
-    "children": [
-      "flex-layout.row#listOwnerProductinfo"
-    ],
+    "children": ["flex-layout.row#listOwnerProductinfo"],
     "props": {
       "blockClass": "showCaseProduct"
     }

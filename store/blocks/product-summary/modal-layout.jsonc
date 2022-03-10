@@ -18,7 +18,6 @@
       "fullScreen": true
     }
   },
-  
   "modal-header#edit-list": {
     "props": {
       "showCloseButton": true
@@ -82,7 +81,7 @@
       "vtex.store-components:product-name",
       "product-price#product-details",
       "product-summary-quantity#mobileQuantity",
-      "sku-selector",
+      "product-summary-sku-selector",
       "product-description",
       "modal-button-add-list",
       "modal-actions.close#product-details"
@@ -97,8 +96,8 @@
       "vtex.store-components:product-name",
       "product-price#product-details",
       "flex-layout.row#quantity-text",
-      "product-summary-quantity#mobileQuantity",
-      "sku-selector",
+      "modal-quantity-selector",
+      "product-summary-sku-selector",
       "product-description",
       "modal-button-add-list"
     ],
@@ -122,11 +121,7 @@
   },
   "modal-header#product-details-close": {
     "props": {
-      "blockClass": [
-        "container", 
-        "edit-list", 
-        "product-details-close"
-      ],
+      "blockClass": ["container", "edit-list", "product-details-close"],
       "showCloseButton": true
     }
   },
@@ -145,10 +140,10 @@
       "showListPrice": false
     }
   },
-  "sku-selector": {
-    "props": {
-      "blockClass": "product-details",
-      "hideImpossibleCombinations": false
+  "product-summary-sku-selector": {
+    "props":{
+      "showVariationsLabels": ["false"],
+      "blockClass": "product-details"
     }
   },
   "product-description": {

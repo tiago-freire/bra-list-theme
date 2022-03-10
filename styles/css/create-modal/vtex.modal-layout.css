@@ -12,8 +12,6 @@
 .triggerContainer--product-details:hover {
   background-color: #0C389F;
 }
-
-
 .triggerContainer--product-details {
   margin-top: 24px;
 }
@@ -45,8 +43,7 @@
   border-radius: 0;
 }
 
-.headerContainer--create-list,
-.headerContainer--edit-list {
+.headerContainer--create-list {
   align-items: center;
   padding: 24px 0;
   margin: 0 32px;
