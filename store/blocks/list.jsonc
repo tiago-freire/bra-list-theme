@@ -114,6 +114,7 @@
       "nameButton": "Adicionar Itens",
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
+      "blockClass": ["add-itens-link-header", "primary-button"],
       "classes": "header"
     }
   },
@@ -124,6 +125,7 @@
       "nameButton": "Pôr item",
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
+      "blockClass": ["add-itens-link-header", "primary-button"],
       "classes": "header"
     }
   },
@@ -190,6 +192,7 @@
       "nameButton": "Adicionar Itens",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
+      "blockClass": ["add-itens-link", "primary-button"],
       "classes": "text"
     }
   },
@@ -200,6 +203,7 @@
       "nameButton": "Adicionar itens",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
+      "blockClass": ["add-itens-link", "primary-button"],
       "classes": "text"
     }
   },

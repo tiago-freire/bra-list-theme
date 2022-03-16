@@ -329,10 +329,7 @@
     "props": {
       "name": "list"
     },
-    "children": [
-      "icon-inline-grid", 
-      "responsive-layout.desktop#textOptionList"
-    ]
+    "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
   },
   "responsive-layout.desktop#textOptionGrid": {
     "children": ["rich-text#option-grid"]

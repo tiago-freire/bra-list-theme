@@ -3,6 +3,7 @@
   height: auto !important;
   margin-left: 20px !important;
   margin-right: 20px !important;
+  margin-top: 8px;
 }
 .flexCol--product-details-main,
 .flexCol--product-details-main-desk {
@@ -28,11 +29,6 @@
 }
 
 @media screen and (min-width: 40em) {
-  .flexCol--product-details-main,
-  .flexCol--product-details-main-desk {
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
   .flexColChild--product-details-main,
   .flexColChild--product-details-main-desk {
     margin-left: 40px !important;
