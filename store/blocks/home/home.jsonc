@@ -29,8 +29,8 @@
   },
   "flex-layout.col#home-with-user-col": {
     "children": [
-      "store-wallet-list",
       "flex-layout.row#user-list",
+      "store-wallet-list",
       "flex-layout.row#search-list",
       "flex-layout.row#advantages"
     ],
