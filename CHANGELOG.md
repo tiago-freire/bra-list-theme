@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+[VTEX-817]: Changing the positions of the list-wallet block
+
 ### Added
 - [VTEX-817](https://acctglobal.atlassian.net/browse/VTEX-817): List-wallet app added to theme
 
