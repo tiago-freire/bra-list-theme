@@ -54,8 +54,8 @@
     "vtex.product-price": "1.x",
     "vtex.product-list": "0.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.list": "0.x",
-    "vtex.list-wallet": "0.x"
+    "vtex.list": "0.x"
+    
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

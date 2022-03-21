@@ -30,7 +30,6 @@
   "flex-layout.col#home-with-user-col": {
     "children": [
       "flex-layout.row#user-list",
-      "store-wallet-list",
       "flex-layout.row#search-list",
       "flex-layout.row#advantages"
     ],
