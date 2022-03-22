@@ -116,7 +116,7 @@
 
   .image--desktopImage {
     max-height: 220px;
-    width: 100%;
+    width: auto;
   }
   .imageContainer--desktopImage {
     display: flex;
