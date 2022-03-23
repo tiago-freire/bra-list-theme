@@ -120,7 +120,7 @@
     "children": ["flex-layout.row#footer-bottom"]
   },
   "flex-layout.row#footer-bottom": {
-    "children": ["rich-text#footer-bottom", "footer-spacer"],
+    "children": ["rich-text#footer-bottom"],
     "props": {
       "blockClass": "container"
     }
