@@ -8,9 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Fixed
-[VTEX-817]: Changing the positions of the list-wallet block
-[VTEX-744-786-746]: margins and spacing in the mobile version
 
+[VTEX-744-786-746]: margins and spacing in the mobile version, fixed create list icon button in home and lists and correction vtex logo link in home
+
+[VTEX-817]: Changing the positions of the list-wallet block
 ### Added
 - [VTEX-817](https://acctglobal.atlassian.net/browse/VTEX-817): List-wallet app added to theme
 
