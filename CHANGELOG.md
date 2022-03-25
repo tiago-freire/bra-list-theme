@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 [VTEX-817]: Changing the positions of the list-wallet block
+[VTEX-730]: (https://acctglobal.atlassian.net/browse/VTEX-730) Borderless layout in 1366x768 version
 
 ### Added
 - [VTEX-817](https://acctglobal.atlassian.net/browse/VTEX-817): List-wallet app added to theme
