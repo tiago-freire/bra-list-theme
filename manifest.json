@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "list-theme",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -54,7 +54,7 @@
     "vtex.product-price": "1.x",
     "vtex.product-list": "0.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.list-wallet": "1.x",
+    "vtexbr.list-wallet": "1.x",
     "vtex.list": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
