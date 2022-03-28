@@ -6,7 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
+## [0.15.0] - 2022-03-28
+## [0.14.0] - 2022-03-28
 ### Fixed
 
 [VTEX-744-786-746]: margins and spacing in the mobile version, fixed create list icon button in home and lists and correction vtex logo link in home
@@ -17,6 +18,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-663](https://acctglobal.atlassian.net/browse/VTEX-663): Created a new button for product details modal
 - [VTEX-662](https://acctglobal.atlassian.net/browse/VTEX-662): Create new add to list modal inside modal - department page.
+
+## [0.14.0] - 2022-02-25
 
 
 ## [0.13.0] - 2022-02-25
@@ -29,22 +32,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - [VTEX-659](https://acctglobal.atlassian.net/browse/VTEX-659): add product sku in modal
-## [Unreleased]
 ### Added
 
 - [VTEX-782](https://acctglobal.atlassian.net/browse/VTEX-782): Create new permission flow to the lists, adding spinner and new error page.
 
+## [0.13.0] - 2022-02-25
+
 ## [0.12.0] - 2022-02-15
-
-## [0.11.0] - 2022-01-06
-
-## [0.10.0] - 2022-01-06
 
 ### Added
 
 - [VTEX-785](https://acctglobal.atlassian.net/browse/VTEX-785): Create Component Add New Item.
-  
-
 
 ## [0.11.1] - 2022-01-13
 
@@ -116,8 +114,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-514](https://acctglobal.atlassian.net/browse/VTEX-514): add share list
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
-
 - [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Fixed filter scroll mobile - department
+
 
 ## [0.7.1] - 2021-11-25
 
@@ -145,6 +143,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-83](https://acctglobal.atlassian.net/browse/VTEX-83): Fixed add-to-cart-button
 
+
 ## [0.5.0] - 2021-11-04
 
 ### Added
@@ -158,8 +157,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-332](https://acctglobal.atlassian.net/browse/VTEX-332): Added login/logout mobile button
 - [VTEX-227](https://acctglobal.atlassian.net/browse/VTEX-227): Added css to mobile filter
 - [VTEX-192](https://acctglobal.atlassian.net/browse/VTEX-192): Added list item search block
-
 - [VTEX-236](https://acctglobal.atlassian.net/browse/VTEX-236): added block of gifted items
+
 
 ## [0.3.0] - 2021-09-24
 
@@ -173,10 +172,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-56](https://acctglobal.atlassian.net/browse/VTEX-56): List items gallery on List page
 - [VTEX-301](https://acctglobal.atlassian.net/browse/VTEX-301): Place breadcrumb on pages
 
+
 ### Fixed
 
 - [VTEX-319](https://acctglobal.atlassian.net/browse/VTEX-319): Remove header links and "create list" rich-text on Home
 - Some layout fixes on footer and header
+
 
 ## [0.2.0] - 2021-09-07
 
@@ -188,6 +189,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - [VTEX-250](https://acctglobal.atlassian.net/browse/VTEX-250): Home layout CSS fixes and blocks positioning
+
 
 ## [0.1.0] - 2021-08-13
 
