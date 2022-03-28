@@ -36,5 +36,5 @@
 .flexRow--search-bar-list-item {
   border-top: 1px solid #cacbcc;
   border-bottom: 1px solid #cacbcc;
-  padding: 13px 0;
+  padding: 13px 13px;
 }
