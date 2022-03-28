@@ -1,9 +1,8 @@
-
 .container {
   display: block;
-    width: 100%;
-    max-width: 1600px;
-    padding: 0px 20px;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0px 20px;
 }
 .listPriceValue {
   color: #979899;
@@ -36,18 +35,20 @@
   display: none;
 }
 
-.searchBarInnerContainer--header-search{
+.searchBarInnerContainer--header-search {
   max-width: 451px;
   height: 40px;
 }
-.searchBarIcon--header-search{
+.searchBarIcon--header-search {
   background-color: #ffffff;
 }
-.resultsList--header-search{
+.resultsList--header-search {
   display: block;
 }
-.suffixWrapper--header-search .searchBarIcon--header-search--clear .closeIcon--header-search {
-  background: #CACBCC;
+.suffixWrapper--header-search
+  .searchBarIcon--header-search--clear
+  .closeIcon--header-search {
+  background: #cacbcc;
   border-radius: 12px;
   color: #ffffff;
 }
@@ -59,8 +60,8 @@
     .resultsList {
     min-width: 280px;
     width: auto;
-    border-left: 2px solid #E3E4E6;
-    border-right: 2px solid #E3E4E6;
+    border-left: 2px solid #e3e4e6;
+    border-right: 2px solid #e3e4e6;
     margin: 0 20px;
   }
 }

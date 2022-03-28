@@ -6,10 +6,30 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [0.15.0] - 2022-03-28
+## [0.14.0] - 2022-03-28
+### Fixed
+[VTEX-817]: Changing the positions of the list-wallet block
+
+### Added
+- [VTEX-817](https://acctglobal.atlassian.net/browse/VTEX-817): List-wallet app added to theme
+
+- [VTEX-663](https://acctglobal.atlassian.net/browse/VTEX-663): Created a new button for product details modal
+- [VTEX-662](https://acctglobal.atlassian.net/browse/VTEX-662): Create new add to list modal inside modal - department page.
 
 ## [0.14.0] - 2022-02-25
 
 
+## [0.13.0] - 2022-02-25
+
+- [VTEX-661](https://acctglobal.atlassian.net/browse/VTEX-661): Create new button in department page modal to add and update product quantity in internal list (OwnerList).
+
+
+## [0.12.0]
+
+### Added
+
+- [VTEX-659](https://acctglobal.atlassian.net/browse/VTEX-659): add product sku in modal
 ### Added
 
 - [VTEX-782](https://acctglobal.atlassian.net/browse/VTEX-782): Create new permission flow to the lists, adding spinner and new error page.
@@ -23,12 +43,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-785](https://acctglobal.atlassian.net/browse/VTEX-785): Create Component Add New Item.
   
 
-<<<<<<< HEAD
-## [0.11.2] - 2022-01-13
 
-=======
->>>>>>> 93194cd87129bf5601f295c8b984ec0a3327ecd1
 ## [0.11.1] - 2022-01-13
+
+- [VTEX-658](https://acctglobal.atlassian.net/browse/VTEX-658): Product Details Modal - Desktop.
+
+
+## [0.8.6] - 2021-12-30
+
+## [0.11.1]
 
 ### Changed
 
@@ -56,7 +79,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-641](https://acctglobal.atlassian.net/browse/VTEX-641): created new logic and custom component to Owner List quantity selector.
 
-
 ## [0.8.5] - 2021-12-27
 
 ### Fixed
@@ -64,12 +86,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-602](https://acctglobal.atlassian.net/browse/VTEX-602): Fixed unavailable button with click in guest products shelf - mobile/tablet
 - [VTEX-517](https://acctglobal.atlassian.net/browse/VTEX-517): Fixed unavailable button with click in guest products shelf
 
-
 ## [0.8.4] - 2021-12-20
 
-
 - [VTEX-62](https://acctglobal.atlassian.net/browse/VTEX-62): Implement autocomplete-result-list.v2 - search-bar Department
-
 
 ## [0.8.3] - 2021-12-1
 
@@ -80,16 +99,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
 - [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Selection selection scroll does not display all departments
 
-
 ## [0.8.2] - 2021-12-14
 
 ### Fixed
 
-- [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout  in product-summary guest shelf
+- [VTEX-541](https://acctglobal.atlassian.net/browse/VTEX-541): Fixed quantity-selector layout in product-summary guest shelf
 - [VTEX-515](https://acctglobal.atlassian.net/browse/VTEX-515): Fix tablet layout - owner list products
 - [VTEX-511](https://acctglobal.atlassian.net/browse/VTEX-511): Fixed login redirect in department page and return vtex login mobile.
 - [VTEX-562](https://acctglobal.atlassian.net/browse/VTEX-562): Fixed filter scroll mobile - department
-
 
 ## [0.8.1]
 
@@ -109,7 +126,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-248](https://acctglobal.atlassian.net/browse/VTEX-248): implement minicart custom block
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
 
-
 ## [0.6.0] - 2021-11-19
 
 ### Fixed
@@ -120,7 +136,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-320](https://acctglobal.atlassian.net/browse/VTEX-320): Create modal and "Edit List" button
 - [VTEX-251](https://acctglobal.atlassian.net/browse/VTEX-251): Product showcase - header search and search bar
-
 
 ## [0.5.1] - 2020-11-08
 
