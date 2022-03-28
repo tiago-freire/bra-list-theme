@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-663](https://acctglobal.atlassian.net/browse/VTEX-663): Created a new button for product details modal
 - [VTEX-662](https://acctglobal.atlassian.net/browse/VTEX-662): Create new add to list modal inside modal - department page.
 
+## [0.14.0] - 2022-02-25
+
 
 ## [0.13.0] - 2022-02-25
 
