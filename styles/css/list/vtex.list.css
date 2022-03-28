@@ -5,19 +5,19 @@
     justify-content: center;
     padding-bottom: 12px;
 }
-.emptyList--list-items-mobile{
-    margin-top:28px;
-    margin-bottom:28px;
-    justify-content: center;
+.emptyList--list-items-mobile {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  justify-content: center;
 }
-.galleryItem--list-items{
-    padding: 2rem;
+.galleryItem--list-items {
+  padding: 2rem;
 }
-.gallery--list-items-mobile{
-    flex-direction: column !important;
+.gallery--list-items-mobile {
+  flex-direction: column !important;
 }
-.galleryItem--list-items-mobile{
-    width: 100% !important;
+.galleryItem--list-items-mobile {
+  width: 100% !important;
 }
 .summaryContainer
   .quantitySelectorStepper
@@ -30,7 +30,7 @@
   .quantitySelectorStepper
   :global(.vtex-numeric-stepper-container)
   :global(.vtex-numeric-stepper__plus-button-container),
-  .summaryContainer
+.summaryContainer
   .quantitySelectorStepper
   :global(.vtex-numeric-stepper-container)
   :global(.vtex-numeric-stepper__minus-button-container) {

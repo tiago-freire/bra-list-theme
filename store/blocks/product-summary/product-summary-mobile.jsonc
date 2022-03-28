@@ -1,22 +1,21 @@
 {
   "product-summary.shelf#mobileShowcase": {
-    "children": [
-      "flex-layout.row#productinfo"
-    ],
-    "props":{
-      "blockClass":"showCaseProduct"
+    "children": ["flex-layout.row#productinfo"],
+    "props": {
+      "blockClass": "showCaseProduct"
     }
   },
   "flex-layout.row#productinfo": {
     "children": [
       "flex-layout.row#headerProduct",
-      "add-to-list-button#mobileAddToListButton"
+      "modal-trigger#product-details"
     ],
-    "props":{
-      "blockClass":"productInfo"
+    "props": {
+      "blockClass": "productInfo"
     }
   },
-  "flex-layout.row#headerProduct":{
+
+  "flex-layout.row#headerProduct": {
     "children": [
       "product-summary-image#mobileImage",
       "flex-layout.col#mobileProductTexts"
@@ -60,16 +59,27 @@
     "props": {
       "blockClass": "button"
     }
-    // "blocks": ["quickview-button"]
   },
-  
-  //Guest
+  "modal-trigger#product-details": {
+    "children": ["rich-text#trigger", "modal-layout#product-details"],
+    "props": {
+      "blockClass": "product-details"
+    }
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "VER ITEM",
+      "blockClass": "product-details"
+    }
+  },
+
+  "flex-layout.col#product-images-details": {
+    "children": ["flex-layout.col#mobileProductTextsGuest"]
+  },
   "product-summary.shelf#mobileShowcase-guest": {
-    "children": [
-      "flex-layout.row#productinfo-guest"
-    ],
-    "props":{
-      "blockClass":"showCaseProduct"
+    "children": ["flex-layout.row#productinfo-guest"],
+    "props": {
+      "blockClass": "showCaseProduct"
     }
   },
   "flex-layout.row#productinfo-guest": {
@@ -78,11 +88,11 @@
       "add-to-cart-button-list#mobileAddToCartButtonGuest",
       "gifted-button"
     ],
-    "props":{
-      "blockClass":"productInfo"
+    "props": {
+      "blockClass": "productInfo"
     }
   },
-  "flex-layout.row#headerProductGuest":{
+  "flex-layout.row#headerProductGuest": {
     "children": [
       "product-summary-image#mobileImageGuest",
       "flex-layout.col#mobileProductTextsGuest"
@@ -121,7 +131,5 @@
     "props": {
       "blockClass": "button"
     }
-    // "blocks": ["quickview-button"]
   }
-
 }

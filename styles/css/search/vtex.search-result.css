@@ -1,12 +1,11 @@
-
-.gallery--grid{
+.gallery--grid {
   margin: 0px !important;
 }
 
-.galleryItem--mobileShowcase--normal{
+.galleryItem--mobileShowcase--normal {
   border: 1px solid red;
 }
-.galleryItem--grid{
+.galleryItem--grid {
   padding: 0px;
 }
 
@@ -41,7 +40,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
-  .galleryItem--grid{
+  .galleryItem--grid {
     padding: 0.75em;
   }
 }
@@ -71,212 +70,216 @@
   }
 }
 .filter__container--selectedFiltersNav--title {
-    display: none;
+  display: none;
 }
-.filterTemplateOverflow--selectedFiltersNav{
-    flex-flow: row wrap;
-    border: 1px solid #F2F4F5;
-    background-color: #F2F4F5;
-    padding: 0px;
-    border-radius: 4px;
+.filterTemplateOverflow--selectedFiltersNav {
+  flex-flow: row wrap;
+  border: 1px solid #f2f4f5;
+  background-color: #f2f4f5;
+  padding: 0px;
+  border-radius: 4px;
 }
-.filterTitle--selectedFiltersNav{
-    display: none;
+.filterTitle--selectedFiltersNav {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav{
-    border-bottom: 1px solid #CACBCC;
-    padding-bottom: 8px;
+.filtersWrapper--selectedFiltersNav {
+  border-bottom: 1px solid #cacbcc;
+  padding-bottom: 8px;
 }
 .filtersWrapper--selectedFiltersNav .selectedFilterItem {
-    cursor: pointer;
+  cursor: pointer;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--idioma{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--idioma {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--lente{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--lente {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--modelo{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--modelo {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--tamanho-da-tela{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--tamanho-da-tela {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--memoria-ram
-{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--memoria-ram {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--autor{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--autor {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--camera{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--camera {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--priceRange{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--priceRange {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--polegadas{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--polegadas {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--category-1{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--category-1 {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--cor-teste{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--cor-teste {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--category-2{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--category-2 {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--category-3{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--category-3 {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--tamanho{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--tamanho {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--brand{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--brand {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filterSelected--selectedFiltersNav{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filterSelected--selectedFiltersNav {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--selectedFilters{
-    border: none;
+.filtersWrapper--selectedFiltersNav .filter__container--selectedFilters {
+  border: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--selectedFilters .filterTemplateOverflow--selectedFiltersNav{
-    display: flex;
+.filtersWrapper--selectedFiltersNav
+  .filter__container--selectedFilters
+  .filterTemplateOverflow--selectedFiltersNav {
+  display: flex;
 }
-.selectedFilterItem--selectedFiltersNav{
-    width: auto;
-    height: 30px;
-    background-color: white;
-    margin: 4px 4px;
-    padding: 4px 0px 4px 8px;
-    display:flex;
-    align-items: stretch;
-    border-radius: 4px;
+.selectedFilterItem--selectedFiltersNav {
+  width: auto;
+  height: 30px;
+  background-color: white;
+  margin: 4px 4px;
+  padding: 4px 0px 4px 8px;
+  display: flex;
+  align-items: stretch;
+  border-radius: 4px;
 }
-.selectedFilterItem--selectedFiltersNav :first-child{
-    display: flex;
-    flex-direction: row-reverse;
-    background: none;
-    align-items: center;
+.selectedFilterItem--selectedFiltersNav :first-child {
+  display: flex;
+  flex-direction: row-reverse;
+  background: none;
+  align-items: center;
 }
-.selectedFilterItem--selectedFiltersNav  :global(.vtex-checkbox__inner-container){
-    background: url('assets/close.svg') no-repeat right center;
-    border: none;
+.selectedFilterItem--selectedFiltersNav
+  :global(.vtex-checkbox__inner-container) {
+  background: url('assets/close.svg') no-repeat right center;
+  border: none;
 }
-.filtersWrapper--filterProducts .filter__container--selectedFilters{
-    display: none;
+.filtersWrapper--filterProducts .filter__container--selectedFilters {
+  display: none;
 }
-.filtersWrapper--selectedFiltersNav .filter__container--cor{
-    display: none;
+.filtersWrapper--selectedFiltersNav .filter__container--cor {
+  display: none;
 }
-.filterItem--selectedFiltersNav--selected :global(.vtex-checkbox__inner-container){
-    background-color: none;
-    padding:0px;
-    margin:0px;
+.filterItem--selectedFiltersNav--selected
+  :global(.vtex-checkbox__inner-container) {
+  background-color: none;
+  padding: 0px;
+  margin: 0px;
 }
-.filterItem--selectedFiltersNav--selected :global(.vtex__icon-check){
-    display: none;
+.filterItem--selectedFiltersNav--selected :global(.vtex__icon-check) {
+  display: none;
 }
-.filterItem--selectedFiltersNav--selected :global(.vtex-checkbox__label){
-    color: #585959;
-    font-size: 12px!important;
-    line-height: 20px!important;
+.filterItem--selectedFiltersNav--selected :global(.vtex-checkbox__label) {
+  color: #585959;
+  font-size: 12px !important;
+  line-height: 20px !important;
 }
-@media screen and (min-width:64em) {
-    .filtersWrapper--selectedFiltersNav{
-        border-bottom: none;
-        padding-bottom: 8px;
-    }
+@media screen and (min-width: 64em) {
+  .filtersWrapper--selectedFiltersNav {
+    border-bottom: none;
+    padding-bottom: 8px;
+  }
 }
 .filterPopupTitle--filterProducts {
-    color: #0C389F;
-    font-weight: 400;
-    text-transform: uppercase;
+  color: #0c389f;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 .filterBreadcrumbsText--filterProducts {
-    text-transform: uppercase;
-    font-size: 1rem;
-    padding-right: .2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-right: 0.2rem;
 }
 .filterBreadcrumbsItemName--filterProducts {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .filtersWrapperMobile--filterProducts .filterPopupButton {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
-.filtersWrapperMobile--filterProducts .filterPopupArrowIcon{
-    padding-right: .5rem;
-    padding-top: 0;
+.filtersWrapperMobile--filterProducts .filterPopupArrowIcon {
+  padding-right: 0.5rem;
+  padding-top: 0;
 }
 .filterAccordionItemBox {
-    margin-right: 2rem;
-    border-color: #CACBCC;
+  margin-right: 2rem;
+  border-color: #cacbcc;
 }
 .accordionFilter .filterAccordionBreadcrumbs {
-    height: auto;
-    border-color: #CACBCC;
+  height: auto;
+  border-color: #cacbcc;
 }
 .sidebar .filterButtonsBox {
-    border: none;
-    width: 92%;
-    margin: auto;
+  border: none;
+  width: 92%;
+  margin: auto;
 }
-.filterButtonsBox :global(.vtex-button__label){ 
-      text-transform: uppercase;
-      font-weight: normal;
-      color: #0C389F;
-      height: 36px;
-      padding: 12px 16px !important;
+.filterButtonsBox :global(.vtex-button__label) {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #0c389f;
+  height: 36px;
+  padding: 12px 16px !important;
 }
 .accordionFilterItemIcon--filterProducts .caretIcon {
-    color: #0C389F;
-    transform: rotate(270deg);
+  color: #0c389f;
+  transform: rotate(270deg);
 }
 .accordionFilterItemTitle--filterProducts {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 .caretIcon--filterProducts {
-    width: 10px;
-    color: #979899;
+  width: 10px;
+  color: #979899;
 }
 .orderByOptionItem--selected {
-    background-color: #F2F4F5;
+  background-color: #f2f4f5;
 }
 .orderByButton {
-    padding-top: 12px;
+  padding-top: 12px;
 }
 .orderByDropdown .filterPopupTitle {
-    font-size: 1rem;
-    font-weight: 700;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .orderByDropdown .orderByText {
-    color: #3F3F40;
-    font-weight: 400;
-    line-height: 1.8rem;
+  color: #3f3f40;
+  font-weight: 400;
+  line-height: 1.8rem;
 }
-.orderByButton .filterPopupArrowIcon{
-    color: #0C389F;
-    padding-left: 32px;
+.orderByButton .filterPopupArrowIcon {
+  color: #0c389f;
+  padding-left: 32px;
 }
 .orderByOptionItem {
-    font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-    text-transform: capitalize;
+  font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  text-transform: capitalize;
 }
 
-@media screen and (max-width:64em) {
-    .orderByButton .filterPopupArrowIcon{
-        padding-left: 8px;
-    }
-    .orderByText--orderByText {
-        display: none;
-    }
-    .sidebar .accordionFilter {
-        overflow-y: scroll;
-    }
-    .sidebar .accordionFilter .accordionFilterItemOptions {
-        padding-bottom: 0;
-    }
+@media screen and (max-width: 64em) {
+  .orderByButton .filterPopupArrowIcon {
+    padding-left: 8px;
+  }
+  .orderByText--orderByText {
+    display: none;
+  }
+  .sidebar .accordionFilter {
+    overflow-y: scroll;
+  }
+  .sidebar .accordionFilter .accordionFilterItemOptions {
+    padding-bottom: 0;
+  }
 }

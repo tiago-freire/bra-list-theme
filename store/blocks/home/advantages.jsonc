@@ -4,21 +4,14 @@
       "blockClass": "advantages-container",
       "fullWidth": true
     },
-    "children": [
-      "flex-layout.col#advantages"
-    ]
+    "children": ["flex-layout.col#advantages"]
   },
   "flex-layout.row#advantages-muted": {
     "props": {
-      "blockClass": [
-        "advantages-container",
-        "muted"
-      ],
+      "blockClass": ["advantages-container", "muted"],
       "fullWidth": true
     },
-    "children": [
-      "flex-layout.col#advantages-muted"
-    ]
+    "children": ["flex-layout.col#advantages-muted"]
   },
 
   "flex-layout.col#advantages-muted": {
@@ -37,10 +30,7 @@
     "props": {
       "blockClass": "advantages"
     },
-    "children": [
-      "flex-layout.row#advantage-cards",
-      "rich-text#cta"
-    ]
+    "children": ["flex-layout.row#advantage-cards", "rich-text#cta"]
   },
 
   "flex-layout.col#advantages": {
@@ -110,10 +100,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Por que ter uma Lista?",
-      "blockClass": [
-        "advantages-title",
-        "title-2"
-      ]
+      "blockClass": ["advantages-title", "title-2"]
     }
   },
 

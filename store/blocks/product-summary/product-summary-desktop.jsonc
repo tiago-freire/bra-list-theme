@@ -7,7 +7,7 @@
       "product-summary-image#desktopImage",
       "product-summary-name#desktopProductName",
       "flex-layout.col#desktopPriceAndQuantity",
-      "add-to-list-button#desktopAddToListButton"
+      "modal-trigger#product-details"
     ]
   },
   "product-summary-image#desktopImage": {
@@ -24,11 +24,14 @@
     "props": {
       "blockClass": "priceAndQuantity"
     },
-    "children": ["product-summary-price#desktopPrice", "product-summary-quantity#desktopQuantity"]
+    "children": [
+      "product-summary-price#desktopPrice"
+    ]
   },
   "product-summary-price#desktopPrice": {
     "props": {
-      "showLabels": false
+      "showLabels": false,
+      "showUnit": true
     }
   },
   "product-summary-quantity#desktopQuantity": {
@@ -41,9 +44,13 @@
     "props": {
       "blockClass": "button"
     }
-    // "blocks": ["quickview-button"]
   },
-
+  "rich-text#trigger": {
+    "props": {
+      "text": "VER ITEM",
+      "blockClass": "product-details"
+    }
+  },
   //Guest
   "product-summary.shelf#desktopShowcase-guest": {
     "props": {
@@ -61,19 +68,19 @@
     "props": {
       "blockClass": "priceAndQuantity"
     },
-    "children": ["product-summary-price#desktopPriceGuest", "quantity-selector-shelf-guest"]
+    "children": [
+      "product-summary-price#desktopPriceGuest",
+      "quantity-selector-shelf-guest"
+    ]
   },
   "product-summary-price#desktopPriceGuest": {
     "props": {
       "showLabels": false
     }
   },
-  
- 
   "add-to-cart-button-list#desktopAddToCartButton": {
     "props": {
       "blockClass": "button"
     }
-    // "blocks": ["quickview-button"]
   }
 }
