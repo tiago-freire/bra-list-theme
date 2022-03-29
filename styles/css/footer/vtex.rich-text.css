@@ -3,6 +3,7 @@
 .wrapper--footer-bottom-text {
   color: #979899;
   font-size: 12px;
+  
 }
 
 .container--title-payment {
@@ -41,6 +42,7 @@
   .paragraph--footer-bottom-text {
     margin-top: 32px;
     margin-bottom: 24px;
+    text-align: center;
   }
   .paragraph--title-social-networks {
     margin-bottom: 12px !important;
