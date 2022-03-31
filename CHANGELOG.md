@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## Fixed
+
+- [VTEX-766](https://acctglobal.atlassian.net/browse/VTEX-766): Correction Menssage Product not found - Owner List page.
 ## [0.18.0] - 2022-03-30
 
 [bugfix/change-vendor-credit-generator] - Change vendor credit generator
