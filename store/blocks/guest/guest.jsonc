@@ -7,13 +7,13 @@
       "flex-layout.row#fetchmore"
     ]
   },
-  "responsive-layout.desktop#list-items-guest":{
+  "responsive-layout.desktop#guest":{
     "children": [
       "flex-layout.row#list-header-guest",
       "flex-layout.row#list-items-gallery-guest"
     ]
   },
-  "responsive-layout.mobile#list-items-guest":{
+  "responsive-layout.mobile#guest":{
     "children": [
       "flex-layout.row#list-header-guest-mobile",
       "flex-layout.row#list-items-gallery-mobile-guest"

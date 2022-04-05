@@ -53,7 +53,7 @@
 .flexRowContent--tools-ownerList {
   display: flex;
   justify-content: space-between;
-   /* background-color: red; */
+  align-items: center;
 }
 
 .flexCol--orderBy :global(.vtex-dropdown__container) {
@@ -89,5 +89,14 @@
   }
   .flexColChild--orderBy{
     width: 150px;
+    height: 100%;
+    display: inline-grid;
+    align-items: center;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 40em) {
+    .flexRowContent--tools-ownerList {
+      margin-top: 12px;
+    }
   }
 }
