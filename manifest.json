@@ -6,11 +6,17 @@
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x",
-    "assets": "0.x"
+    "assets": "0.x",
+    "node": "6.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "policies": [
+    {
+      "name": "update-app-settings"
+    }
+  ],
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
