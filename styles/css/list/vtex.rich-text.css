@@ -100,3 +100,38 @@
     margin-top: 2px;
   }
 }
+@media screen and (max-width: 40em){
+    .wrapper--text-paragraph .paragraph{
+        color: #585959;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .wrapper--add-itens-link{
+        border-color: #134CD8!important;
+        background-color: #134CD8!important;
+        padding: 11px 20px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        transition: 0.3s;
+    }
+    .wrapper--add-itens-link:hover{
+        border-color: #0C389F!important;
+        background-color: #0C389F!important;
+    }
+    .link--add-itens-link{
+        color: #fff;
+        font-size: 16px;
+        line-height: 16px;
+        margin-left: 8px;
+    }
+    .wrapper--add-itens-link-header{
+        margin-top: 3px
+    }
+    .link--add-itens-link-header{
+        color: #0C389F;
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 2px;
+    }
+    
+}
