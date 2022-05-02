@@ -9,11 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-[add-to-list-button] - Correction disappearing text in add to list button - department modal
+- [VTEX-702](https://acctglobal.atlassian.net/browse/VTEX-702): Correction ordenation in ownerList and guestList page.
 
-[VTEX-817]: Changing the positions of the list-wallet block
+- [add-to-list-button] - Correction disappearing text in add to list button - department modal
 
-[VTEX-730]: (https://acctglobal.atlassian.net/browse/VTEX-730) Borderless layout in 1366x768 version
+- [VTEX-817]: Changing the positions of the list-wallet block
+
+- [VTEX-730]: (https://acctglobal.atlassian.net/browse/VTEX-730) Borderless layout in 1366x768 version
 
 - [VTEX-982](https://acctglobal.atlassian.net/browse/VTEX-982): update items quantity on list gifted text without refresh page
 
@@ -138,6 +140,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [VTEX-249](https://acctglobal.atlassian.net/browse/VTEX-249): implement product-summary-quantity custom block in guest shelf
 - [VTEX-509](https://acctglobal.atlassian.net/browse/VTEX-509): Fixed filter scroll mobile - department
 
+
+### Added
+
+- [VTEX-294](https://acctglobal.atlassian.net/browse/VTEX-294): added orderby guest
 
 ## [0.7.1] - 2021-11-25
 
