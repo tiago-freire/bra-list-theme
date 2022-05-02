@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - [VTEX-982](https://acctglobal.atlassian.net/browse/VTEX-982): update items quantity on list gifted text without refresh page
 
+- [VTEX-766](https://acctglobal.atlassian.net/browse/VTEX-766): Correction Menssage Product not found - Owner List page.
+
 ## [0.19.0] - 2022-03-30
 ## [0.18.0] - 2022-03-30
 
