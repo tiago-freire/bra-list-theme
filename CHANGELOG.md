@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+[add-to-list-button] - Correction disappearing text in add to list button - department modal
+
 [VTEX-817]: Changing the positions of the list-wallet block
 
 [VTEX-730]: (https://acctglobal.atlassian.net/browse/VTEX-730) Borderless layout in 1366x768 version
