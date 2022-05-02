@@ -198,7 +198,7 @@
   },
   "add-new-item#add-itens-link-button-mobile":{
     "props": {
-      "linkIcon": "assets/ico_plus_blue.svg",
+      "linkIcon": "assets/plus.svg",
       "linkRedirection": "/alimentos",
       "nameButton": "Adicionar itens",
       "textAlignment": "CENTER",

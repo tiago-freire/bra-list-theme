@@ -63,4 +63,8 @@
   .menuContainer--header-drawer {
     flex-direction: row;
   }
+
+  .footer-navbar-link {
+    width: auto;
+  }
 }
