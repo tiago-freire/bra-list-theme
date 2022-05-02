@@ -113,7 +113,7 @@
     "children": [
       "product-summary-name#mobileProductNameGuest",
       "product-summary-price#mobilePriceGuest",
-      "quantity-selector-shelf-guest"
+      "quantity-selector-shelf-guest-owner-list"
     ]
   },
   "product-summary-name#mobileProductNameGuest": {

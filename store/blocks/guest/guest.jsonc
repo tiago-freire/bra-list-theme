@@ -85,14 +85,14 @@
   },
 
   "gallery.list-items#guest": {
-    "blocks": ["product-summary.shelf#desktopShowcase-guest"],
+    "blocks": ["product-summary.shelf#OwnerList"],
     "props": {
       "blockClass": ["list-items", "items-gallery-guest"],
       "EmptyList": "flex-layout.row#empty-list-guest"
     }
   },
   "gallery.list-items#mobile-guest": {
-    "blocks": ["product-summary.shelf#mobileShowcase-guest"],
+    "blocks": ["product-summary.shelf#ListOwnerMobile"],
     "props": {
       "blockClass": "list-items-mobile",
       "EmptyList": "flex-layout.row#empty-list-guest"
