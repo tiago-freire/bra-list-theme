@@ -19,4 +19,8 @@ export async function setup(ctx: EventContext<IOClients>) {
   if (!containsApp({ list: apps, app: 'vtex.list', version: 0 })) {
     await ctx.clients.apps.installApp('vtex.list@0.x')
   }
+
+  if (!containsApp({ list: apps, app: 'vtex.gift-card-list', version: 1 })) {
+    await ctx.clients.apps.installApp('vtex.gift-card-list@1.x')
+  }
 }
