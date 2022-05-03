@@ -35,6 +35,6 @@ export default new Service<IOClients, State, ParamsContext>({
     },
   },
   events: {
-    onAppLinked: setup,
+    onAppInstalled: setup,
   },
 })
