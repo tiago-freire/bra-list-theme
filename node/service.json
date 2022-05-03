@@ -5,9 +5,9 @@
   "minReplicas": 2,
   "maxReplicas": 4,
   "events": {
-    "OnAppInstalled": {
+    "onAppLinked": {
       "sender": "apps",
-      "keys": ["setup"]
+      "keys": ["linked", "relinked"]
     }
   }
 }

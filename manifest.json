@@ -15,6 +15,9 @@
   "policies": [
     {
       "name": "update-app-settings"
+    },
+    {
+      "name": "install-apps"
     }
   ],
   "dependencies": {
