@@ -1,4 +1,4 @@
-# Product Recommendation
+# List application
  
 The List is an application turned to events such as birthdays, weddings, baby showers, etc.
 
