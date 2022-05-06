@@ -251,8 +251,6 @@ No CSS Handles are available yet for the app customization.
  
 Thanks goes to these wonderful people:
 
-**Lucas.Pimentel -** developer
- 
-**Rodrigo.Freitas -** developer - TechLead
+This project thanks all collaborators who contributed to make the project possible.
  
  
