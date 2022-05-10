@@ -53,7 +53,26 @@
   },
   "auth-condition#header-menu": {
     "props": {
-      "Then": "menu#bottom-navbar-link"
+      "Then": "menu#bottom-navbar-link",
+      "Else": "flex-layout.row#drawer-menu-mob"
+    }
+  },
+  "flex-layout.row#drawer-menu-mob": {
+    "children": ["rich-text#drawer-create-list-button", "rich-text#drawer-my-lists-button"],
+    "props": {
+      "blockClass": "drawer-menu-mob"
+    }
+  },
+  "rich-text#drawer-create-list-button": {
+    "props": {
+      "text": "[Crie sua lista](/login)",
+      "blockClass": "drawer-menu-mob"
+    }
+  },
+  "rich-text#drawer-my-lists-button": {
+    "props": {
+      "text": "[Minhas listas](/login)",
+      "blockClass": "drawer-menu-mob"
     }
   },
   "menu#bottom-navbar-link": {

@@ -50,7 +50,7 @@
   },
   "menu#drawer": {
     "children": [
-      "menu#bottom-navbar-link",
+      "auth-condition#header-menu",
       "header-spacer",
       "menu#top-navbar-link"
     ],
