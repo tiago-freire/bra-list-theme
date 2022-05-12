@@ -34,12 +34,12 @@
       "blockClass": "productTexts"
     },
     "children": [
-      "product-summary-name#listOwnerMobileProductName",
+      "product-summary-sku-name#listOwnerMobileProductName",
       "product-summary-price#listOwnerMobilePrice",
       "quantity-selector-shelf-guest-owner-list"
     ]
   },
-  "product-summary-name#listOwnerMobileProductName": {
+  "product-summary-sku-name#listOwnerMobileProductName": {
     "props": {
       "blockClass": "title"
     }

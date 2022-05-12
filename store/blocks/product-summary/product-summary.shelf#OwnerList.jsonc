@@ -5,7 +5,7 @@
     },
     "children": [
       "product-summary-image#OwnerListDesktopImage",
-      "product-summary-name#OwnerListDesktopProductName",
+      "product-summary-sku-name#OwnerListDesktopProductName",
       "flex-layout.col#OwnerListDesktopPriceAndQuantity",
       "add-to-list-button#OwnerListDesktopAddToListButton",
       "gifted-button"
@@ -16,7 +16,7 @@
       "blockClass": "desktopImage"
     }
   },
-  "product-summary-name#OwnerListDesktopProductName": {
+  "product-summary-sku-name#OwnerListDesktopProductName": {
     "props": {
       "blockClass": "title"
     }

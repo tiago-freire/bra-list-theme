@@ -111,12 +111,12 @@
       "blockClass": "productTexts"
     },
     "children": [
-      "product-summary-name#mobileProductNameGuest",
+      "product-summary-sku-name#mobileProductNameGuest",
       "product-summary-price#mobilePriceGuest",
       "quantity-selector-shelf-guest"
     ]
   },
-  "product-summary-name#mobileProductNameGuest": {
+  "product-summary-sku-name#mobileProductNameGuest": {
     "props": {
       "blockClass": "title"
     }

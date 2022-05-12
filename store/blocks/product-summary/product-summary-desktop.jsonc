@@ -5,7 +5,7 @@
     },
     "children": [
       "product-summary-image#desktopImage",
-      "product-summary-name#desktopProductName",
+      "product-summary-sku-name#desktopProductName",
       "flex-layout.col#desktopPriceAndQuantity",
       "modal-trigger#product-details"
     ]
@@ -15,7 +15,7 @@
       "blockClass": "desktopImage"
     }
   },
-  "product-summary-name#desktopProductName": {
+  "product-summary-sku-name#desktopProductName": {
     "props": {
       "blockClass": "title"
     }
@@ -58,7 +58,7 @@
     },
     "children": [
       "product-summary-image#desktopImage",
-      "product-summary-name#desktopProductName",
+      "product-summary-sku-name#desktopProductName",
       "flex-layout.col#desktopPriceAndQuantityGuest",
       "add-to-cart-button-list#desktopAddToCartButton",
       "gifted-button"
