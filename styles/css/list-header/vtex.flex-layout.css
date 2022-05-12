@@ -90,7 +90,7 @@
   .flexColChild--orderBy{
     width: 150px;
     height: 100%;
-    display: inline-grid;
+    display: flex;
     align-items: center;
     margin: 0 auto;
   }
