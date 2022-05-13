@@ -9,6 +9,9 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+div[class*='vtex-store-drawer-0-x-drawerContent vtex-store-drawer-0-x-drawerContent--header-topbar-drawer overflow-y-auto'] {
+  overflow-y: inherit;
+}
 /*minicart*/
 div[class*='vtex-minicart-2-x-minicartSummary ph4 ph6-l pt5']
   span[class*='vtex-checkout-summary-0-x-summarySmallDisclaimer t-small db mv4'] {

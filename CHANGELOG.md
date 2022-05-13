@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+- [VTEX-801](https://acctglobal.atlassian.net/browse/VTEX-801): Correction redirect login when user is not logged in drawer-menu-mobile
+
 - [bugfix/guest-button]: Return add-to-cart-button in guest list page 
 
 - [VTEX-702](https://acctglobal.atlassian.net/browse/VTEX-702): Correction ordenation in ownerList and guestList page.

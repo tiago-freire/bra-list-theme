@@ -1,9 +1,21 @@
 .emptyList--list-items{
-    display: inline-flex;
-    width: 100%;
-    margin: 50px auto;
-    justify-content: center;
-    padding-bottom: 12px;
+  display: inline-flex;
+  width: 100%;
+  margin: 50px auto;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+.goBackToListContainer {
+  display: inline-flex;
+  justify-content: end;
+  margin: 0 auto;
+  width: 100%;
+  place-content: end;
+}
+.goBackToListSpan .goBackToListLink {
+  color: #3f3f40;
+  font-size: 16px;
+  text-decoration-line: underline;
 }
 .emptyList--list-items-mobile {
   margin-top: 28px;

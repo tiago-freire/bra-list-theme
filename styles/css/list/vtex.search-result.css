@@ -97,6 +97,9 @@
     border-bottom: none;
     padding-bottom: 8px;
   }
+  .filters--layout .filtersWrapper--filterProducts {
+    min-width: 130px;
+  }
 }
 
 .filterTemplateOverflow--selectedFiltersNav {
