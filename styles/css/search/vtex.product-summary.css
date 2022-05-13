@@ -36,7 +36,7 @@
   align-items: flex-start;
   padding: 0;
   text-align: left;
-  height: 64px;
+  height: auto;
 }
 
 .sellingPriceContainer {
@@ -83,7 +83,9 @@
 
 .nameContainer--title {
   padding: 0;
-  margin: 0;
+  display: inline-flex;
+  text-align: left;
+  margin: 5px 0px;
   height: 40px;
   overflow: hidden;
 }
@@ -105,12 +107,18 @@
   .container--showcase {
     flex-direction: column;
   }
+  .priceContainer {
+    height: 64px;
+  }
 
   .imageWrapper {
     border-bottom: 1px solid #cacbcc;
   }
 
   .nameContainer--title {
+    margin: 12px 0;
+  }
+  .skuNameContainer--title-sku {
     margin: 12px 0;
   }
 

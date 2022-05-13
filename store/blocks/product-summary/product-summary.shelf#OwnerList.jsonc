@@ -5,10 +5,19 @@
     },
     "children": [
       "product-summary-image#OwnerListDesktopImage",
-      "product-summary-sku-name#OwnerListDesktopProductName",
+      "flex-layout.row#title-sku-titleOwnerList",
       "flex-layout.col#OwnerListDesktopPriceAndQuantity",
       "add-to-list-button#OwnerListDesktopAddToListButton",
       "gifted-button"
+    ]
+  },
+  "flex-layout.row#title-sku-titleOwnerList": {
+    "props": {
+      "blockClass": "title-sku-title"
+    },
+    "children": [
+      "product-summary-name#OwnerListDesktopProductName",
+      "product-summary-sku-name#OwnerListDesktopProductName"
     ]
   },
   "product-summary-image#OwnerListDesktopImage": {
@@ -17,6 +26,11 @@
     }
   },
   "product-summary-sku-name#OwnerListDesktopProductName": {
+    "props": {
+      "blockClass": "title-sku"
+    }
+  },
+  "product-summary-name#OwnerListDesktopProductName": {
     "props": {
       "blockClass": "title"
     }

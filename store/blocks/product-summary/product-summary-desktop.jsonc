@@ -5,9 +5,18 @@
     },
     "children": [
       "product-summary-image#desktopImage",
-      "product-summary-sku-name#desktopProductName",
+      "flex-layout.row#title-sku-title",
       "flex-layout.col#desktopPriceAndQuantity",
       "modal-trigger#product-details"
+    ]
+  },
+  "flex-layout.row#title-sku-title": {
+    "props": {
+      "blockClass": "title-sku-title"
+    },
+    "children": [
+      "product-summary-name#desktopProductName",
+      "product-summary-sku-name#desktopProductName"
     ]
   },
   "product-summary-image#desktopImage": {
@@ -15,9 +24,14 @@
       "blockClass": "desktopImage"
     }
   },
-  "product-summary-sku-name#desktopProductName": {
+  "product-summary-name#desktopProductName": {
     "props": {
       "blockClass": "title"
+    }
+  },
+  "product-summary-sku-name#desktopProductName": {
+    "props": {
+      "blockClass": "title-sku"
     }
   },
   "flex-layout.col#desktopPriceAndQuantity": {
@@ -58,7 +72,7 @@
     },
     "children": [
       "product-summary-image#desktopImage",
-      "product-summary-sku-name#desktopProductName",
+      "flex-layout.row#title-sku-title",
       "flex-layout.col#desktopPriceAndQuantityGuest",
       "add-to-cart-button-list#desktopAddToCartButton",
       "gifted-button"
