@@ -117,9 +117,26 @@
 
   .nameContainer--title {
     margin: 12px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .skuNameContainer--title-sku {
     margin: 12px 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .skuNameContainer--title-sku::before {
+    content: '-';
+    display: inline-flex;
+    margin: 0 4px;
+  }
+  .nameContainer--title .nameWrapper--title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
   }
 
   .image--desktopImage {

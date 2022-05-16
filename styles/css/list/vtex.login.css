@@ -28,3 +28,14 @@ div[class*='w-100 bt b--black-60 pt5 mt5']
     margin: 0 auto;
     text-transform: uppercase;
 }
+div[class*='flex mt0 mb0 pt0 pb0    justify-start  vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--title-sku-title items-stretch w-100']
+div[class*='pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex']:first-child {
+    width: auto !important;
+}
+div[class*='flex mt0 mb0 pt0 pb0    justify-start  vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--title-sku-title items-stretch w-100']
+div[class*='pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex']:nth-child(2) {
+    width: auto !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
