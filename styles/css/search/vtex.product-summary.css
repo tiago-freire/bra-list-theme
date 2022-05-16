@@ -97,6 +97,20 @@
 .image--desktopImageMobile {
   height: 100%;
 }
+
+@media screen and (max-width: 65em) {
+  .nameContainer--title {
+    height: auto;
+  }
+  .nameContainer--title .nameWrapper--title {
+    max-width: 135px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 20em) {
   .container--showcase {
     margin: 0 auto;
