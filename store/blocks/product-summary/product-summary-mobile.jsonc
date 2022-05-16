@@ -35,8 +35,7 @@
     },
     "children": [
       "flex-layout.row#title-sku-titlemobileProductName",
-      "product-summary-price#mobilePrice",
-      "product-summary-quantity#mobileQuantity"
+      "product-summary-price#mobilePrice"
     ]
   },
   "flex-layout.row#title-sku-titlemobileProductName": {

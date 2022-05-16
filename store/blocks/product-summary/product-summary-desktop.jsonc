@@ -48,12 +48,6 @@
       "showUnit": true
     }
   },
-  "product-summary-quantity#desktopQuantity": {
-    "props": {
-      "blockClass": "quantity",
-      "showLabel": false
-    }
-  },
   "add-to-list-button#desktopAddToListButton": {
     "props": {
       "blockClass": "button"
