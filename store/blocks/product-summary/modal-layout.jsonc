@@ -80,7 +80,7 @@
     "children": [
       "vtex.store-components:product-name",
       "product-price#product-details",
-      "product-summary-quantity#mobileQuantity",
+      "modal-quantity-selector",
       "product-summary-sku-selector",
       "product-description",
       "modal-button-add-list",
