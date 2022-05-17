@@ -32,6 +32,9 @@
     align-items: center;
     margin-top: 48px;
   }
+  .flexColChild--orderBy{
+    display: flex;
+  }
 }
 .flexRow--search-bar-list-item {
   border-top: 1px solid #cacbcc;
@@ -90,7 +93,7 @@
   .flexColChild--orderBy{
     width: 150px;
     height: 100%;
-    display: inline-grid;
+    display: flex;
     align-items: center;
     margin: 0 auto;
   }

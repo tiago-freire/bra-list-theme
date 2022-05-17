@@ -2,3 +2,12 @@
   height: 40px;
   margin: auto;
 }
+.paragraph--drawer-menu-mob .link--drawer-menu-mob {
+  color: #3f3f40;
+  text-decoration: none;
+  font-size: 14px;
+}
+.container--drawer-menu-mob {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

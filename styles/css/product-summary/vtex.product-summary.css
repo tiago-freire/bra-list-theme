@@ -12,10 +12,10 @@
   margin-left: 0;
 }
 .skuSelectorItem--product-details--selected .skuSelectorItemTextValue--product-details {
-  color: #0C389F;
+  color: #00009C;
 }
 .skuSelectorItem--product-details--selected{
-  border: 1px solid #0C389F !important;
+  border: 3px solid #00009C !important;
 }
 .skuSelectorItem--product-details {
   border: 1px solid #727273;
