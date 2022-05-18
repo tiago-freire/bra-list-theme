@@ -16,4 +16,12 @@
   .flexRowContent--list-info-title {
     display: flex;
   }
+  .flexColChild--product-details-main-desk :global(.vtex-button) {
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  .flexRow--title-sku-title {
+    display: inline-flex;
+  }
 }

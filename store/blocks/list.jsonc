@@ -22,23 +22,23 @@
   "flex-layout.row#list-items-gallery-mobile": {
     "children": ["gallery.list-items#mobile"]
   },
+ 
   "flex-layout.row#list-header": {
     "children": ["flex-layout.col#list-header"],
     "props": {
-      "blockClass": "list-header"
+      "blockClass": ["list-header"]
     }
   },
+ 
   "flex-layout.col#list-header": {
     "children": [
       "flex-layout.row#breadcrumb",
       "flex-layout.row#list-info",
-      "flex-layout.row#search-bar.list"
-    ],
-    "props": {
-      "blockClass": "container",
-      "preserveLayoutOnMobile": true
-    }
+      "responsive-layout.desktop#tools-bar",
+      "responsive-layout.mobile#tools-bar-mobile"
+    ]
   },
+
   "flex-layout.row#list-info": {
     "children": [
       "flex-layout.row#list-info-header",
@@ -70,26 +70,76 @@
   "flex-layout.row#edit-list": {
     "children": ["modal-trigger#edit-list-button"]
   },
-  "flex-layout.row#search-bar.list": {
-    "children": ["flex-layout.col#search-bar.list"],
-    "props": {
-      "preserveLayoutOnMobile": true
-    }
-  },
-  "flex-layout.col#search-bar.list": {
-    "children": ["flex-layout.row#search-bar.list-item"]
-  },
-  "flex-layout.row#search-bar.list-item": {
+  
+  "responsive-layout.desktop#tools-bar": {
     "children": [
-      "flex-layout.col#search-bar.list-item",
-      "flex-layout.col#btn-add-itens"
+      "flex-layout.row#tools-bar"
+    ]
+  },
+
+  "responsive-layout.mobile#tools-bar-mobile": {
+    "children": [
+      "flex-layout.row#tools-bar-mobile"
+    ]
+  },
+
+  "flex-layout.row#tools-bar": {
+    "children": [
+      "flex-layout.row#tools",
+      "flex-layout.row#btn-add-itens"
     ],
     "props": {
-      "blockClass": ["container", "search-bar-list-item"]
+      "blockClass": [
+        "container",
+        "tools",
+        "tools-ownerList"
+      ]
     }
   },
+  "flex-layout.row#tools": {
+    "children": [
+      "flex-layout.col#orderby",
+      "flex-layout.col#search-bar.list-item"
+    ]
+  },
+  "flex-layout.row#tools-bar-mobile": {
+    "children": [
+      "flex-layout.col#search-bar.list-item",
+      "flex-layout.row#tools-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "container",
+        "tools",
+        "tools-ownerList"
+      ]
+    }
+  },
+  "flex-layout.row#tools-mobile": {
+    "children": [
+      "flex-layout.col#orderby",
+      "flex-layout.row#btn-add-itens"
+    ],
+     "props": {
+          "blockClass": [
+            "tools-ownerList"
+          ]
+      }
+  },
+ 
   "flex-layout.col#search-bar.list-item": {
-    "children": ["search-bar.list-item"]
+      "children": [
+        "search-bar.list-item"
+      ],
+    "props": {
+      "blockClass": [
+        "search-list-item"
+      ]
+    }
+   },
+
+  "flex-layout.row#btn-add-itens": {
+    "children": [ "flex-layout.col#btn-add-itens" ]
   },
   "flex-layout.col#btn-add-itens": {
     "children": [
