@@ -6,20 +6,11 @@
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x",
-    "assets": "0.x",
-    "node": "6.x"
+    "assets": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
-  "policies": [
-    {
-      "name": "update-app-settings"
-    },
-    {
-      "name": "install-apps"
-    }
-  ],
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
@@ -63,7 +54,6 @@
     "vtex.product-price": "1.x",
     "vtex.product-list": "0.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.list-wallet": "1.x",
     "vtex.list": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
