@@ -135,3 +135,8 @@ Mention the tools you used to create your project
 
 We use SemVer for version control.
 For available versions, please note the tags in this repository.
+
+
+**Upcoming documentation:**
+
+ - [Feature/remove node](https://github.com/vtex-apps/list-theme/pull/19)
