@@ -85,7 +85,8 @@
   "flex-layout.row#header-search": {
     "children": [
       "flex-layout.col#searchinfo",
-      "flex-layout.col#search-product"
+      "flex-layout.col#search-product",
+      "go-back-to-list"
     ],
     "props": {
       "blockClass": "header-search"

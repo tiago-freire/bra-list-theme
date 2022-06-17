@@ -1,9 +1,21 @@
 .emptyList--list-items{
-    display: inline-flex;
-    width: 100%;
-    margin: 50px auto;
-    justify-content: center;
-    padding-bottom: 12px;
+  display: inline-flex;
+  width: 100%;
+  margin: 50px auto;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+.goBackToListContainer {
+  display: inline-flex;
+  justify-content: end;
+  margin: 0 auto;
+  width: 100%;
+  place-content: end;
+}
+.goBackToListSpan .goBackToListLink {
+  color: #3f3f40;
+  font-size: 16px;
+  text-decoration-line: underline;
 }
 .emptyList--list-items-mobile {
   margin-top: 28px;
@@ -47,14 +59,40 @@
 .gallery--items-gallery-guest {
     margin-bottom: 40px;
 }
+.secondTextItemNotFound--list-items-mobile {
+    width: 100%;
+    display: inline-flex;
+    align-content: center;
+    text-align: center;
+    max-width: 900px;
+    padding: 0 12px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.containerItemNotFound--list-items-mobile {
+    width: 100%;
+    display: inline-flex;
+    margin: 0 auto;
+}
+.itemNotFoundContainer--list-items-mobile {
+    margin-top: 20px;
+}
 
 @media screen and (min-width: 40em){
-    .gallery--list-items-mobile{
-        flex-direction: row !important;
-    }
-    .galleryItem--list-items-mobile{
-        width: 50% !important;
-    }
+.containerItemNotFound--owner-list {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.itemNotFoundContainer--owner-list {
+    padding-top: 60px;
+}
+.gallery--list-items-mobile{
+    flex-direction: row !important;
+}
+.galleryItem--list-items-mobile{
+    width: 50% !important;
+}
 }
 .fisrtTextError {
     color: #2E2E2E;

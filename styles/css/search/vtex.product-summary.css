@@ -36,7 +36,7 @@
   align-items: flex-start;
   padding: 0;
   text-align: left;
-  height: 64px;
+  height: auto;
 }
 
 .sellingPriceContainer {
@@ -83,7 +83,9 @@
 
 .nameContainer--title {
   padding: 0;
-  margin: 0;
+  display: inline-flex;
+  text-align: left;
+  margin: 5px 0px;
   height: 40px;
   overflow: hidden;
 }
@@ -95,6 +97,20 @@
 .image--desktopImageMobile {
   height: 100%;
 }
+
+@media screen and (max-width: 65em) {
+  .nameContainer--title {
+    height: auto;
+  }
+  .nameContainer--title .nameWrapper--title {
+    max-width: 135px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 20em) {
   .container--showcase {
     margin: 0 auto;
@@ -105,6 +121,9 @@
   .container--showcase {
     flex-direction: column;
   }
+  .priceContainer {
+    height: 64px;
+  }
 
   .imageWrapper {
     border-bottom: 1px solid #cacbcc;
@@ -112,6 +131,26 @@
 
   .nameContainer--title {
     margin: 12px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .skuNameContainer--title-sku {
+    margin: 12px 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .skuNameContainer--title-sku::before {
+    content: '-';
+    display: inline-flex;
+    margin: 0 4px;
+  }
+  .nameContainer--title .nameWrapper--title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
   }
 
   .image--desktopImage {
