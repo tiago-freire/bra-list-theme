@@ -1,21 +1,71 @@
 # List Theme
 
-This repository contains code for querying the VTEX api
+The basic theme to use the Gift List
 
-## Getting started
+## Preview
 
-These instructions will allow you to get a copy of the running project on your local machine for the purposes of querying the vtex api and integrating with app List.
+Initial Page
+<img width="1440" alt="Captura de Tela 2022-08-03 às 14 18 36" src="https://user-images.githubusercontent.com/80836180/182934559-c06e37e9-ec91-4509-ad7c-0de299870088.png">
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+User Page
+<img width="1440" alt="Captura de Tela 2022-08-03 às 17 12 51" src="https://user-images.githubusercontent.com/80836180/182934493-c73f81a1-2fc8-410a-904a-ae4d47165f47.png">
 
-## Pre-Requisites
+Wallet User Page
+<img width="1440" alt="Captura de Tela 2022-08-03 às 14 55 29" src="https://user-images.githubusercontent.com/80836180/182934554-3f32efd8-4ec8-48bb-afc8-6071a752c41a.png">
 
-When linking the app List Theme in the store, there is an order to link each app and this order must be respected to avoid possible conflicts.
+List Page
+![Captura de Tela 2022-08-03 às 17 09 16 (2)](https://user-images.githubusercontent.com/80836180/182934546-f53ab5be-6504-4380-860b-85e3f1382a91.png)
 
-- list-graphql
-- list
-- list-theme
-- list-checkout
+## Dependencies
+
+To use this template it's necessary to use the
+
+```bash
+  "peerDependencies": {
+    "vtex.list": "1.x"
+  }
+```
+
+to can acess this essencial components to create the list store:
+
+<ul>
+<li>Add To Cart</li>
+<li>Add To List</li>
+<li>Auth Condition</li>
+<li>BreadCrumbs</li>
+<li>Content Loader</li>
+<li>Create List</li>
+<li>Edit List</li>
+<li>Gifted List</li>
+<li>List Info</li>
+<li>List Items Gallery</li>
+<li>List Items OrderBy</li>
+<li>Page Wrapper</li>
+<li>Page wrappers</li>
+<li>Product Summary Quantity</li>
+<li>Quantity Selector</li>
+<li>Search List</li>
+<li>Search List Item</li>
+<li>Share List</li>
+<li>User Lists</li>
+<li>Wallet</li>
+</ul>
+
+Another store components are used like:
+
+<ul>
+<li>[Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)</li>
+<li>[Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)</li>
+<li>[Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)</li>
+<li>[Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)</li>
+<li>[Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)</li>
+<li> [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)</li>
+<li> [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)</li>
+<li> [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)</li>
+<li> [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)</li>
+</ul>
+ 
+ To use this components remember to add the dependecie in manifest (see more [here](https://github.com/vtex-apps/list-theme/blob/master/manifest.json#L17-L60))
 
 ## Configuration
 
@@ -122,21 +172,3 @@ Run `vtex list` and check whether those apps are already installed.
 
 If they aren't, run the following command to install them:
 `vtex install vtex.store-sitemap vtex.store -f`
-
-### Built with
-
-Mention the tools you used to create your project
-
-- Node
-- Typescript
-- GraphQl
-
-### Version
-
-We use SemVer for version control.
-For available versions, please note the tags in this repository.
-
-
-**Upcoming documentation:**
-
- - [Feature/remove node](https://github.com/vtex-apps/list-theme/pull/19)
