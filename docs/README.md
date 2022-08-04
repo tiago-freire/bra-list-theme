@@ -4,16 +4,20 @@ The basic theme to use the Gift List
 
 ## Preview
 
-Initial Page
+**Initial Page**
+
 <img width="1440" alt="Captura de Tela 2022-08-03 às 14 18 36" src="https://user-images.githubusercontent.com/80836180/182934559-c06e37e9-ec91-4509-ad7c-0de299870088.png">
 
-User Page
+**User Page**
+
 <img width="1440" alt="Captura de Tela 2022-08-03 às 17 12 51" src="https://user-images.githubusercontent.com/80836180/182934493-c73f81a1-2fc8-410a-904a-ae4d47165f47.png">
 
-Wallet User Page
+**Wallet User Page**
+
 <img width="1440" alt="Captura de Tela 2022-08-03 às 14 55 29" src="https://user-images.githubusercontent.com/80836180/182934554-3f32efd8-4ec8-48bb-afc8-6071a752c41a.png">
 
-List Page
+**List Page**
+
 ![Captura de Tela 2022-08-03 às 17 09 16 (2)](https://user-images.githubusercontent.com/80836180/182934546-f53ab5be-6504-4380-860b-85e3f1382a91.png)
 
 ## Dependencies
