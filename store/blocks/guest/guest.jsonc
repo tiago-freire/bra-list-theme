@@ -52,10 +52,24 @@
 
   "flex-layout.col#list-header-guest": {
     "children": [
-           "flex-layout.row#list-info-guest",
-           "flex-layout.row#tools-bar-guest"
+      "flex-layout.row#list-info-guest",
+      "responsive-layout.desktop#tools-bar-guest",
+      "responsive-layout.mobile#tools-bar-mobile-guest"
     ]
   },
+
+  "responsive-layout.desktop#tools-bar-guest": {
+    "children": [
+      "flex-layout.row#tools-bar-guest"
+    ]
+  },
+
+  "responsive-layout.mobile#tools-bar-mobile-guest": {
+    "children": [
+      "flex-layout.row#tools-bar-guest-mobile"
+    ]
+  },
+
   "flex-layout.col#list-header-guest-mobile": {
     "children": [
            "flex-layout.row#list-info-guest",
@@ -65,20 +79,43 @@
 
   "flex-layout.row#tools-bar-guest": {
     "children": [
-     "flex-layout.col#orderby",
-     "flex-layout.col#search-bar.list-item"
+      "flex-layout.row#tools-guest",
+      "flex-layout.row#copy-list-button"
     ],
     "props": {
-      "blockClass": ["container", "tools"]
+      "blockClass": ["container", "tools", "tools-ownerList"]
     }
   },
+
+  "flex-layout.row#tools-guest": {
+    "children": [
+      "flex-layout.col#orderby",
+      "flex-layout.col#search-bar.list-item"
+    ]
+  },
+
+
   "flex-layout.row#tools-bar-guest-mobile": {
     "children": [
-     "flex-layout.col#search-bar.list-item",
-     "flex-layout.col#orderby"
+      "flex-layout.row#tools-guest-mobile",
+      "flex-layout.row#copy-list-button"
     ],
     "props": {
-      "blockClass": ["container", "tools"]
+      "blockClass": ["container", "tools", "tools-ownerList"]
+    }
+  },
+
+  "flex-layout.row#tools-guest-mobile": {
+    "children": [
+     "flex-layout.col#search-bar.list-item",
+      "flex-layout.col#orderby"
+    ],
+    "props": {
+      "blockClass": [
+        "container",
+        "tools",
+        "tools-ownerList"
+      ]
     }
   },
   
@@ -177,5 +214,30 @@
       "textPosition": "CENTER",
       "blockClass": ["add-itens-link"]
     }
+  },
+
+  "flex-layout.row#copy-list-button": {
+    "children": [
+      "flex-layout.col#copy-list-button"
+    ]
+  },
+
+  "flex-layout.col#copy-list-button": {
+    "children": [
+      "responsive-layout.desktop#desktop.copy-list-button",
+      "responsive-layout.mobile#mobile.copy-list-button"
+    ]
+  },
+
+  "responsive-layout.desktop#desktop.copy-list-button": {
+    "children": [
+      "modal-trigger#copy-list-button"
+    ]
+  },
+
+  "responsive-layout.mobile#mobile.copy-list-button": {
+    "children": [
+      "modal-trigger#copy-list-button"
+    ]
   }
 }
