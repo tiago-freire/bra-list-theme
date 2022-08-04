@@ -30,7 +30,7 @@ To use this template it's necessary to use the
   }
 ```
 
-to can acess this essencial components to create the list store:
+to be able to access these essential components to create the list store theme:
 
 <ul>
 <li>Add To Cart</li>
@@ -69,7 +69,7 @@ Another store components are used like:
 <li> [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)</li>
 </ul>
  
- To use this components remember to add the dependecie in manifest (see more [here](https://github.com/vtex-apps/list-theme/blob/master/manifest.json#L17-L60))
+ To use this components remember to add the dependencies in manifest (see more [here](https://github.com/vtex-apps/list-theme/blob/master/manifest.json#L17-L60))
 
 ## Configuration
 
