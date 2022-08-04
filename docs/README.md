@@ -17,7 +17,6 @@ The basic theme to use the Gift List
 <img width="1440" alt="Captura de Tela 2022-08-03 às 14 55 29" src="https://user-images.githubusercontent.com/80836180/182934554-3f32efd8-4ec8-48bb-afc8-6071a752c41a.png">
 
 **List Page**
-
 ![Captura de Tela 2022-08-03 às 17 09 16 (2)](https://user-images.githubusercontent.com/80836180/182934546-f53ab5be-6504-4380-860b-85e3f1382a91.png)
 
 ## Dependencies
@@ -57,19 +56,17 @@ to be able to access these essential components to create the list store theme:
 
 Another store components are used like:
 
-<ul>
-<li>[Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)</li>
-<li>[Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)</li>
-<li>[Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)</li>
-<li>[Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)</li>
-<li>[Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)</li>
-<li> [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)</li>
-<li> [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)</li>
-<li> [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)</li>
-<li> [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)</li>
-</ul>
- 
- To use this components remember to add the dependencies in manifest (see more [here](https://github.com/vtex-apps/list-theme/blob/master/manifest.json#L17-L60))
+- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
+- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
+- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
+- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
+- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
+- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
+- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
+- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
+- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
+
+To use this components remember to add the dependencies in manifest (see more [here](https://github.com/vtex-apps/list-theme/blob/master/manifest.json#L17-L60))
 
 ## Configuration
 
