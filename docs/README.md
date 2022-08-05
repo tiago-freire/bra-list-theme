@@ -121,7 +121,7 @@ Once in are in the file, you must replace the `vendor` and `account` values. `ve
 
 By running `vtex list`, you can verify if any theme is installed.
 
-It is common to already have a `vtex.store-theme` installed when you start the store's front development process.
+It is common to already have an another theme installed when you start the store's front development process.
 
 Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
 
@@ -135,7 +135,7 @@ Login and access the store
 Access the project folder in terminal / cmd
 
 ```json
-vtex login acountName
+vtex login accountName
 ```
 
 #### Check VTEX account and workspace
@@ -167,9 +167,8 @@ https://vtex000--vtex.myvtex.com
 
 ### Step 6 - Installing required apps
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+We recomend use the `vtex.edition-store@5.x`, to you can use the Store Framework and work on your store theme.
 
-Run `vtex list` and check whether those apps are already installed.
+To confere if you are using this app, run `vtex edition get` and check if this apps is already installed and is in the version bigger or equal a 5.
 
-If they aren't, run the following command to install them:
-`vtex install vtex.store-sitemap vtex.store -f`
+If there isn't, please open an call to support team and request to install this version.
