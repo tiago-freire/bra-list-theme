@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+Change the operation of gallery.list-items component
+
+### Fixed
+
 Change the operation of AddNewItem component
 
 ## [1.2.0] - 2022-08-08

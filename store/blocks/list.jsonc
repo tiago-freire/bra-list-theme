@@ -225,10 +225,11 @@
       "product-summary.shelf#OwnerList"
     ],
     "props": {
-      "blockClass": [
-        "owner-list"
-      ],
-      "EmptyList": "flex-layout.row#empty-list"
+      "blockClass": "owner-list",
+      "emptyListIcon": "assets/sad.svg",
+      "buttonEmptyList": true,
+      "linkButtonEmptyList": "/apparel",
+      "linkIconButtonEmptyList":"assets/add.svg"
     }
   },
   "gallery.list-items#mobile": {
@@ -237,71 +238,13 @@
     ],
     "props": {
       "blockClass": "list-items-mobile",
-      "EmptyList": "flex-layout.row#empty-list"
+      "emptyListIcon": "assets/sad.svg",
+      "buttonEmptyList": true,
+      "linkButtonEmptyList": "/apparel",
+      "linkIconButtonEmptyList": "assets/add.svg"
     }
   },
-  "flex-layout.row#empty-list": {
-    "children": [
-      "flex-layout.col#empty-list"
-    ]
-  },
-  "flex-layout.col#empty-list": {
-    "children": [
-      "rich-text#empty-list",
-      "responsive-layout.desktop#add-itens-link",
-      "responsive-layout.mobile#add-itens-link-mobile"
-    ],
-    "props": {
-      "blockClass": "empty-list"
-    }
-  },
-  "responsive-layout.desktop#add-itens-link": {
-    "children": [
-      "add-new-item#add-itens-link-button"
-    ]
-  },
-  "responsive-layout.mobile#add-itens-link-mobile": {
-    "children": [
-      "add-new-item#add-itens-link-button-mobile"
-    ]
-  },
-  "rich-text#empty-list": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "![](assets/sad.svg)\n Sua lista está vazia\nAdicione itens agora mesmo",
-      "blockClass": [
-        "empty-list-text",
-        "text-paragraph"
-      ]
-    }
-  },
-  "add-new-item#add-itens-link-button": {
-    "props": {
-      "linkIcon": "assets/add.svg",
-      "linkRedirection": "/alimentos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": [
-        "add-itens-link",
-        "primary-button"
-      ],
-      "classes": "text"
-    }
-  },
-  "add-new-item#add-itens-link-button-mobile": {
-    "props": {
-      "linkIcon": "assets/plus.svg",
-      "linkRedirection": "/alimentos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": [
-        "add-itens-link",
-        "primary-button"
-      ],
-      "classes": "text"
-    }
-  },
+  
   "rich-text#edit-list-button": {
     "props": {
       "text": "![](assets/edit.svg)",
