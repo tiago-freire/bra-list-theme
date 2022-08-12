@@ -12,7 +12,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "peerDependencies": {
-    "vtex.list": "1.x"
+    "vtex.list": "2.x"
   },
   "dependencies": {
     "vtex.store": "2.x",

@@ -44,12 +44,14 @@
       "blockClass": ["user-list", "container"]
     }
   },
-  "flex-layout.row#search-list": {
-    "children": ["flex-layout.col#search-list-col"],
-    "props": {
-      "blockClass": "search-list"
-    }
-  },
+    "flex-layout.row#search-list": {
+      "children": [
+        "flex-layout.col#search-list-col"
+      ],
+      "props": {
+        "blockClass": "search-list"
+      }
+    },
   "flex-layout.col#user-list-col": {
     "children": [
       "rich-text#user-list-title",
@@ -61,7 +63,7 @@
     }
   },
   "flex-layout.col#search-list-col": {
-    "children": ["rich-text#logged-search-list-title", "search-list"],
+    "children": ["search-list"],
     "props": {
       "blockClass": "search-list-col"
     }
@@ -87,50 +89,24 @@
   },
   "flex-layout.col#search-list-without-user": {
     "children": [
-      "rich-text#unlogged-search-list-title",
-      "search-list",
-      "flex-layout.row#search-list-buttons"
+      "search-list"
     ],
     "props": {
       "blockClass": "search-list-col"
     }
   },
-  "flex-layout.row#search-list-buttons": {
-    "children": ["rich-text#create-list-button", "rich-text#my-lists-button"],
+  "search-list": {
     "props": {
-      "blockClass": "search-list-buttons"
+      "buttons": true
     }
   },
 
   /* Rich-Text */
-  "rich-text#unlogged-search-list-title": {
-    "props": {
-      "text": "Encontre uma Lista",
-      "blockClass": ["search-list-title", "title-1"]
-    }
-  },
-  "rich-text#logged-search-list-title": {
-    "props": {
-      "text": "Encontre uma Lista",
-      "blockClass": ["search-list-title", "title-2"]
-    }
-  },
   "rich-text#user-list-title": {
     "props": {
       "text": "Minhas Listas",
       "blockClass": ["search-list-title", "title-1"]
     }
-  },
-  "rich-text#create-list-button": {
-    "props": {
-      "text": "[CRIE SUA LISTA](/login)",
-      "blockClass": "search-list-button"
-    }
-  },
-  "rich-text#my-lists-button": {
-    "props": {
-      "text": "[MINHAS LISTAS](/login)",
-      "blockClass": "search-list-button"
-    }
   }
+
 }
