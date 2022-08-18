@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+Change the operation of how to create the modal to select items that will be added in the customer list
+
+### Fixed
+
 Change the operation of search-list component
 
 ### Fixed

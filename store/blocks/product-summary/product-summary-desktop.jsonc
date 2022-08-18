@@ -7,7 +7,7 @@
       "product-summary-image#desktopImage",
       "flex-layout.row#title-sku-title",
       "flex-layout.col#desktopPriceAndQuantity",
-      "modal-trigger#product-details"
+      "modal-select-product"
     ]
   },
   "flex-layout.row#title-sku-title": {
@@ -46,17 +46,6 @@
     "props": {
       "showLabels": false,
       "showUnit": true
-    }
-  },
-  "add-to-list-button#desktopAddToListButton": {
-    "props": {
-      "blockClass": "button"
-    }
-  },
-  "rich-text#trigger": {
-    "props": {
-      "text": "VER ITEM",
-      "blockClass": "product-details"
     }
   },
   //Guest
