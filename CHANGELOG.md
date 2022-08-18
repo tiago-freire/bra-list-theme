@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+Change the operation of search-list component
+
+### Fixed
+
 Change the operation of gallery.list-items component
 
 ### Fixed
