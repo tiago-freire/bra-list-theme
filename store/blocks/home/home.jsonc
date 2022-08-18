@@ -54,9 +54,7 @@
     },
   "flex-layout.col#user-list-col": {
     "children": [
-      "rich-text#user-list-title",
-      "user-lists",
-      "modal-trigger#create-list-button"
+      "user-lists"
     ],
     "props": {
       "blockClass": "search-list"
@@ -98,14 +96,6 @@
   "search-list": {
     "props": {
       "buttons": true
-    }
-  },
-
-  /* Rich-Text */
-  "rich-text#user-list-title": {
-    "props": {
-      "text": "Minhas Listas",
-      "blockClass": ["search-list-title", "title-1"]
     }
   }
 
