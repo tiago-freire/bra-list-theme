@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Updated
+
+- Release a new major changing the peer dep of the vtex.list for 2.x
+
 ## [1.5.0] - 2022-08-19
 
 ### Fixed
