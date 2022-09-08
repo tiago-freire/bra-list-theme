@@ -57,7 +57,7 @@
     }
   },
   "menu#bottom-navbar-link": {
-    "children": ["menu-item#my-list", "modal-trigger#create-list-link"],
+    "children": ["menu-item#my-list", "create-or-edit-list-modal#menu"],
     "props": {
       "blockClass": "bottom-navbar-link-action"
     }
@@ -118,6 +118,11 @@
       "blockClass": ["header-bottom-bar-logo", "justify-content-start-end"],
       "url": "assets/Logo.png",
       "href": "/"
+    }
+  },
+  "create-or-edit-list-modal#menu": {
+    "props":{
+      "useButton": false
     }
   }
 }

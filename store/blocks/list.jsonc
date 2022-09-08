@@ -92,7 +92,7 @@
   },
   "flex-layout.row#edit-list": {
     "children": [
-      "modal-trigger#edit-list-button"
+      "create-or-edit-list-modal#edit"
     ]
   },
   "responsive-layout.desktop#tools-bar": {
@@ -244,15 +244,9 @@
       "linkIconButtonEmptyList": "assets/add.svg"
     }
   },
-  
-  "rich-text#edit-list-button": {
-    "props": {
-      "text": "![](assets/edit.svg)",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": [
-        "edit-list-button"
-      ]
+  "create-or-edit-list-modal#edit":{
+    "props":{
+      "edit": true
     }
   }
 }

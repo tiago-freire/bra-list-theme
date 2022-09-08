@@ -199,13 +199,19 @@
 
   "responsive-layout.desktop#desktop.copy-list-button": {
     "children": [
-      "modal-trigger#copy-list-button"
+      "create-or-edit-list-modal#copy"
     ]
   },
 
   "responsive-layout.mobile#mobile.copy-list-button": {
     "children": [
-      "modal-trigger#copy-list-button"
+      "create-or-edit-list-modal#copy"
     ]
+  },
+
+  "create-or-edit-list-modal#copy": {
+    "props": {
+      "copy": true
+    }
   }
 }
