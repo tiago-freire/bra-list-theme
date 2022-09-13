@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Change the operation of Create And Edit List component
+
 ### Updated
 
 - Release a new major changing the peer dep of the vtex.list for 2.x
