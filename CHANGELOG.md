@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Change the operation of Create and Edit List component
+- Change the operation of Create And Edit List component
 
 ### Updated
 
