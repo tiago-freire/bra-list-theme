@@ -90,7 +90,6 @@
 
   "flex-layout.row#tools-guest": {
     "children": [
-      "flex-layout.col#orderby",
       "flex-layout.col#search-bar.list-item"
     ]
   },
@@ -108,8 +107,7 @@
 
   "flex-layout.row#tools-guest-mobile": {
     "children": [
-     "flex-layout.col#search-bar.list-item",
-      "flex-layout.col#orderby"
+     "flex-layout.col#search-bar.list-item"
     ],
     "props": {
       "blockClass": [
@@ -140,15 +138,6 @@
     "props": {
       "blockClass": "owner-and-date",
       "preserveLayoutOnMobile": true
-    }
-  },
-
-  "flex-layout.col#orderby": {
-    "children": [
-      "list-items-orderby"
-    ],
-    "props": {
-      "blockClass": "orderBy"
     }
   },
 

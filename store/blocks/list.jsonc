@@ -120,7 +120,6 @@
   },
   "flex-layout.row#tools": {
     "children": [
-      "flex-layout.col#orderby",
       "flex-layout.col#search-bar.list-item"
     ]
   },
@@ -139,7 +138,6 @@
   },
   "flex-layout.row#tools-mobile": {
     "children": [
-      "flex-layout.col#orderby",
       "flex-layout.row#btn-add-itens"
     ],
     "props": {
