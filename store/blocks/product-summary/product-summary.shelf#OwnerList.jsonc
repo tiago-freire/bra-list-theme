@@ -41,7 +41,7 @@
     },
     "children": [
       "product-summary-price#OwnerListDesktopPrice",
-      "quantity-selector-shelf-guest-owner-list"
+      "quantity-selector-shelf-owner-list"
     ]
   },
   "product-summary-price#OwnerListDesktopPrice": {
