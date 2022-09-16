@@ -19,7 +19,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-Remove orderBy until correction in operation
+- Update name of component quantity-selector-shelf-guest-owner-list to quantity-selector-shelf-owner-list
+
+### Fixed
+
+- Remove orderBy until correction in operation
 
 ### Fixed
 

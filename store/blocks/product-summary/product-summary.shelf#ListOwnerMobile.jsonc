@@ -36,7 +36,7 @@
     "children": [
       "flex-layout.row#title-sku-titleOwnerListMobile",
       "product-summary-price#listOwnerMobilePrice",
-      "quantity-selector-shelf-guest-owner-list"
+      "quantity-selector-shelf-owner-list"
     ]
   },
   "flex-layout.row#title-sku-titleOwnerListMobile": {
