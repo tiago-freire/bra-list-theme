@@ -231,7 +231,6 @@
   },
   "flex-layout.row#searchinfomobile": {
     "children": [
-      "flex-layout.col#orderByMobile",
       "flex-layout.col#filterMobile",
       "flex-layout.col#switcherMobile"
     ],
@@ -241,12 +240,7 @@
       "colJustify": "around"
     }
   },
-  "flex-layout.col#orderByMobile": {
-    "children": ["order-by.v2#mobile"],
-    "props": {
-      "blockClass": "orderByMobileCol"
-    }
-  },
+
   "order-by.v2#mobile": {
     "props": {
       "hiddenOptions": ["OrderByReleaseDateDESC", "OrderByBestDiscountDESC"],
