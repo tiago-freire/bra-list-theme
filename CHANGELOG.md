@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Updated
+
+- Major of vtex list
+
 ## [2.1.0] - 2022-09-13
 
 ### Fixed
