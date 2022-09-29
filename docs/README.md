@@ -48,7 +48,7 @@ to be able to access these essential components to create the list store theme:
 - [Share List](https://developers.vtex.com/vtex-developer-docs/docs/vtex-list-sharelist)
 - [User Lists](https://developers.vtex.com/vtex-developer-docs/docs/vtex-list-userlists)
 - [Wrappers](https://developers.vtex.com/vtex-developer-docs/docs/vtex-list-wrappers)
-- [List Items Order By](<!-- Adicionar link -->)
+- [List Items Order By](https://developers.vtex.com/vtex-developer-docs/docs/vtex-gift-list-listitemsorderby)
 
 Another store components are used like:
 
