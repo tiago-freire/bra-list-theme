@@ -18,3 +18,10 @@
   padding-top: 8px;
   padding-bottom: 8px;
 }
+.flexRowContent--header-bottom-bar {
+  align-items: center;
+}
+.flexRowContent--header-bottom-bar
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):local(:nth-child(3)) {
+  min-width: 500px;
+}

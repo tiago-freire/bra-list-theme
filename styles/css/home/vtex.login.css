@@ -1,0 +1,120 @@
+[class*='b--action-primary'],
+[class*='bg-action-primary'],
+[class*='bg-action-primary']:hover,
+[class*='bg-action-primary']:active,
+[class*='bg-action-primary']:focus {
+  background-color: #003087;
+  border-color: #003087;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='bg-muted-5'] {
+  background-color: inherit;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container'] {
+  padding-top: 1rem;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='w-80'] {
+  width: 100%;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='width-input'] {
+  width: 45%;
+  float: left;
+  margin: 0 5% 0 0;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='width-input'] > div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[role*='region'] {
+  height: auto !important;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='c-action-primary'] {
+  visibility: hidden;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='mb5'],
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='mt5 mb6'] {
+  margin: 0;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+h1[class*='t-heading-2'] {
+  margin: 0 0 20px 0;
+  display: flex;
+  gap: 5px;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+h1[class*='t-heading-2']::before {
+  content: url("assets/wallet.svg");
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='text-align-center'] {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='text-align-center']
+div[class*='t-heading-4'] {
+  width: 48%;
+  padding: 9px;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='text-align-center']
+div[class*='mb5 t-heading-4'] {
+  background-color: #e7ffe7;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='text-align-center']
+div[class*='mb5 t-heading-4']
+span[class*='ml3 history'] {
+  position: relative;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='text-align-center']
+div[class*='mt5 t-heading-4'] {
+  font-weight: 500;
+  padding-left: 0;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='text-align-center']
+div[class*='width-divider center'] {
+  display: none;
+}
+@media screen and (max-width: 40em) {
+  div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+  div[class*='vtex-pageHeader__container']
+  div[class*='text-align-center']
+  div[class*='mb5 t-heading-4']
+  span[class*='ml3 history'] {
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 60px;
+  } 
+}

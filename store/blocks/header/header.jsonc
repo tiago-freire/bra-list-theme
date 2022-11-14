@@ -9,5 +9,12 @@
   "header-layout.mobile": {
     "children": ["header-row#mobile-1"],
     "title": "Header Mobile"
+  },
+  "header.full#home": {
+    "blocks": ["header-layout.desktop#home", "header-layout.mobile"]
+  },
+  "header-layout.desktop#home": {
+    "children": ["header-row#desktop-1", "header-row#desktop-2-home"],
+    "title": "Header Desktop for Home"
   }
 }

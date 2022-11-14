@@ -1,7 +1,10 @@
 {
   "store.home": {
     "blocks": ["auth-condition#breadcrumbs", "auth-condition#search-list"],
-    "parent": { "storeWrapper": "storeWrapper#home" }
+    "parent": {
+      "storeWrapper": "storeWrapper#home",
+      "header": "header.full#home"
+    }
   },
   "auth-condition#breadcrumbs": {
     "props": {
@@ -30,40 +33,53 @@
   "flex-layout.col#home-with-user-col": {
     "children": [
       "flex-layout.row#user-list",
-      "store-wallet-list",
-      "flex-layout.row#search-list",
-      "flex-layout.row#advantages"
+      "flex-layout.row#advantages",
+      "flex-layout.row#banner-create-list"
     ],
     "props": {
       "blockClass": "home"
     }
   },
+  "flex-layout.row#banner-create-list": {
+    "props": {
+      "blockClass": "banner-create-list",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "paddingBottom": 5
+    },
+    "children": ["flex-layout.col#banner-create-list"],
+    "title": "Home - Banner Create List"
+  },
+  "flex-layout.col#banner-create-list": {
+    "children": ["image#banner-create-list"]
+  },
+  "image#banner-create-list": {
+    "props": {
+      "src": "assets/banners/create-list.jpg",
+      "maxWidth": "100%",
+      "link": {
+        "url": "/login"
+      }
+    }
+  },
   "flex-layout.row#user-list": {
-    "children": ["flex-layout.col#user-list-col"],
+    "children": ["flex-layout.col#user-list-col", "store-wallet-list"],
     "props": {
       "blockClass": ["user-list", "container"]
     }
   },
-    "flex-layout.row#search-list": {
-      "children": [
-        "flex-layout.col#search-list-col"
-      ],
-      "props": {
-        "blockClass": "search-list"
-      }
-    },
+  "store-wallet-list": {
+    "props": {
+      "expanded": true
+    }
+  },
   "flex-layout.col#user-list-col": {
     "children": [
       "user-lists"
     ],
     "props": {
       "blockClass": "search-list"
-    }
-  },
-  "flex-layout.col#search-list-col": {
-    "children": ["search-list"],
-    "props": {
-      "blockClass": "search-list-col"
     }
   },
   /* Without User */
@@ -76,18 +92,23 @@
   "flex-layout.col#home-without-user": {
     "children": [
       "flex-layout.row#search-list-without-user",
-      "flex-layout.row#advantages-muted"
+      "flex-layout.row#advantages-muted",
+      "flex-layout.row#banner-create-list"
     ]
   },
   "flex-layout.row#search-list-without-user": {
-    "children": ["flex-layout.col#search-list-without-user"],
+    "children": [
+      "flex-layout.col#search-list-without-user",
+      "image#banner-find-list"
+    ],
+    // "children": ["flex-layout.col#search-list-without-user"],
     "props": {
       "blockClass": ["search-list-without-user", "container"]
     }
   },
   "flex-layout.col#search-list-without-user": {
     "children": [
-      "search-list"
+      "search-list#home"
     ],
     "props": {
       "blockClass": "search-list-col"
@@ -95,7 +116,21 @@
   },
   "search-list": {
     "props": {
-      "buttons": true
+      "title": "",
+      "subtitle": ""
+    }
+  },
+  "search-list#home": {
+    "props": {
+      "subtitle": "teste",
+      "buttons": true,
+      "blockClass": "home"
+    }
+  },
+  "image#banner-find-list": {
+    "props": {
+      "src": "assets/banners/find-list.png",
+      "maxWidth": "100%"
     }
   }
 

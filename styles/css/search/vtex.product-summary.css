@@ -32,11 +32,15 @@
   line-height: 20px;
 }
 
+.productPriceClass {
+  gap: 5px;
+}
+
 .priceContainer {
   align-items: flex-start;
   padding: 0;
-  text-align: left;
   height: auto;
+  justify-content: center;
 }
 
 .sellingPriceContainer {
@@ -44,18 +48,28 @@
 }
 
 .sellingPriceValue {
-  color: #3f3f40;
-  font-size: 16px;
+  color: #003087;
+  font-size: 32px;
+  font-weight: 500;
   line-height: 24px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .installmentContainer {
-  color: #8bc34a;
-  font-size: 12px;
+  color: #4a596b;
+  font-size: 14px;
   line-height: 20px;
   padding: 0;
+  text-align: center;
+}
+
+.installmentContainer::before {
+  content: 'ou ';
+}
+
+.price_installment {
+  font-weight: 500;
 }
 
 .listPriceLabel,
@@ -125,10 +139,6 @@
     height: 64px;
   }
 
-  .imageWrapper {
-    border-bottom: 1px solid #cacbcc;
-  }
-
   .nameContainer--title {
     margin: 12px 0;
     white-space: nowrap;
@@ -137,22 +147,11 @@
   }
   .skuNameContainer--title-sku {
     margin: 12px 0;
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
-  }
-  .skuNameContainer--title-sku::before {
-    content: '-';
-    display: inline-flex;
-    margin: 0 4px;
+    height: 50px;
   }
   .nameContainer--title .nameWrapper--title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     width: 100%;
   }
-
   .image--desktopImage {
     max-height: 220px;
     width: auto;
@@ -166,7 +165,7 @@
     height: 232px;
   }
   .installmentContainer {
-    width: 90px;
+    width: 100%;
     display: inline;
     white-space: normal;
     margin: 0 auto;

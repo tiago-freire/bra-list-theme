@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
-  "name": "list-theme",
-  "version": "3.3.0",
+  "vendor": "ssesandbox04",
+  "name": "bra-list-theme",
+  "version": "0.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",

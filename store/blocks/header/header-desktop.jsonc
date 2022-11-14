@@ -18,9 +18,43 @@
     }
   },
   "flex-layout.row#header-bottombar": {
-    "children": ["logo", "header-spacer", "auth-condition#header-menu"],
+    "children": [
+      "logo",
+      "header-spacer",
+      "search-list",
+      "header-spacer",
+      "auth-condition#header-menu"
+    ],
     "props": {
       "blockClass": ["container", "header-bottom-bar"]
+    }
+  },
+  "header-row#desktop-2-home": {
+    "children": ["flex-layout.row#header-bottombar-home"],
+    "props": {
+      "blockClass": "border-bottom"
+    }
+  },
+  "flex-layout.row#header-bottombar-home": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "auth-condition#header-search-auth",
+      "auth-condition#header-space-auth",
+      "auth-condition#header-menu"
+    ],
+    "props": {
+      "blockClass": ["container", "header-bottom-bar"]
+    }
+  },
+  "auth-condition#header-search-auth": {
+    "props": {
+      "Then": "search-list"
+    }
+  },
+  "auth-condition#header-space-auth": {
+    "props": {
+      "Then": "header-spacer"
     }
   }
 }

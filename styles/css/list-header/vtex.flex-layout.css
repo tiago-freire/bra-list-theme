@@ -3,11 +3,12 @@
 }
 
 .flexRowContent--owner-and-date {
-  column-gap: 4px;
+  column-gap: 15px;
 }
 
 .flexRow--edit-list {
-  margin-left: 6px;
+  margin-left: 16px;
+  cursor: pointer;
 }
 .flexRowContent--list-info-footer {
   display: flex;
@@ -15,23 +16,6 @@
 }
 
 @media screen and (min-width: 40em) {
-  .flexRowContent--list-info :first-child {
-    flex: 0 1 auto;
-  }
-
-  .flexRow--owner-and-date {
-    margin-left: 16px;
-  }
-
-  .flexRow--edit-list {
-    margin-left: 16px;
-    height: 20px;
-  }
-  .flexRowContent--list-info {
-    display: flex;
-    align-items: center;
-    margin-top: 48px;
-  }
   .flexColChild--orderBy{
     display: flex;
   }

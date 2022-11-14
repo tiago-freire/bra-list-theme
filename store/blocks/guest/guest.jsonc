@@ -1,6 +1,7 @@
 {
   "store.guest#guest": {
     "blocks": [
+      "flex-layout.row#banner-view-list",
       "flex-layout.row#breadcrumbs-guest",
       "responsive-layout.desktop#guest",
       "responsive-layout.mobile#guest",
@@ -53,9 +54,16 @@
 
   "flex-layout.col#list-header-guest": {
     "children": [
-      "flex-layout.row#list-info-guest",
+      "flex-layout.col#list-and-owner-and-date-guest",
       "responsive-layout.desktop#tools-bar-guest",
       "responsive-layout.mobile#tools-bar-mobile-guest"
+    ]
+  },
+
+  "flex-layout.col#list-and-owner-and-date-guest": {
+    "children": [
+      "flex-layout.row#list-info-guest",
+      "flex-layout.row#owner-and-date-guest"
     ]
   },
 
@@ -73,8 +81,9 @@
 
   "flex-layout.col#list-header-guest-mobile": {
     "children": [
-           "flex-layout.row#list-info-guest",
-           "flex-layout.row#tools-bar-guest-mobile"
+      "flex-layout.row#list-info-guest",
+      "flex-layout.row#owner-and-date-guest",
+      "flex-layout.row#tools-bar-guest-mobile"
     ]
   },
 
@@ -122,8 +131,7 @@
   
   "flex-layout.row#list-info-guest": {
     "children": [
-      "list-info.name",
-      "flex-layout.row#owner-and-date-guest"
+      "list-info.name"
     ],
     "props": {
       "blockClass": [
@@ -138,7 +146,9 @@
       "list-info.event-date"
     ],
     "props": {
-      "blockClass": "owner-and-date",
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "blockClass": ["container", "owner-and-date"],
       "preserveLayoutOnMobile": true
     }
   },

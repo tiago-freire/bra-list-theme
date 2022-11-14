@@ -71,35 +71,11 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Minha lista",
-        "text": "Minha Lista"
-      },
-      "iconProps": {
-        "id": "my-list",
-        "size": 16,
-        "viewBox": "0 0 21 19"
+        "tagTitle": "Minhas listas",
+        "text": "Minhas Listas"
       }
     }
   },
-  "menu-item#create-list": {
-    "props": {
-      "id": "menu-item-create-list",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": true,
-        "tagTitle": "Criar lista 11",
-        "text": "Criar Lista"
-      },
-      "iconProps": {
-        "id": "add",
-        "size": 16,
-        "viewBox": "0 0 14 20"
-      }
-    }
-  },
-
   "menu#actionaccess": {
     "children": ["login", "minicart.v2"],
     "props": {
@@ -122,7 +98,8 @@
   },
   "create-or-edit-list-modal#menu": {
     "props":{
-      "useButton": false
+      "useButton": true,
+      "blockClass": "add-button"
     }
   }
 }

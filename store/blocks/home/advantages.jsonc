@@ -30,7 +30,7 @@
     "props": {
       "blockClass": "advantages"
     },
-    "children": ["flex-layout.row#advantage-cards", "rich-text#cta"]
+    "children": ["flex-layout.row#advantage-cards"]
   },
 
   "flex-layout.col#advantages": {
@@ -110,7 +110,7 @@
       "blockClass": "advantage-card",
       "isFullModeStyle": true,
       "textPosition": "center",
-      "imageUrl": "assets/clock.svg",
+      "imageUrl": "assets/envelope.svg",
       "callToActionMode": "none",
       "textAlignment": "center",
       "headline": "Agilidade",

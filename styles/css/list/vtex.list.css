@@ -22,8 +22,9 @@
   margin-bottom: 28px;
   justify-content: center;
 }
-.galleryItem--list-items {
-  padding: 2rem;
+.galleryItem {
+  border: 1px solid #e7e9ee;
+  border-radius: 8px;
 }
 .gallery--list-items-mobile {
   flex-direction: column !important;
@@ -78,21 +79,21 @@
     margin-top: 20px;
 }
 
-@media screen and (min-width: 40em){
-.containerItemNotFound--owner-list {
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-}
-.itemNotFoundContainer--owner-list {
-    padding-top: 60px;
-}
-.gallery--list-items-mobile{
-    flex-direction: row !important;
-}
-.galleryItem--list-items-mobile{
-    width: 50% !important;
-}
+@media screen and (min-width: 40em) {
+  .containerItemNotFound--owner-list {
+      width: 100%;
+      max-width: 1920px;
+      margin: 0 auto;
+  }
+  .itemNotFoundContainer--owner-list {
+      padding-top: 60px;
+  }
+  .gallery--list-items-mobile{
+      flex-direction: row !important;
+  }
+  .galleryItem--list-items-mobile{
+      width: 50% !important;
+  }
 }
 .fisrtTextError {
     color: #2E2E2E;
@@ -113,7 +114,7 @@
     align-content: center;
 }
 .buttonErrorHome {
-    background-color: #134CD8;
+    background-color: #003087;
     width: 100%;
     max-width: 258px;
     height: 42px;
@@ -162,4 +163,34 @@
     justify-content: center;
     align-content: center;
     display: inline-grid;
+}
+.ownerNameText,
+.otherNameText,
+.eventDateText {
+  font-weight: 500;
+}
+.ownerNameText::before {
+  font-weight: 100;
+  content: "criado por "
+}
+.eventDateText::before {
+  font-weight: 100;
+  content: " expira em ";
+}
+.eventDateText::after {
+  display: none;
+}
+.divisorText {
+  margin: 0 2px;
+}
+.listNameText {
+  font-size: 2rem;
+}
+.buttonText--button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.buttonText--button::before {
+  content: url("assets/cart.svg");
 }

@@ -41,8 +41,8 @@
 }
 @media screen and (min-width: 64em) {
   .wrapper--add-itens-link {
-    border-color: #134cd8 !important;
-    background-color: #134cd8 !important;
+    border-color: #003087 !important;
+    background-color: #003087 !important;
     padding: 11px 20px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -73,8 +73,8 @@
     line-height: 24px;
   }
   .wrapper--add-itens-link {
-    border-color: #134cd8 !important;
-    background-color: #134cd8 !important;
+    border-color: #003087 !important;
+    background-color: #003087 !important;
     padding: 11px 20px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -107,8 +107,8 @@
         line-height: 24px;
     }
     .wrapper--add-itens-link{
-        border-color: #134CD8!important;
-        background-color: #134CD8!important;
+        border-color: #003087!important;
+        background-color: #003087!important;
         padding: 11px 20px;
         box-sizing: border-box;
         border-radius: 4px;

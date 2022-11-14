@@ -44,6 +44,7 @@
   },
   "flex-layout.col#list-header": {
     "children": [
+      "flex-layout.row#banner-view-list",
       "flex-layout.row#breadcrumb",
       "flex-layout.row#list-info",
       "responsive-layout.desktop#tools-bar",
@@ -51,10 +52,7 @@
     ]
   },
   "flex-layout.row#list-info": {
-    "children": [
-      "flex-layout.row#list-info-header",
-      "flex-layout.row#list-info-footer"
-    ],
+    "children": ["flex-layout.col#list-info"],
     "props": {
       "blockClass": [
         "list-info",
@@ -62,10 +60,15 @@
       ]
     }
   },
+  "flex-layout.col#list-info": {
+    "children": [
+      "flex-layout.row#list-info-header",
+      "flex-layout.row#list-info-footer"
+    ]
+  },
   "flex-layout.row#list-info-header": {
     "children": [
-      "list-info.name",
-      "share-list"
+      "list-info.name"
     ],
     "props": {
       "blockClass": "list-info-title"
@@ -93,7 +96,10 @@
   "flex-layout.row#edit-list": {
     "children": [
       "create-or-edit-list-modal#edit"
-    ]
+    ],
+    "props": {
+      "blockClass": "edit-list"
+    }
   },
   "responsive-layout.desktop#tools-bar": {
     "children": [
@@ -182,7 +188,7 @@
   "add-new-item#desktop.add-itens-link-header-button": {
     "props": {
       "linkIcon": "assets/ico_plus_blue.svg",
-      "linkRedirection": "/alimentos",
+      "linkRedirection": "/eletrodomesticos",
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
       "blockClass": [
@@ -195,7 +201,7 @@
   "add-new-item#mobile.add-itens-link-header-button": {
     "props": {
       "linkIcon": "assets/ico_plus_blue.svg",
-      "linkRedirection": "/alimentos",
+      "linkRedirection": "/eletrodomesticos",
       "nameButton": "Pôr item",
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
@@ -228,7 +234,7 @@
       "blockClass": "owner-list",
       "emptyListIcon": "assets/sad.svg",
       "buttonEmptyList": true,
-      "linkButtonEmptyList": "/apparel",
+      "linkButtonEmptyList": "/eletrodomesticos",
       "linkIconButtonEmptyList":"assets/add.svg"
     }
   },
@@ -240,13 +246,36 @@
       "blockClass": "list-items-mobile",
       "emptyListIcon": "assets/sad.svg",
       "buttonEmptyList": true,
-      "linkButtonEmptyList": "/apparel",
+      "linkButtonEmptyList": "/eletrodomesticos",
       "linkIconButtonEmptyList": "assets/add.svg"
     }
   },
   "create-or-edit-list-modal#edit":{
     "props":{
       "edit": true
+    }
+  },
+  "flex-layout.row#banner-view-list": {
+    "props": {
+      "blockClass": "banner-create-list",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "paddingBottom": 5
+    },
+    "children": ["flex-layout.col#banner-view-list"],
+    "title": "Home - Banner Create List"
+  },
+  "flex-layout.col#banner-view-list": {
+    "children": ["image#banner-view-list"]
+  },
+  "image#banner-view-list": {
+    "props": {
+      "src": "assets/banners/view-list.jpg",
+      "maxWidth": "100%",
+      "link": {
+        "url": "#"
+      }
     }
   }
 }

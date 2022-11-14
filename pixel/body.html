@@ -1,0 +1,44 @@
+<script>
+  function waitForElement(selector) {
+    return new Promise(resolve => {
+      if (document.querySelector(selector)) {
+        return resolve(document.querySelector(selector));
+      }
+      const observer = new MutationObserver(mutations => {
+        if (document.querySelector(selector)) {
+          resolve(document.querySelector(selector));
+          observer.disconnect();
+        }
+      });
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    });
+  }
+  console.log('adicionando listener para evento "message"');
+  window.addEventListener('message', (e) => {
+    const event = e?.data?.event;
+    console.log(event);
+    if (event === 'userData') {
+      waitForElement('.vtex-styleguide-9-x-jsFocusVisible .c-action-primary').then(element => {
+        const alreadyLoaded = document.querySelector('.vtex-styleguide-9-x-jsFocusVisible div[role=region] .width-input.inputs');
+        if (element && !alreadyLoaded) {
+          console.log(element);
+          // element.click();
+        }
+      });
+    }
+  });
+</script>
+<style>
+  .vtex-flex-layout-0-x-flexRowContent--user-list .bg-muted-5 {
+    background-color: inherit;
+  }
+  .vtex-flex-layout-0-x-flexRowContent--user-list .bg-muted-5 .vtex-pageHeader__container .mb5.mt5 {
+    margin: 0;
+  }
+  .vtex-flex-layout-0-x-flexRowContent--user-list .bg-muted-5 .vtex-pageHeader__container .vtex-styleguide-9-x-jsFocusVisible .t-heading-2 {
+    margin: 0 0 20px 0;
+  }
+</style>

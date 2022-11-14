@@ -60,7 +60,7 @@
     "background": {
       "base": "#ffffff",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
+      "action-primary": "#003087",
       "action-secondary": "#DBE9FD",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
@@ -75,7 +75,7 @@
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
       "muted-5": "#f2f4f5",
-      "list": "#134CD8"
+      "list": "#003087"
     },
     "hover-background": {
       "action-primary": "#072c75",
@@ -110,10 +110,10 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#003087",
       "action-secondary": "#eef3f7",
-      "link": "#0F3E99",
-      "emphasis": "#0F3E99",
+      "link": "#003087",
+      "emphasis": "#003087",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -154,7 +154,7 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#003087",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
@@ -206,7 +206,7 @@
       "base": "#3f3f40",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-secondary": "#003087",
       "emphasis": "#ffffff",
       "disabled": "#979899",
       "success": "#ffffff",
@@ -223,7 +223,7 @@
     },
     "hover-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-secondary": "#003087",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
@@ -234,7 +234,7 @@
     },
     "active-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-secondary": "#003087",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
@@ -275,14 +275,14 @@
       },
       "heading-2": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "700",
-        "fontSize": "2.25rem",
+        "fontWeight": "500",
+        "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "700",
+        "fontWeight": "500",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
@@ -290,7 +290,7 @@
       "heading-4": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
-        "fontSize": "1.5rem",
+        "fontSize": "1.15rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
@@ -310,7 +310,7 @@
       },
       "body": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "100",
         "fontSize": "1rem",
         "textTransform": "initial; color: #3F3F40",
         "letterSpacing": "0"
@@ -333,14 +333,14 @@
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
-        "textTransform": "initial",
+        "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
-        "textTransform": "initial",
+        "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {

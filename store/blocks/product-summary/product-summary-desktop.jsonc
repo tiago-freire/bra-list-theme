@@ -15,7 +15,7 @@
       "blockClass": "title-sku-title"
     },
     "children": [
-      "product-summary-name#desktopProductName",
+      // "product-summary-name#desktopProductName",
       "product-summary-sku-name#desktopProductName"
     ]
   },
@@ -24,11 +24,11 @@
       "blockClass": "desktopImage"
     }
   },
-  "product-summary-name#desktopProductName": {
-    "props": {
-      "blockClass": "title"
-    }
-  },
+  // "product-summary-name#desktopProductName": {
+  //   "props": {
+  //     "blockClass": "title"
+  //   }
+  // },
   "product-summary-sku-name#desktopProductName": {
     "props": {
       "blockClass": "title-sku"

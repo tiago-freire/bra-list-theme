@@ -5,7 +5,9 @@
   justify-content: center;
   max-width: 500px;
 }
-
+.flexColChild--search-list-col :global(.vtex-list-3-x-searchListTitle) {
+  display: block;
+}
 /* Div do botão criar lista na página logada */
 .flexColChild--search-list:last-child {
   margin-top: 32px;
@@ -34,6 +36,12 @@
 .flexRowContent--search-list-buttons .stretchChildrenWidth {
   display: inline-block;
   width: auto !important;
+}
+
+.flexRowContent--home-without-user,
+.flexColChild--home:first-child {
+  background-color: #f8f7fc;
+  background-image: url('assets/find-list-bg.png');
 }
 
 .flexRowContent--search-list-buttons .stretchChildrenWidth:last-child {
@@ -69,8 +77,32 @@
 }
 
 .flexRow--user-list {
-  padding-top: 16px;
+  padding-top: 64px;
   padding-bottom: 64px;
+  max-width: 1240px;
+}
+
+.flexRowContent--user-list {
+  column-gap: 30px;
+}
+
+.flexRowContent--user-list :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  background: #fff;
+  box-shadow: 0px 16px 24px rgba(9, 27, 60, 0.1);
+  border-radius: 6px;
+  padding-bottom: 16px;
+}
+
+.flexRowContent--user-list :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  padding: 0 1.5rem;
+}
+
+.flexRow--banner-create-list {
+  background-color: #f7f9fa;
+}
+
+.flexRowContent--search-list-without-user {
+  align-items: center;
 }
 
 @media screen and (min-width: 40em) {
@@ -79,7 +111,16 @@
   }
 
   .flexRow--search-list-without-user {
-    margin-top: 236px;
-    margin-bottom: 236px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .flexRowContent--user-list :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 25% !important;
+    padding: 0 1.5rem 1.5rem;
+  }
+  
+  .flexRowContent--user-list :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 75% !important;
   }
 }

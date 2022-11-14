@@ -2,8 +2,8 @@
   background-color: #f2f4f5;
 }
 
-.headerRowBackground--border-bottom {
-  border-bottom: 1px solid #cacbcc;
+.headerRow--border-bottom {
+  0box-shadow: 0px 4px 8px rgba(7, 52, 85, 0.25);
 }
 
 .headerRowContentContainer--header-topbar {

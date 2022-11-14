@@ -11,6 +11,7 @@
   flex-direction: column;
   border-bottom: 1px solid;
   justify-content: flex-end;
+  align-items: baseline;
 }
 
 .menuContainer--top-navbar-link {
@@ -34,6 +35,10 @@
 
 .styledLinkIcon {
   display: none;
+}
+
+.menuContainerNav--bottom-navbar-link-action  {
+  min-width: 280px;
 }
 
 @media (min-width: 64em) {

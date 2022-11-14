@@ -1,10 +1,10 @@
 .flexRow--advantages-container.flexRow--muted {
-  background-color: #f2f4f5;
+  background-color: #fff;
 }
 
 .flexRow--advantages-container {
-  padding-bottom: 66px;
-  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-top: 50px;
 }
 
 .flexRowContent--advantages-container {
@@ -17,9 +17,5 @@
   .flexRow--advantages-cards {
     margin-top: 32px;
     margin-bottom: 32px;
-  }
-
-  .flexRow--advantages-container {
-    padding-top: 100px;
   }
 }

@@ -16,16 +16,17 @@
 }
 
 .sellingPriceValue {
-  color: #3f3f40;
-  font-size: 16px;
+  color: #003087;
+  font-size: 32px;
+  font-weight: 500;
   line-height: 24px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .installmentContainer {
-  color: #8bc34a;
-  font-size: 12px;
+  color: #4a596b;
+  font-size: 14px;
   line-height: 20px;
   padding: 0;
 }

@@ -38,8 +38,8 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-  background-color: #134cd8;
-  border-color: #134cd8;
+  background-color: #003087;
+  border-color: #003087;
 }
 
 .minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {

@@ -1,10 +1,45 @@
+.renderText,
+.searchListTitle,
 .userListText {
-  margin-top: 0;
-  margin-bottom: 16px;
+  display: none;
 }
-
-@media screen and (min-width: 40em) {
-  .userListText {
-    margin-bottom: 32px;
-  }
+.searchListTitle::after {
+  content: "Encontre listas públicas digitando o nome da lista ou dos proprietários";
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.userListContainer {
+  flex-direction: column;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.userlistlink {
+  border: none;
+  justify-content: space-between;
+  border-radius: 0;
+  margin: 0;
+}
+.userlistlink :local(img) {
+  display: none;
+}
+.userlistlink :local(img[alt="public.svg"] + span::after) {
+  content: url("assets/unlocked.svg");
+}
+.userlistlink :local(img[alt="private.svg"] + span::after) {
+  content: url("assets/locked.svg");
+}
+.userlistlink:hover {
+  background-color: #f2f4f5;
+}
+.userlistlinktext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  order: -1;
+  font-weight: 400;
+  text-align: left;
 }
