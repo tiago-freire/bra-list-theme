@@ -24,7 +24,12 @@ div[class*='vtex-pageHeader__container']
 div[class*='width-input'] {
   width: 45%;
   float: left;
-  margin: 0 5% 0 0;
+  margin: 0;
+}
+div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
+div[class*='vtex-pageHeader__container']
+div[class*='width-input']:last-child {
+  margin-left: 10%;
 }
 div[class*='vtex-flex-layout-0-x-flexRowContent--user-list']
 div[class*='vtex-pageHeader__container']

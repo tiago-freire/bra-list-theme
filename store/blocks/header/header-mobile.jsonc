@@ -44,7 +44,7 @@
   "logo#mobile": {
     "props": {
       "blockClass": "header-topbar-mobile-logo",
-      "url": "assets/Logo_mobile.png",
+      "url": "assets/Logo_mobile.svg",
       "href": "/"
     }
   },

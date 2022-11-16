@@ -92,7 +92,7 @@
   "logo": {
     "props": {
       "blockClass": ["header-bottom-bar-logo", "justify-content-start-end"],
-      "url": "assets/Logo.png",
+      "url": "assets/Logo.svg",
       "href": "/"
     }
   },
