@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.0.1] - 2022-11-15
 
+## [0.0.1] - 2022-11-15
+
 ### Changed
 
 - Gift list theme for Brazilian stores.
