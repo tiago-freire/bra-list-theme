@@ -234,8 +234,8 @@
       "blockClass": "owner-list",
       "emptyListIcon": "assets/sad.svg",
       "buttonEmptyList": true,
-      "linkButtonEmptyList": "/eletrodomesticos",
-      "linkIconButtonEmptyList":"assets/add.svg"
+      "linkButtonEmptyList": "/eletrodomesticos"/* ,
+      "linkIconButtonEmptyList":"assets/add.svg" */
     }
   },
   "gallery.list-items#mobile": {
@@ -246,8 +246,8 @@
       "blockClass": "list-items-mobile",
       "emptyListIcon": "assets/sad.svg",
       "buttonEmptyList": true,
-      "linkButtonEmptyList": "/eletrodomesticos",
-      "linkIconButtonEmptyList": "assets/add.svg"
+      "linkButtonEmptyList": "/eletrodomesticos"/* ,
+      "linkIconButtonEmptyList": "assets/add.svg" */
     }
   },
   "create-or-edit-list-modal#edit":{

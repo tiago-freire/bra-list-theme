@@ -22,14 +22,15 @@
 }
 
 .productNameContainer {
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
 .brandName {
   color: #2e2e2e;
-  font-size: 14px;
   line-height: 20px;
+  height: 50px;
+  font-weight: 500;
 }
 
 .productPriceClass {
@@ -100,8 +101,7 @@
   display: inline-flex;
   text-align: left;
   margin: 5px 0px;
-  height: 40px;
-  overflow: hidden;
+  height: 50px;
 }
 .containerNormal--showCaseProduct {
   max-width: 100% !important;
@@ -118,10 +118,6 @@
   }
   .nameContainer--title .nameWrapper--title {
     max-width: 135px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: left;
   }
 }
 
@@ -136,14 +132,11 @@
     flex-direction: column;
   }
   .priceContainer {
-    height: 64px;
+    height: 75px;
   }
 
   .nameContainer--title {
     margin: 12px 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
   .skuNameContainer--title-sku {
     margin: 12px 0;

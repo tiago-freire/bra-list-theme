@@ -1,3 +1,7 @@
+.gallery {
+  gap: 15px;
+  display: grid;
+}
 .filter__container--selectedFiltersNav--title {
   display: none;
 }
@@ -92,7 +96,15 @@
 .filterItem--selectedFiltersNav--selected :global(.vtex-checkbox__input) {
   background-color: red;
 }
+@media screen and (min-width: 40em) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (min-width: 64em) {
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
   .filtersWrapper--selectedFiltersNav {
     border-bottom: none;
     padding-bottom: 8px;

@@ -15,6 +15,10 @@
   max-width: 350px;
   align-self: center;
 }
+.flexCol--productTexts {
+  height: 250px;
+  justify-content: space-between;
+}
 .flexColChild--filterDesktop {
   padding-left: 16px;
   padding-right: 20px;
@@ -49,5 +53,4 @@
   width: auto !important;
   align-items: center;
   justify-content: flex-start;
-  margin-right: 12px;
 }

@@ -25,6 +25,7 @@
 .galleryItem {
   border: 1px solid #e7e9ee;
   border-radius: 8px;
+  width: 100%;
 }
 .gallery--list-items-mobile {
   flex-direction: column !important;
@@ -58,7 +59,7 @@
 }
 .gallery--owner-list,
 .gallery--items-gallery-guest {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .secondTextItemNotFound--list-items-mobile {
     width: 100%;
@@ -90,9 +91,6 @@
   }
   .gallery--list-items-mobile{
       flex-direction: row !important;
-  }
-  .galleryItem--list-items-mobile{
-      width: 50% !important;
   }
 }
 .fisrtTextError {
@@ -193,4 +191,15 @@
 }
 .buttonText--button::before {
   content: url("assets/cart.svg");
+}
+.wrapperAddItensLink {
+  background-color: #003087 !important;
+  border-color: #003087 !important;
+}
+.paragraph--owner-list {
+  font-size: 24px;
+  font-weight: 400;
+}
+.skuSelectorItemTextValue {
+  color: #fff;
 }

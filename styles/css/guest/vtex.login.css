@@ -19,3 +19,7 @@
   cursor: default;
   pointer-events: none;
 }
+
+a[class*='vtex-account_menu-link'][class*='b--action-primary'] {
+  color: #fff;
+}

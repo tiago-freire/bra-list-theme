@@ -43,8 +43,8 @@
       "blockClass": "title-sku-title"
     },
     "children": [
-      "product-summary-name#mobileProductName",
-      "product-summary-sku-name#mobileProductName"
+      "product-summary-name#mobileProductName"/* ,
+      "product-summary-sku-name#mobileProductName" */
     ]
   },
   "product-summary-name#mobileProductName": {

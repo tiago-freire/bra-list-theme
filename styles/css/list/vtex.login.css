@@ -39,3 +39,7 @@ div[class*='pr0 items-stretch vtex-flex-layout-0-x-stretchChildrenWidth   flex']
     overflow: hidden;
     text-overflow: ellipsis;
 }
+div[class*='vtex-list-3-x-gallery']
+div[style*='absolute'] {
+    margin-bottom: -3% !important;
+}

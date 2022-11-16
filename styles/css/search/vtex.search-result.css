@@ -42,6 +42,7 @@
   }
   .galleryItem--grid {
     padding: 0.75em;
+    max-width: unset !important;
   }
 }
 

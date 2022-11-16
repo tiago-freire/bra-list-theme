@@ -44,8 +44,8 @@
       "blockClass": "title-sku-title"
     },
     "children": [
-      "product-summary-name#listOwnerMobileProductName",
-      "product-summary-sku-name#listOwnerMobileProductName"
+      "product-summary-name#listOwnerMobileProductName"/* ,
+      "product-summary-sku-name#listOwnerMobileProductName" */
     ]
   },
   "product-summary-sku-name#listOwnerMobileProductName": {
