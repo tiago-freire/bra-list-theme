@@ -7,7 +7,8 @@
       "product-summary-image#desktopImage",
       "flex-layout.row#title-sku-title",
       "flex-layout.col#desktopPriceAndQuantity",
-      "modal-select-product"
+      "modal-select-product",
+      "add-to-list-button#OwnerListDesktopAddToListButtonShelf"
     ]
   },
   "flex-layout.row#title-sku-title": {

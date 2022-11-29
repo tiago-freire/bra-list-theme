@@ -25,7 +25,7 @@
 .galleryItem {
   border: 1px solid #e7e9ee;
   border-radius: 8px;
-  width: 100%;
+  width: 100% !important;
 }
 .gallery--list-items-mobile {
   flex-direction: column !important;

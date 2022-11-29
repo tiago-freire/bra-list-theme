@@ -8,7 +8,8 @@
   "flex-layout.row#productinfo": {
     "children": [
       "flex-layout.row#headerProduct",
-      "modal-select-product"
+      "modal-select-product",
+      "add-to-list-button#OwnerListDesktopAddToListButtonShelf"
     ],
     "props": {
       "blockClass": "productInfo"
