@@ -7,8 +7,7 @@
       "product-summary-image#desktopImage",
       "flex-layout.row#title-sku-title",
       "flex-layout.col#desktopPriceAndQuantity",
-      "modal-select-product",
-      "add-to-list-button#OwnerListDesktopAddToListButtonShelf"
+      "flex-layout.row#list-buttons"
     ]
   },
   "flex-layout.row#title-sku-title": {
@@ -48,6 +47,15 @@
       "showLabels": false,
       "showUnit": true
     }
+  },
+  "flex-layout.row#list-buttons": {
+    "props": {
+      "colGap": 2
+    },
+    "children": [
+      "modal-select-product",
+      "add-to-list-button#OwnerListDesktopAddToListButtonShelf"
+    ]
   },
   //Guest
   "product-summary.shelf#desktopShowcase-guest": {

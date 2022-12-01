@@ -3,6 +3,7 @@
   .element--showcase
   :global(.vtex-button) {
   cursor: pointer;
+  height: 40px;
   pointer-events: all;
 }
 .container--showCaseProduct
