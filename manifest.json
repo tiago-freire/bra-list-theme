@@ -1,7 +1,7 @@
 {
   "vendor": "ssesandbox04",
   "name": "bra-list-theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
